@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/erdenebayrd/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -70,10 +71,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Simulation
 |  |
 | ------- |
+| [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 <!---LeetCode Topics End-->
