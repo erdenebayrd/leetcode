@@ -1,17 +1,14 @@
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
+        # time: O(N)
+        # space: O(1)
         n = len(nums)
-        def solve(idx: int) -> int:
-            if idx + 2 > n - 1:
-                if sum(nums[idx:]) != n - idx:
-                    return int(1e9)
-                return 0
-            if nums[idx] == 1:
-                return solve(idx + 1)
-            for i in range(idx, idx + 3):
-                nums[i] ^= 1
-            return 1 + solve(idx + 1)
-        res = solve(0)
-        if res >= int(1e9):
+        res = 0
+        for i in range(n - 2):
+            if nums[i] == 0:
+                for j in range(i, i + 3):
+                    nums[j] ^= 1
+                res += 1
+        if sum(nums) != n:
             res = -1
         return res
