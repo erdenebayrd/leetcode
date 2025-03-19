@@ -7,7 +7,7 @@ class Solution:
         for i in range(n - 2):
             if nums[i] == 0:
                 for j in range(i, i + 3):
-                    nums[j] = 1 - nums[j]
+                    nums[j] ^= 1
                 res += 1
         if sum(nums) != n:
             res = -1
