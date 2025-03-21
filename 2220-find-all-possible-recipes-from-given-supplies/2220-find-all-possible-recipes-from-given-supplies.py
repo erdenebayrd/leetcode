@@ -1,5 +1,7 @@
 class Solution:
     def findAllRecipes(self, recipes: List[str], ingredients: List[List[str]], supplies: List[str]) -> List[str]:
+        # time: O(N^3)
+        # space: O(N)
         res = {}
         n = len(recipes)
         sup = {}
