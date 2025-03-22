@@ -1,5 +1,7 @@
 class Solution:
     def minimumDistance(self, n: int, edges: List[List[int]], s: int, marked: List[int]) -> int:
+        # time: O(N * Log N)
+        # space: O(N ^ 2)
         # dijkstra
         inf = int(1e9)
         graph = defaultdict(list)
