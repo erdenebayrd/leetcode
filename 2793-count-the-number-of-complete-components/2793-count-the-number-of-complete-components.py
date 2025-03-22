@@ -1,5 +1,7 @@
 class Solution:
     def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
+        # time: O(N + M)
+        # space: O(N + M)
         vis = [False] * n
         graph = defaultdict(list)
         for u, v in edges:
