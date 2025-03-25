@@ -118,10 +118,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Heap (Priority Queue)
 |  |
@@ -142,4 +144,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/erdenebayrd/leetcode/tree/master/0015-3sum) |
 | [3430-count-days-without-meetings](https://github.com/erdenebayrd/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/erdenebayrd/leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+## Tree
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
+## Binary Tree
+|  |
+| ------- |
+| [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 <!---LeetCode Topics End-->
