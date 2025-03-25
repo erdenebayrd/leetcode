@@ -14,9 +14,6 @@ class SQL:
         return True
 
     def rmv(self, name: str, rowId: int) -> None:
-        # init: [["one","two","three"],[2,3,1]]
-        # ins: ["two",["first","second","third"]]
-        # sel: ["two",1,3]
         [["two",["fourth","fifth","sixth"]],["two"],["two",1],["two",2,2],["two"]]
         if name in self.table and rowId in self.table[name]["data"]:
             self.table[name]["data"].pop(rowId)
