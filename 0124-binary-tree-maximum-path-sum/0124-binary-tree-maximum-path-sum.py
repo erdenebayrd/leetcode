@@ -9,10 +9,11 @@ class Solution:
         self.res = int(-1e9)
 
     def dfs(self, cur) -> int:
-        if cur is None:
-            return 0
-        le = max(self.dfs(cur.left), 0)
-        ri = max(self.dfs(cur.right), 0)
+        le, ri = 0, 0
+        if cur.left is not None:
+            le = max(le, self.dfs(cur.left))
+        if cur.right is not None:
+            ri = max(ri, self.dfs(cur.right))
         self.res = max(self.res, le + ri + cur.val)
         return max(le + cur.val, ri + cur.val)
 
