@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/erdenebayrd/leetcode/tree/master/0015-3sum) |
+| [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 ## Number Theory
@@ -161,4 +163,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
+## Matrix
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
