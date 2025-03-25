@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
+| [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/erdenebayrd/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/erdenebayrd/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/erdenebayrd/leetcode/tree/master/2690-house-robber-iv) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
+| [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## String
 |  |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/erdenebayrd/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 ## Counting
 |  |
 | ------- |
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 ## Data Stream
 |  |
 | ------- |
