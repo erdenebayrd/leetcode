@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/erdenebayrd/leetcode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
@@ -156,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/erdenebayrd/leetcode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [3430-count-days-without-meetings](https://github.com/erdenebayrd/leetcode/tree/master/3430-count-days-without-meetings) |
