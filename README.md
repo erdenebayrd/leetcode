@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -141,12 +142,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 ## Heap (Priority Queue)
 |  |
@@ -168,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/erdenebayrd/leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [3430-count-days-without-meetings](https://github.com/erdenebayrd/leetcode/tree/master/3430-count-days-without-meetings) |
@@ -177,11 +181,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 ## Matrix
 |  |
 | ------- |
