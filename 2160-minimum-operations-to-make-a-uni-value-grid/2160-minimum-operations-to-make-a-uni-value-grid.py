@@ -2,7 +2,6 @@ class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:
         # time: O(N * Log N)
         # space: O(N)
-        # method: ternary search
         arr = []
         for row in grid:
             for col in row:
