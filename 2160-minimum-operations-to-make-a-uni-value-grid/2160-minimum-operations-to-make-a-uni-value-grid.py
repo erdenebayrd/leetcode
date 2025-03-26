@@ -29,4 +29,4 @@ class Solution:
                 hi = md
             else:
                 lo = md
-        return min(calcCost(hi), calcCost(lo))
+        return calcCost(hi)
