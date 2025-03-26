@@ -15,18 +15,7 @@ class Solution:
             if (arr[i] - arr[0]) % x != 0:
                 return -1
         
-        def calcCost(md: int) -> int:
-            eq = md * x + arr[0]
-            res = 0
-            for i in range(n):
-                res += abs(arr[i] - eq) // x
-            return res
-
-        lo, hi = -1, int((arr[-1] - arr[0]) / x) + 1
-        while lo + 1 < hi:
-            md = (lo + hi) // 2
-            if calcCost(md) < calcCost(md + 1):
-                hi = md
-            else:
-                lo = md
-        return calcCost(hi)
+        res = 0
+        for el in arr:
+            res += abs(el - arr[n // 2]) // x
+        return res
