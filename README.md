@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3430-count-days-without-meetings](https://github.com/erdenebayrd/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/erdenebayrd/leetcode/tree/master/3483-alternating-groups-ii) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3639-zero-array-transformation-i](https://github.com/erdenebayrd/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/erdenebayrd/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/erdenebayrd/leetcode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/erdenebayrd/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -239,4 +242,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+## Enumeration
+|  |
+| ------- |
+| [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 <!---LeetCode Topics End-->
