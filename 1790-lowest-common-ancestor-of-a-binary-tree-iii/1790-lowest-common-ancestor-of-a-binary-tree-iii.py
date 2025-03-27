@@ -10,12 +10,11 @@ class Node:
 
 class Solution:
     def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
-        cnt = defaultdict(int)
+        seen = set()
         while p is not None:
-            cnt[p.val] += 1
+            seen.add(p.val)
             p = p.parent
         while q is not None:
-            cnt[q.val] += 1
-            if cnt[q.val] == 2:
+            if q.val in seen:
                 return q
             q = q.parent
