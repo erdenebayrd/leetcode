@@ -1,5 +1,7 @@
 class Solution:
     def minimumIndex(self, nums: List[int]) -> int:
+        # time: O(N)
+        # space: O(N)
         pre, suf = defaultdict(int), defaultdict(int)
         for val in nums:
             suf[val] += 1
