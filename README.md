@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/erdenebayrd/leetcode/tree/master/0146-lru-cache) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -189,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
@@ -210,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -241,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0055-jump-game](https://github.com/erdenebayrd/leetcode/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/erdenebayrd/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 ## Design
