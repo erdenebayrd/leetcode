@@ -1,7 +1,7 @@
 class Solution:
     def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:
-        # time: O(N + M)
-        # space: O(N + M)
+        # time: O(N * Log N)
+        # space: O(N * Log N)
         dx = [-1, 1, 0, 0]
         dy = [0, 0, -1, 1]
         n = len(grid)
