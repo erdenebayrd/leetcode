@@ -8,32 +8,19 @@ class Solution:
         m = len(grid[0])
         vis = [[False] * m for _ in range(n)]
         queriesOrdered = sorted([(val, idx) for idx, val in enumerate(queries)])
-        # print(queriesOrdered)
-        curIdxQuery = 0
-        queue = SortedList()
-        queue.add((grid[0][0], 0, 0)) # starting point
         vis[0][0] = True
-        queryRes = [0] * len(queries)
-        while len(queue) > 0:
-            curVal, curX, curY = queue.pop(0)
-            # print(curVal, curX, curY)
-            while curIdxQuery < len(queries) and curVal >= queriesOrdered[curIdxQuery][0]:
-                curIdxQuery += 1
-            if curIdxQuery >= len(queries):
-                break
-            queryRes[curIdxQuery] += 1
-            for i in range(4):
-                nx, ny = dx[i] + curX, dy[i] + curY
-                if nx < 0 or nx >= n or ny < 0 or ny >= m or vis[nx][ny] is True:
-                    continue
-                queue.add((grid[nx][ny], nx, ny))
-                vis[nx][ny] = True
-        # print(queryRes)
-        for i in range(1, len(queries)):
-            queryRes[i] += queryRes[i - 1]
-        
+        queue = [(grid[0][0], 0, 0)]
+        heapq.heapify(queue)
+        points = 0
         res = [0] * len(queries)
-        for i in range(len(queries)):
-            idx = queriesOrdered[i][1]
-            res[idx] = queryRes[i]
+        for queryVal, originalIdx in queriesOrdered:
+            while queue and queue[0][0] < queryVal:
+                _, x, y = heapq.heappop(queue)
+                points += 1
+                for i in range(4):
+                    nx, ny = dx[i] + x, dy[i] + y
+                    if nx >= 0 and nx < n and ny >= 0 and ny < m and vis[nx][ny] is False:
+                        vis[nx][ny] = True
+                        heapq.heappush(queue, (grid[nx][ny], nx, ny))
+            res[originalIdx] = points
         return res
