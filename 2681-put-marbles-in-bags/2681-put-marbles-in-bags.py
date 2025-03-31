@@ -7,7 +7,7 @@ class Solution:
         for i in range(1, n):
             arr.append(weights[i] + weights[i - 1])
         arr.sort()
-        print(arr)
+        # print(arr)
         mn = 0
         for i in range(k - 1):
             mn += arr[i]
