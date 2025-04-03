@@ -1,5 +1,7 @@
 class Solution:
     def maximumTripletValue(self, nums: List[int]) -> int:
+        # time: O(N)
+        # space: O(1)
         n = len(nums)
         preMax = max(nums[:2])
         diffMax = nums[0] - nums[1]
