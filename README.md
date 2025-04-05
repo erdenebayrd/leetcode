@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2169-simple-bank-system](https://github.com/erdenebayrd/leetcode/tree/master/2169-simple-bank-system) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/erdenebayrd/leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/erdenebayrd/leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2383-add-two-integers](https://github.com/erdenebayrd/leetcode/tree/master/2383-add-two-integers) |
 | [2610-closest-prime-numbers-in-range](https://github.com/erdenebayrd/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 ## Ordered Set
 |  |
@@ -355,4 +359,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [3001-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/3001-apply-operations-to-maximize-score) |
+## Backtracking
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Combinatorics
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
