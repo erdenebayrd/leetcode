@@ -2,6 +2,7 @@ class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         # time: O(N ^ 2)
         # space: O(N)
+        # method: DP and build it's path
         nums.sort()
         n = len(nums)
         dp = [1] * n
