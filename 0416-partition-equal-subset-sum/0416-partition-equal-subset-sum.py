@@ -5,8 +5,9 @@ class Solution:
         # method: bottom up DP
         n = len(nums)
         m = sum(nums)
-        if (m // 2) * 2 != m:
+        if m & 1:
             return False
+        m //= 2
         dp = [[False] * (m + 1) for _ in range(n + 1)]
         dp[0][0] = True
         for i in range(1, n + 1):
@@ -14,4 +15,4 @@ class Solution:
                 dp[i][j] = dp[i - 1][j]
                 if j - nums[i - 1] >= 0:
                     dp[i][j] |= dp[i - 1][j - nums[i - 1]]
-        return dp[n][m // 2]
+        return dp[n][m]
