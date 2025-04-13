@@ -161,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/erdenebayrd/leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2050-count-good-numbers](https://github.com/erdenebayrd/leetcode/tree/master/2050-count-good-numbers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2383-add-two-integers](https://github.com/erdenebayrd/leetcode/tree/master/2383-add-two-integers) |
 | [2610-closest-prime-numbers-in-range](https://github.com/erdenebayrd/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
@@ -390,4 +391,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [3548-find-the-count-of-good-integers](https://github.com/erdenebayrd/leetcode/tree/master/3548-find-the-count-of-good-integers) |
+## Recursion
+|  |
+| ------- |
+| [2050-count-good-numbers](https://github.com/erdenebayrd/leetcode/tree/master/2050-count-good-numbers) |
 <!---LeetCode Topics End-->
