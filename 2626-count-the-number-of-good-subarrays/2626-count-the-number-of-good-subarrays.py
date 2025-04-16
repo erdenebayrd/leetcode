@@ -22,5 +22,7 @@ class Solution:
                 j += 1
             if curK >= k:
                 res += n - j + 1
+            else:
+                break
             curK += calc(nums[i], -1)
         return res
