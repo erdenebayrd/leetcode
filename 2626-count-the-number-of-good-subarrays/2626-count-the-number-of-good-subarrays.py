@@ -1,5 +1,8 @@
 class Solution:
     def countGood(self, nums: List[int], k: int) -> int:
+        # time: O(N)
+        # space: O(N)
+        # method: two pointers
         cnt = defaultdict(int)
 
         def nSum(n: int) -> int:
