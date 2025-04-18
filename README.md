@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/erdenebayrd/leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0408-valid-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0408-valid-word-abbreviation) |
