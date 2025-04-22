@@ -34,9 +34,10 @@ class Solution:
         for i in range(n):
             idx = bPos[a[i]]
             suffixFt.update(idx, -1)
-            # calc
+            # --------- calc ---------
             leftCount = prefixFt.query(idx)
             rightCount = suffixFt.query(n) - suffixFt.query(idx)
             res += leftCount * rightCount
+            # --------- calc ---------
             prefixFt.update(idx, 1)
         return res
