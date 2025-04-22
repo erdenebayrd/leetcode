@@ -3,13 +3,11 @@ class FenwickTree:
         self.ft = [0] * (sz + 1)
     
     def update(self, pos: int, delta: int) -> None:
-        assert pos > 0 and pos < len(self.ft)
         while pos < len(self.ft):
             self.ft[pos] += delta
             pos += -pos & pos
     
     def query(self, pos: int) -> int:
-        assert pos > 0 and pos < len(self.ft)
         res = 0
         while pos > 0:
             res += self.ft[pos]
@@ -35,7 +33,7 @@ class Solution:
             idx = bPos[a[i]]
             suffixFt.update(idx, -1)
             # --------- calc ---------
-            leftCount = prefixFt.query(idx)
+            leftCount = prefixFt.query(idx - 1)
             rightCount = suffixFt.query(n) - suffixFt.query(idx)
             res += leftCount * rightCount
             # --------- calc ---------
