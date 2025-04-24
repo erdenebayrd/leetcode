@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2690-house-robber-iv](https://github.com/erdenebayrd/leetcode/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/3001-apply-operations-to-maximize-score) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/erdenebayrd/leetcode/tree/master/3483-alternating-groups-ii) |
 ## Prefix Sum
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3548-find-the-count-of-good-integers](https://github.com/erdenebayrd/leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
