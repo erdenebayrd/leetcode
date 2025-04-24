@@ -11,18 +11,15 @@ class Solution:
         res = 0
         cnt = defaultdict(int)
         cur = 0
-        i, j = 0, 0
-        while j < n:
-            while j < n and cur < m:
-                cnt[nums[j]] += 1
-                if cnt[nums[j]] == 1:
-                    cur += 1
-                j += 1
-            # print(i, j)
-            while i < n and cur >= m:
-                res += n - j + 1
-                cnt[nums[i]] -= 1
-                if cnt[nums[i]] == 0:
+        left = 0
+        for right in range(n):
+            cnt[nums[right]] += 1
+            if cnt[nums[right]] == 1:
+                cur += 1
+            while left < n and cur >= m:
+                res += n - right
+                cnt[nums[left]] -= 1
+                if cnt[nums[left]] == 0:
                     cur -= 1
-                i += 1
+                left += 1
         return res
