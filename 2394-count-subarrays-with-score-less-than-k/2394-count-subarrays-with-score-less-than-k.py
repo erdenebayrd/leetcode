@@ -10,8 +10,8 @@ class Solution:
         cur = 0
         res = 0
         for left in range(n):
-            # if left > right:
-            #     right = left
+            if left > right:
+                right = left
             while right < n:
                 sz = right - left + 1
                 cur = nums[right]
