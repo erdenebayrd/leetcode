@@ -1,5 +1,8 @@
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
+        # time: O(N)
+        # space: O(1)
+        # method: 2 pointers
         n = len(nums)
         mx = max(nums)
         res, cnt, left = 0, 0, -1
