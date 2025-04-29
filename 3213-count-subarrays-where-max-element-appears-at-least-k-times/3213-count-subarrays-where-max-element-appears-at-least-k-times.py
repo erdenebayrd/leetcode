@@ -6,10 +6,11 @@ class Solution:
         for right in range(n):
             if nums[right] == mx:
                 cnt += 1
-            if cnt >= k:
-                if nums[right] == mx:
+            if cnt < k:
+                continue
+            if nums[right] == mx:
+                left += 1
+                while nums[left] != mx:
                     left += 1
-                    while nums[left] != mx:
-                        left += 1
-                res += left + 1
+            res += left + 1
         return res
