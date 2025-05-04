@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/erdenebayrd/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/erdenebayrd/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0768-partition-labels](https://github.com/erdenebayrd/leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
+| [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [2169-simple-bank-system](https://github.com/erdenebayrd/leetcode/tree/master/2169-simple-bank-system) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -395,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/erdenebayrd/leetcode/tree/master/0146-lru-cache) |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
+| [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2169-simple-bank-system](https://github.com/erdenebayrd/leetcode/tree/master/2169-simple-bank-system) |
