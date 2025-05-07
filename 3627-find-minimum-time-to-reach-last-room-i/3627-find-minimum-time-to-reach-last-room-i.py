@@ -16,7 +16,7 @@ class Solution:
         cost[0][0] = 0
         moveTime[0][0] = 0
         
-        pq = [(cost[0][0], 0)]
+        pq = [[cost[0][0], 0]]
         heapq.heapify(pq)
         dx = [1, -1, 0, 0]
         dy = [0, 0, -1, 1]
@@ -39,7 +39,7 @@ class Solution:
                     cost[curx][cury] = curCost
                     # if x == 0 and y == 0:
                     #     print((cost[curx][cury], coordinateToNodeNum(curx, cury)))
-                    heapq.heappush(pq, (cost[curx][cury], coordinateToNodeNum(curx, cury)))
+                    heapq.heappush(pq, [cost[curx][cury], coordinateToNodeNum(curx, cury)])
         # for i in range(n):
         #     print(cost[i])
         return cost[n - 1][m - 1]
