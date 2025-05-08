@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/erdenebayrd/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/erdenebayrd/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/erdenebayrd/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/erdenebayrd/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/erdenebayrd/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/erdenebayrd/leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/erdenebayrd/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Topological Sort
 |  |
 | ------- |
@@ -319,12 +321,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/erdenebayrd/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/erdenebayrd/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/erdenebayrd/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -390,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/erdenebayrd/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Greedy
 |  |
 | ------- |
