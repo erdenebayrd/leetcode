@@ -11,18 +11,11 @@ class Solution:
         dx = [1, -1, 0, 0]
         dy = [0, 0, -1, 1]
         moveTime[0][0] = 0
-
-        def coordinateToNode(x: int, y: int) -> int:
-            return x * m + y
-
-        def nodeToCoordinate(x: int) -> List[int]:
-            return [x // m, x % m]
         
-        pq = [(cost[0][0][1], 0, 1)]
+        pq = [(cost[0][0][1], 0, 0, 1)]
         heapq.heapify(pq)
         while len(pq) > 0:
-            _, node, preState = heapq.heappop(pq)
-            x, y = nodeToCoordinate(node)
+            _, x, y, preState = heapq.heappop(pq)
             curState = preState ^ 1
             for i in range(4):
                 curx = dx[i] + x
@@ -32,6 +25,6 @@ class Solution:
                 curCost = max(cost[x][y][preState], moveTime[curx][cury]) + curState + 1
                 if cost[curx][cury][curState] > curCost:
                     cost[curx][cury][curState] = curCost
-                    heapq.heappush(pq, (cost[curx][cury][curState], coordinateToNode(curx, cury), curState))
+                    heapq.heappush(pq, (cost[curx][cury][curState], curx, cury, curState))
         # print(cost)
         return min(cost[n - 1][m - 1])
