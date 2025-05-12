@@ -1,15 +1,18 @@
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:
         n = len(digits)
-        seen = set()
-        for i in range(n):
-            if digits[i] == 0:
+        cnt = Counter(digits)
+        res = []
+        for i in range(100, 1000):
+            if i & 1:
                 continue
-            for j in range(n):
-                if j == i:
-                    continue
-                for k in range(n):
-                    if k == i or k == j or (digits[k] & 1 == 1):
-                        continue
-                    seen.add(int(str(digits[i]) + str(digits[j]) + str(digits[k])))
-        return sorted(list(seen))
+            cur = []
+            for ch in str(i):
+                cur.append(int(ch))
+            cur = Counter(cur)
+            flag = True
+            for key in cur:
+                flag &= cnt[key] >= cur[key]
+            if flag is True:
+                res.append(i)
+        return res
