@@ -15,6 +15,9 @@ class Solution:
         return result
 
     def lengthAfterTransformations(self, s: str, t: int, nums: List[int]) -> int:
+        # time: O(N + 26^3 * Log(t))
+        # space: O(N)
+        # method: optimized (quick multiplication) DP
         cnt = Counter(s)
         F = np.array([[cnt[chr(idx + ord('a'))]] for idx in range(26)])
         # print(F)
@@ -29,4 +32,4 @@ class Solution:
         T = self.matrix_power_mod(T, t)
         result = T @ F % self.__MOD
         # print(result)
-        return result.sum() % self.__MOD
+        return int(result.sum()) % self.__MOD
