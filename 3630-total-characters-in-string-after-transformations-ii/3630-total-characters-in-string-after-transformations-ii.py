@@ -20,7 +20,7 @@ class Solution:
                 if power & 1:
                     result = np.matmul(result, A) % MOD
                 A = np.matmul(A, A) % MOD
-                power //= 2
+                power >>= 1
             return result
         
         # T = np.linalg.matrix_power(T, t)
