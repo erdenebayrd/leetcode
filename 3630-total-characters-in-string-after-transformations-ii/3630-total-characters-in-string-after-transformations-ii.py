@@ -1,8 +1,10 @@
 import numpy as np
 
 class Solution:
+    def __init__(self):
+        self.__MOD = int(1e9 + 7)
+
     def lengthAfterTransformations(self, s: str, t: int, nums: List[int]) -> int:
-        MOD = int(1e9 + 7)
         cnt = Counter(s)
         F = np.array([[cnt[chr(idx + ord('a'))]] for idx in range(26)])
         # print(F)
@@ -15,16 +17,16 @@ class Solution:
         
         def matrix_power_mod(A, power):
             result = np.identity(A.shape[0], dtype=object)
-            A = A % MOD
+            A = A % self.__MOD
             while power > 0:
                 if power & 1:
-                    result = np.matmul(result, A) % MOD
-                A = np.matmul(A, A) % MOD
+                    result = np.matmul(result, A) % self.__MOD
+                A = np.matmul(A, A) % self.__MOD
                 power >>= 1
             return result
         
         # T = np.linalg.matrix_power(T, t)
         T = matrix_power_mod(T, t)
-        result = T @ F % MOD
+        result = T @ F % self.__MOD
         # print(result)
-        return result.sum() % MOD
+        return result.sum() % self.__MOD
