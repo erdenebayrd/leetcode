@@ -2,7 +2,7 @@ import numpy as np
 
 class Solution:
     def lengthAfterTransformations(self, s: str, t: int, nums: List[int]) -> int:
-        MOD = 1_000_000_007
+        MOD = int(1e9 + 7)
         cnt = Counter(s)
         F = np.array([[cnt[chr(idx + ord('a'))]] for idx in range(26)])
         # print(F)
