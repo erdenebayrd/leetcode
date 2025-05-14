@@ -13,18 +13,18 @@ class Solution:
                 T[(i + j + 1) % 26, i] = 1
         # print(T)
         
-        def matrix_power_mod(A, power, mod):
+        def matrix_power_mod(A, power):
             result = np.identity(A.shape[0], dtype=object)
-            A = A % mod
+            A = A % MOD
             while power > 0:
                 if power & 1:
-                    result = np.matmul(result, A) % mod
-                A = np.matmul(A, A) % mod
+                    result = np.matmul(result, A) % MOD
+                A = np.matmul(A, A) % MOD
                 power //= 2
             return result
         
         # T = np.linalg.matrix_power(T, t)
-        T = matrix_power_mod(T, t, MOD)
+        T = matrix_power_mod(T, t)
         result = T @ F % MOD
         # print(result)
         return result.sum() % MOD
