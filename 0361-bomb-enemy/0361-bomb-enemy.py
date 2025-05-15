@@ -1,5 +1,8 @@
 class Solution:
     def maxKilledEnemies(self, grid: List[List[str]]) -> int:
+        # time: O(N ^ M)
+        # space: O(N ^ M)
+        # method: memorization
         dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
         n = len(grid)
         m = len(grid[0])
