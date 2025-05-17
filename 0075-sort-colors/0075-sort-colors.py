@@ -3,6 +3,8 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+        # time O(N)
+        # space: O(1)
         cnt = [0] * 3
         for num in nums:
             cnt[num] += 1
