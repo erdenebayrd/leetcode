@@ -12,4 +12,4 @@ class Solution:
                 cnt[i] -= 1
                 nums[idx] = i
                 idx += 1
-        return nums
+        
