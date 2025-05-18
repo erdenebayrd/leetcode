@@ -23,7 +23,7 @@ class Solution:
         self.mod = int(1e9 + 7)
         self.n = n
         self.combinations = []
-        for row in list(product([0, 1, 2], repeat=m)):
+        for row in list(product([x for x in range(3)], repeat=m)):
             flag = True
             for i in range(1, len(row)):
                 if row[i] == row[i - 1]:
