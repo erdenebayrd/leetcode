@@ -14,12 +14,14 @@ class Solution:
                     flag = False
             if flag is False:
                 continue
-            # res = (res + self.solve(row, idx + 1)) % self.mod
             res = (res + self.solve(row, idx + 1)) % self.mod
         return res
 
 
     def colorTheGrid(self, m: int, n: int) -> int:
+        # time: O((3 ^ M) * N)
+        # space: O((3 ^ M) * N)
+        # method: bitmask DP
         self.mod = int(1e9 + 7)
         self.n = n
         self.combinations = []
