@@ -31,7 +31,6 @@ class Solution:
                 st[l] = []
             st[l].append(r + 1)
         for i in range(len(nums)):
-            # print(appliedQueriesFt.query(i + 1, len(nums)))
             if i in st:
                 for r in st[i]:
                     heapq.heappush(currentQueries, -r)
@@ -47,7 +46,7 @@ class Solution:
                     appliedQueriesFt.update(r, 1)
                     continue
                 return -1
-            # print(x)
+
             if x > 0:
                 return -1
         return len(queries) - appliedQueriesFt.query(1, len(nums))
