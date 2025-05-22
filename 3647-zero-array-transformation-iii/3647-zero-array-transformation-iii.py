@@ -1,6 +1,6 @@
 class FenwickTree:
     def __init__(self, n: int) -> None:
-        self.ft = [0] * (n + 2)
+        self.ft = [0] * (n + 1)
     
     def update(self, pos: int, val: int) -> None:
         while pos < len(self.ft):
@@ -19,6 +19,9 @@ class FenwickTree:
 
 class Solution:
     def maxRemoval(self, nums: List[int], queries: List[List[int]]) -> int:
+        # time: O(N * Log N)
+        # space: O(N)
+        # method: Greedy + Fenwick Tree
         appliedQueriesFt = FenwickTree(len(nums))
         currentQueries = []
         queries.sort()
