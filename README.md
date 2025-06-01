@@ -525,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/erdenebayrd/leetcode/tree/master/0146-lru-cache) |
+| [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
