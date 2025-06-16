@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def checkEqualTree(self, root: Optional[TreeNode]) -> bool:
-        # @cache
+        @cache
         def dfs(cur) -> int:
             res = cur.val
             if cur.left is not None:
