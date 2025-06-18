@@ -6,4 +6,4 @@ class Solution:
             # print(nums[i], nums[i + 2], nums[i + 2] - nums[i], k)
             if nums[i + 2] - nums[i] > k:
                 return []
-        return [[nums[j + i] for j in range(3)] for i in range(0, len(nums) - 2, 3)]
+        return [nums[i: i + 3] for i in range(0, len(nums) - 2, 3)]
