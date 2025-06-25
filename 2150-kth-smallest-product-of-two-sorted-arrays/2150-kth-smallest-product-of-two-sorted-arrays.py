@@ -1,5 +1,8 @@
 class Solution:
     def kthSmallestProduct(self, nums1: List[int], nums2: List[int], k: int) -> int:
+        # time: O(N * Log N * Log N)
+        # space: O(1)
+        # method: binary search
         lo, hi = -int(1e10 + 1), int(1e10 + 1)
         while lo + 1 < hi:
             md = (lo + hi) // 2
