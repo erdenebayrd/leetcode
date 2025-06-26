@@ -4,7 +4,7 @@ class Solution:
         # space: O(1)
         # method: greedy
         n = len(s)
-        res = Counter(s)["0"]        
+        res = n - Counter(s)["1"]
         for i in range(min(32, n)):
             if s[n - 1 - i] == "1":
                 k -= (1 << i)
