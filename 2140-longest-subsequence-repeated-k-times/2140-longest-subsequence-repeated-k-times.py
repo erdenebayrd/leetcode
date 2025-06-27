@@ -1,5 +1,6 @@
 class Solution:
     def longestSubsequenceRepeatedK(self, s: str, k: int) -> str:
+        # time: O(joohn evgui ug n worst case deeree 26 ^ 7 which gets TLE)
         candidates = sorted([ch for ch, cnt in Counter(s).items() if cnt >= k], reverse=True)
         # print(candidates)
         res = ""
