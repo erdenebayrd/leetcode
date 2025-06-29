@@ -6,7 +6,7 @@ class Solution:
         assert n >= 0
         res = 1
         while n > 0:
-            if n & 1:
+            if n % 2 == 1:
                 res = (res * base) % self.__mod
             n //= 2
             base = (base * base) % self.__mod
