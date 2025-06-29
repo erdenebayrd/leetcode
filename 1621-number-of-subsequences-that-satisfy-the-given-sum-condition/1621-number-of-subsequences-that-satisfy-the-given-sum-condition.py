@@ -16,8 +16,8 @@ class Solution:
         return (self.power(2, n + 1) - 1 + self.__mod) % self.__mod
     
     def rangeSum(self, l: int, r: int) -> int:
-        # if l == 0:
-        #     return self.prefixSum(r)
+        if l == 0:
+            return self.prefixSum(r)
         return (self.prefixSum(r) - self.prefixSum(l - 1) + self.__mod) % self.__mod
 
     def numSubseq(self, nums: List[int], target: int) -> int:
