@@ -1,9 +1,8 @@
 class Solution:
     def __init__(self) -> None:
-        self.__mod = 10 ** 9 + 7
+        self.__mod = int(1e9 + 7)
     
     def power(self, base: int, n: int) -> int:
-        assert n >= 0
         res = 1
         while n > 0:
             if n % 2 == 1:
@@ -12,9 +11,8 @@ class Solution:
             base = (base * base) % self.__mod
         return res
 
-
     def prefixSum(self, n: int) -> int:
-        # return sum of power of 2 -> 2 ^ 0 + 2 ^ 1 + ... + 2 ^ n
+        # return sum of power of 2s -> 2 ^ 0 + 2 ^ 1 + ... + 2 ^ n
         return (self.power(2, n + 1) - 1 + self.__mod) % self.__mod
     
     def rangeSum(self, l: int, r: int) -> int:
