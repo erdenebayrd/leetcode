@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/erdenebayrd/leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1656-count-good-triplets](https://github.com/erdenebayrd/leetcode/tree/master/1656-count-good-triplets) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/erdenebayrd/leetcode/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/erdenebayrd/leetcode/tree/master/0868-push-dominoes) |
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/erdenebayrd/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1894-merge-strings-alternately](https://github.com/erdenebayrd/leetcode/tree/master/1894-merge-strings-alternately) |
@@ -462,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/erdenebayrd/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
