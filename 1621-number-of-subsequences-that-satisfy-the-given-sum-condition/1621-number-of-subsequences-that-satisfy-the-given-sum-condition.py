@@ -23,6 +23,9 @@ class Solution:
         return (self.prefixSum(r) - self.prefixSum(l - 1) + self.__mod) % self.__mod
 
     def numSubseq(self, nums: List[int], target: int) -> int:
+        # time: O(N * Log N)
+        # space: O(1)
+        # method: Binary search + power of 2
         nums.sort()
         n = len(nums)
         res = 0
