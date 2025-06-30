@@ -1,13 +1,10 @@
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         res = 0
-        prevKey = int(-2e9)
-        nums.append(prevKey)
-        nums.sort()
-        cnt = Counter(nums)
+        cnt = defaultdict(int)
+        for x in nums:
+            cnt[x] += 1
         for key in cnt:
-            # print(key)
-            if key - 1 == prevKey:
-                res = max(res, cnt[key] + cnt[prevKey])
-            prevKey = key
+            if key - 1 in cnt:
+                res = max(res, cnt[key - 1] + cnt[key])
         return res
