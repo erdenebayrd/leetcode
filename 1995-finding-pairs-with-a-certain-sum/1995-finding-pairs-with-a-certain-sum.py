@@ -8,11 +8,9 @@ class FindSumPairs:
         self.__nums2 = nums2
 
     def add(self, index: int, val: int) -> None:
-        currentVal = self.__nums2[index]
-        self.__cnt[currentVal] -= 1
-        currentVal += val
-        self.__cnt[currentVal] += 1
-        self.__nums2[index] = currentVal
+        self.__cnt[self.__nums2[index]] -= 1
+        self.__nums2[index] += val
+        self.__cnt[self.__nums2[index]] += 1
 
     def count(self, tot: int) -> int:
         res = 0
