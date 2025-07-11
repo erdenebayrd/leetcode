@@ -5,7 +5,7 @@ class Solution:
         meetings.sort()
         for st, ed in meetings:
             mnIdx = -1
-            mnVal = int(5e10)
+            mnVal = int(5e9)
             found = False
             for i in range(n):
                 if mnVal > endTimes[i]:
