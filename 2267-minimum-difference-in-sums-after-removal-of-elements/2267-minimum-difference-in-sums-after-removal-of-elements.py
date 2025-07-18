@@ -7,6 +7,7 @@ class Solution:
         sumSecond = sum(slSecondArr[-n:])
         # print(sumSecond)
         res = sumFirst - sumSecond
+        
         # for i in range(n, 2 * n):
         #     x = nums[i]
         #     slSecondArr.remove(x)
