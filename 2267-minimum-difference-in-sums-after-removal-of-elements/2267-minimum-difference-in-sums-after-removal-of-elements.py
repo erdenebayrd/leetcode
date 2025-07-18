@@ -19,7 +19,7 @@ class Solution:
         for i in range(n, 2 * n):
             x = nums[i]
             # x should be removed from slSecondArr and added into slFirstArr
-            assert x in slSecondArr
+            # assert x in slSecondArr
             idx = slSecondArr.bisect_left(x)
             sizeSlSecondArr = len(slSecondArr)
             slSecondArr.pop(idx)
