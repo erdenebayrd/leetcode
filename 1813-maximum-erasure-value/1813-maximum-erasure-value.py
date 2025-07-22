@@ -5,7 +5,7 @@ class Solution:
         # method: sliding window (2 pointers)
         le = 0
         n = len(nums)
-        cnt = defaultdict(int)
+        cnt = defaultdict(int) # default value is 0
         cur, res = 0, 0
         for ri in range(n):
             cnt[nums[ri]] += 1
