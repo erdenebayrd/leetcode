@@ -3,7 +3,7 @@ class Solution:
         n = len(words)
 
         def abb(s: str, k: int) -> str:
-            if len(s) == k + 1:
+            if len(s) <= k + 2:
                 return s
             return s[:k] + f"{len(s) - k - 1}" + s[-1]
 
@@ -32,7 +32,7 @@ class Solution:
         ans = [""] * n
         for word in res:
             ans[res[word]] = word
-        for i in range(n):
-            if len(ans[i]) == len(words[i]):
-                ans[i] = words[i]
+        # for i in range(n):
+        #     if len(ans[i]) == len(words[i]):
+        #         ans[i] = words[i]
         return ans
