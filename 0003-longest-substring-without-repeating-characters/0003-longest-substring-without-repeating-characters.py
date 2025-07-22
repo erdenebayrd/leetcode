@@ -1,5 +1,8 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
+        # time: O(N)
+        # space: O(N)
+        # method: 2 pointers (sliding window)
         le = 0
         n = len(s)
         res = 0
