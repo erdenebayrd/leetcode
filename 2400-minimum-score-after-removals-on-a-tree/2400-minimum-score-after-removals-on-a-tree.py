@@ -53,6 +53,8 @@ class Helper:
 
 class Solution:
     def minimumScore(self, nums: List[int], edges: List[List[int]]) -> int:
+        # time: O(N ^ 2)
+        # space: O(N ^ 2)
         n = len(nums)
         m = len(edges)
         root = 0
