@@ -45,7 +45,7 @@ class Helper:
         totalXor = self.xor[self.root]
         # if self.getLCA(u, v) == u: # subtree U contains V
         if v in self.subTreeContains[u]: # subtree U contains V
-            arr = [totalXor ^ uXor, uXor ^ vXor, vXor]    
+            arr = [totalXor ^ uXor, uXor ^ vXor, vXor]
         else: # U and V are not included each other
             arr = [totalXor ^ uXor ^ vXor, uXor, vXor]
         return max(arr) - min(arr)
