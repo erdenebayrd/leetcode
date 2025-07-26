@@ -14,6 +14,8 @@ class Solution:
             while idx < m and conflictingPairs[idx][1] <= r:
                 sl.add(conflictingPairs[idx][0])
                 idx += 1
+                while len(sl) > 2:
+                    sl.pop(0)
             if len(sl) == 0:
                 base += r
             elif len(sl) == 1:
