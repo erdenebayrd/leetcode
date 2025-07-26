@@ -6,7 +6,7 @@ class Solution:
         conflictingPairs.sort(key=lambda x: x[1])
         # print(conflictingPairs)
         # sl = SortedList([])
-        sl = []
+        sl = [0, 0]
         m = len(conflictingPairs)
         idx = 0
         base = 0
@@ -19,14 +19,16 @@ class Solution:
                 sl.sort()
                 while len(sl) > 2:
                     sl.pop(0)
-            if len(sl) == 0:
-                base += r
-            elif len(sl) == 1:
-                base += r - sl[-1]
-                vote[sl[-1]] += sl[-1]
-            else: # len(sl) >= 2
-                base += r - sl[-1]
-                vote[sl[-1]] += sl[-1] - sl[-2]
+            base += r - sl[-1]
+            vote[sl[-1]] += sl[-1] - sl[-2]
+            # if len(sl) == 0:
+            #     base += r
+            # elif len(sl) == 1:
+            #     base += r - sl[-1]
+            #     vote[sl[-1]] += sl[-1]
+            # else: # len(sl) >= 2
+            #     base += r - sl[-1]
+            #     vote[sl[-1]] += sl[-1] - sl[-2]
         # print(base)
         # print(vote)
         return base + max(vote)
