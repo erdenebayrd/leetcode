@@ -5,15 +5,18 @@ class Solution:
         conflictingPairs = [[l, r] if l < r else [r, l] for l, r in conflictingPairs]
         conflictingPairs.sort(key=lambda x: x[1])
         # print(conflictingPairs)
-        sl = SortedList([])
+        # sl = SortedList([])
+        sl = []
         m = len(conflictingPairs)
         idx = 0
         base = 0
         vote = [0] * (n + 1)
         for r in range(1, n + 1):
             while idx < m and conflictingPairs[idx][1] <= r:
-                sl.add(conflictingPairs[idx][0])
+                # sl.add(conflictingPairs[idx][0])
+                sl.append(conflictingPairs[idx][0])
                 idx += 1
+                sl.sort()
                 while len(sl) > 2:
                     sl.pop(0)
             if len(sl) == 0:
