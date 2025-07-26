@@ -1,8 +1,11 @@
 class Solution:
     def maxSubarrays(self, n: int, conflictingPairs: List[List[int]]) -> int:
-        conflictingPairs = sorted([[l, r] if l < r else [r, l] for l, r in conflictingPairs], key=lambda x: x[1])
+        # time: O(N * Log N)
+        # space: O(N)
+        # method: smthng + sliding window
         sl = [0, 0]
         m = len(conflictingPairs)
+        conflictingPairs = sorted([[l, r] if l < r else [r, l] for l, r in conflictingPairs], key=lambda x: x[1])
         idx = 0
         base = 0
         vote = [0] * (n + 1)
