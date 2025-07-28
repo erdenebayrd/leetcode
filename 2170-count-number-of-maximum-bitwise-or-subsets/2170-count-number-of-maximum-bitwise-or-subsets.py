@@ -1,18 +1,21 @@
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
-        # time: O(N * 2 ^ N)
-        # space: O(1)
+        # time: O(2 ^ N)
+        # space: O(N)
         # method: brute force
+        n = len(nums)
         s = 0
         for x in nums:
             s |= x
-        n = len(nums)
-        res = 0
-        for i in range(1, 1 << n):
-            cur = 0
-            for j in range(n):
-                if (i >> j) & 1:
-                    cur |= nums[j]
-            if cur == s:
-                res += 1
-        return res
+
+        @cache
+        def solve(idx: int, bit: int) -> int:
+            if idx >= n:
+                if bit == s:
+                    return 1
+                return 0
+            res = solve(idx + 1, bit)
+            res += solve(idx + 1, bit | nums[idx])
+            return res
+        
+        return solve(0, 0)
