@@ -1,5 +1,8 @@
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
+        # time: O(N * 2 ^ N)
+        # space: O(1)
+        # method: brute force
         s = 0
         for x in nums:
             s |= x
