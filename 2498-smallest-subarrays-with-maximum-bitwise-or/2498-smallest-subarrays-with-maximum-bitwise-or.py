@@ -6,6 +6,9 @@ class Solution:
         return res[::-1]
 
     def smallestSubarrays(self, nums: List[int]) -> List[int]:
+        # time: O(N * Log M)  M = 32
+        # space: O(N * Log M)
+        # method: bit manupilate
         arr = []
         dp = []
         for x in nums:
