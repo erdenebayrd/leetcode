@@ -7,7 +7,7 @@ class Solution:
         for i in range(n):
             if nums[i] == k:
                 cur += 1
+                res = max(res, cur)
             else:
                 cur = 0
-            res = max(res, cur)
         return res
