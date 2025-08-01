@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/erdenebayrd/leetcode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/erdenebayrd/leetcode/tree/master/0075-sort-colors) |
+| [0118-pascals-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0118-pascals-triangle) |
 | [0162-find-peak-element](https://github.com/erdenebayrd/leetcode/tree/master/0162-find-peak-element) |
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -506,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/erdenebayrd/leetcode/tree/master/0055-jump-game) |
+| [0118-pascals-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0333-largest-bst-subtree](https://github.com/erdenebayrd/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0361-bomb-enemy](https://github.com/erdenebayrd/leetcode/tree/master/0361-bomb-enemy) |
