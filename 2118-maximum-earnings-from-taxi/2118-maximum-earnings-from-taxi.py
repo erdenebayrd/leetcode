@@ -23,7 +23,7 @@ class SegmentTree:
 
 class Solution:
     def maxTaxiEarnings(self, n: int, rides: List[List[int]]) -> int:
-        stObject = SegmentTree(n)
+        # stObject = SegmentTree(n)
         dp = [0] * (n + 1)
         rides.sort(key=lambda x: x[1])
         rideIdx = 0
@@ -31,8 +31,8 @@ class Solution:
             dp[ri] = max(dp[ri], dp[ri - 1])
             while rideIdx < len(rides) and ri == rides[rideIdx][1]:
                 st, ed, tip = rides[rideIdx]
-                val = stObject.rangeMax(1, 1, n, 1, st)
-                dp[ri] = max(dp[ri], val + ed - st + tip)
+                # val = stObject.rangeMax(1, 1, n, 1, st)
+                dp[ri] = max(dp[ri], dp[st] + ed - st + tip)
                 rideIdx += 1
-            stObject.setValue(1, 1, n, ri, dp[ri])
+            # stObject.setValue(1, 1, n, ri, dp[ri])
         return dp[n]
