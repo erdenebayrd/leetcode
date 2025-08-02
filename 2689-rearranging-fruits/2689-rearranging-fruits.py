@@ -2,9 +2,7 @@ class Solution:
     def minCost(self, basket1: List[int], basket2: List[int]) -> int:
         cnt1 = Counter(basket1)
         cnt2 = Counter(basket2)
-        cnt = Counter(basket1)
-        for x in basket2:
-            cnt[x] += 1
+        cnt = cnt1 + cnt2
         for cost in cnt:
             if cnt[cost] & 1:
                 return -1
