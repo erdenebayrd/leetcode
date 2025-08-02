@@ -6,16 +6,15 @@ class Solution:
         for cost in cnt:
             if cnt[cost] & 1:
                 return -1
-            cnt[cost] //= 2
         res = 0
         extra1 = []
         for x in cnt1:
-            y = cnt1[x] - cnt[x]
+            y = cnt1[x] - cnt[x] // 2
             if y > 0:
                 extra1.extend([x] * y)
         extra2 = []
         for x in cnt2:
-            y = cnt2[x] - cnt[x]
+            y = cnt2[x] - cnt[x] // 2
             if y > 0:
                 extra2.extend([x] * y)
         assert len(extra1) == len(extra2)
