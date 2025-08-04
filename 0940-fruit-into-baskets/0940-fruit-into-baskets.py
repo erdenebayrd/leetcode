@@ -12,11 +12,10 @@ class Solution:
                 cnt[fruit] = 0
                 uniqueCount += 1
             cnt[fruit] += 1
-            while uniqueCount > 2 and le < len(fruits):
-                assert fruits[le] in cnt
+            while uniqueCount > 2:
                 cnt[fruits[le]] -= 1
                 if cnt[fruits[le]] == 0:
-                    del cnt[fruits[le]]
+                    cnt.pop(fruits[le])
                     uniqueCount -= 1
                 le += 1
             cur = 0
