@@ -18,8 +18,5 @@ class Solution:
                     cnt.pop(fruits[le])
                     uniqueCount -= 1
                 le += 1
-            cur = 0
-            for key in cnt: # at most 2 keys
-                cur += cnt[key]
-            res = max(res, cur)
+            res = max(res, sum(cnt.values()))
         return res
