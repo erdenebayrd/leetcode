@@ -1,5 +1,8 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
+        # time: O(N)
+        # space: O(1)
+        # method: slinding window
         le = 0
         uniqueCount = 0
         cnt = {}
