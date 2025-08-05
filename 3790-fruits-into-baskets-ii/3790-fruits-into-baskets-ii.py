@@ -9,7 +9,8 @@ class Solution:
             for j in range(n): # baskets
                 if fruits[i] <= baskets[j]:
                     baskets[j] = 0
-                    fruits[i] = 0
-                    res += 1
                     break
-        return n - res
+            else: # if the for loop is not broken, this will work
+                res += 1
+        return res
+        
