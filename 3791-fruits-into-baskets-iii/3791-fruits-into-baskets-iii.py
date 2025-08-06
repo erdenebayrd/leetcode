@@ -46,13 +46,13 @@ class Solution:
         for i in range(len(arr)):
             pos[arr[i][1]] = i
         objSt = SegmentTree(n, [x for _, x in arr])
-        res = 0
+        res = n
         for x in fruits:
             le = bisect_left(arr, x, key=lambda x: x[0])
             idx = objSt.rmq(1, 0, n - 1, le, n - 1)
             # print(idx)
             if idx == n:
-                res += 1
-            else:
-                objSt.update(1, 0, n - 1, pos[idx], n)
+                continue
+            res -= 1
+            objSt.update(1, 0, n - 1, pos[idx], n)
         return res
