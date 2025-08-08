@@ -2,9 +2,10 @@ class Solution:
     def soupServings(self, n: int) -> float:
         if n > 4800:
             return 1.0
+
         n = (n + 24) // 25
         
-        @cache
+        @lru_cache(None)
         def solve(a: int, b: int) -> float:
             if a <= 0 and b <= 0:
                 return 0.5
