@@ -5,7 +5,7 @@ class Solution:
 
         n = (n + 24) // 25
         
-        @lru_cache(None)
+        @cache
         def solve(a: int, b: int) -> float:
             if a <= 0 and b <= 0:
                 return 0.5
