@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/erdenebayrd/leetcode/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
@@ -803,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
+| [0326-power-of-three](https://github.com/erdenebayrd/leetcode/tree/master/0326-power-of-three) |
 | [2050-count-good-numbers](https://github.com/erdenebayrd/leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/erdenebayrd/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Binary Indexed Tree
