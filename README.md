@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/erdenebayrd/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
+| [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/erdenebayrd/leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
+| [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/erdenebayrd/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -717,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
+| [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -864,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/erdenebayrd/leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
+| [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 ## Brainteaser
 |  |
 | ------- |
