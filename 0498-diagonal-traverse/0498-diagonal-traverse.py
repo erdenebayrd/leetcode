@@ -10,13 +10,14 @@ class Solution:
                 y += 1
             return res
         res = []
+        lastReversed = True
         for i in range(n): # row
             arr = getDiagonal(i, 0)
-            # print(arr)
-            if i & 1:
+            if lastReversed is False:
                 arr = arr[::-1]
+            lastReversed = not lastReversed
             res.extend(arr)
-        lastReversed = ((n & 1) != 1)
+        
         for i in range(1, m): # col
             arr = getDiagonal(n - 1, i)
             if lastReversed is False:
