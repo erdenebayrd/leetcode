@@ -18,9 +18,9 @@ class Solution:
                 y += 1
 
         for i in range(n):
-            cur = getSortedArr(i, 0)
-            replaceGrid(i, 0, cur[::-1])
-        for i in range(1, n):
             cur = getSortedArr(0, i)
             replaceGrid(0, i, cur)
+            cur = getSortedArr(i, 0)
+            replaceGrid(i, 0, cur[::-1])
+            
         return grid
