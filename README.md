@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2048-build-array-from-permutation](https://github.com/erdenebayrd/leetcode/tree/master/2048-build-array-from-permutation) |
@@ -546,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/erdenebayrd/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/erdenebayrd/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/erdenebayrd/leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -722,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1448-maximum-69-number](https://github.com/erdenebayrd/leetcode/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/erdenebayrd/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/erdenebayrd/leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/erdenebayrd/leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
