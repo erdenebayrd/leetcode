@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
+| [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
+| [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/erdenebayrd/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -583,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/erdenebayrd/leetcode/tree/master/0867-new-21-game) |
 | [0868-push-dominoes](https://github.com/erdenebayrd/leetcode/tree/master/0868-push-dominoes) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
+| [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/erdenebayrd/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/erdenebayrd/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/erdenebayrd/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -834,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/erdenebayrd/leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/erdenebayrd/leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -912,4 +916,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0826-soup-servings](https://github.com/erdenebayrd/leetcode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/erdenebayrd/leetcode/tree/master/0867-new-21-game) |
+## Bitmask
+|  |
+| ------- |
+| [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 <!---LeetCode Topics End-->
