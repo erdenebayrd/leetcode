@@ -9,13 +9,14 @@ class Solution:
         for idx, color in queries:
             if color not in pos:
                 res.append(-1)
-            else:
-                index = bisect.bisect_left(pos[color], idx)
-                if index >= len(pos[color]):
-                    res.append(abs(pos[color][index - 1] - idx))
-                elif index == 0:
-                    res.append(abs(pos[color][index] - idx))
-                else:
-                    res.append(abs(pos[color][index] - idx))
-                    res[-1] = min(res[-1], abs(pos[color][index - 1] - idx))
+                continue
+            index = bisect.bisect_left(pos[color], idx)
+            if index >= len(pos[color]):
+                res.append(abs(pos[color][index - 1] - idx))
+                continue
+            if index == 0:
+                res.append(abs(pos[color][index] - idx))
+                continue
+            res.append(abs(pos[color][index] - idx))
+            res[-1] = min(res[-1], abs(pos[color][index - 1] - idx))
         return res
