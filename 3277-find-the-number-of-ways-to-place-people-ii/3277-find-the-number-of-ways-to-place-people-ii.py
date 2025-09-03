@@ -13,7 +13,8 @@ class Solution:
                 x2, y2 = points[j]
                 if x1 <= x2 and y1 >= y2:
                     idx = sl.bisect_left(y2)
-                    if idx == len(sl) or (idx < len(sl) and y1 < sl[idx]):
+                    # if idx == len(sl) or (idx < len(sl) and y1 < sl[idx]):
+                    if idx == len(sl):
                         # print(sl[idx])
                         res += 1
                     # if sl.bisect_left(y1) - sl.bisect_left(y2) == 0:
