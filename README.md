@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
+| [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1098-largest-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1098-largest-unique-number) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0900-reordered-power-of-2](https://github.com/erdenebayrd/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
+| [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1098-largest-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1098-largest-unique-number) |
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/erdenebayrd/leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [0868-push-dominoes](https://github.com/erdenebayrd/leetcode/tree/master/0868-push-dominoes) |
+| [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/erdenebayrd/leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
