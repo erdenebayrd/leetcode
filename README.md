@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1098-largest-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1098-largest-unique-number) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/erdenebayrd/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
