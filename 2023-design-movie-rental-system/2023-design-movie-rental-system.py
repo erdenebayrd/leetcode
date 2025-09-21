@@ -3,22 +3,14 @@ from sortedcontainers import SortedList
 class MovieRentingSystem:
 
     def __init__(self, n: int, entries: List[List[int]]):
-        self.movies = {}
+        self.movies = defaultdict(SortedList)
         self.rented = SortedList([])
-        self.prices = {}
+        self.prices = defaultdict(lambda: defaultdict(int))
         for shop, movie, price in entries:
-            if movie not in self.movies:
-                self.movies[movie] = SortedList([])
-            if shop not in self.prices:
-                self.prices[shop] = {}
-            if movie not in self.prices[shop]:
-                self.prices[shop][movie] = -1
             self.prices[shop][movie] = price
             self.movies[movie].add([price, shop])
 
     def search(self, movie: int) -> List[int]:
-        if movie not in self.movies:
-            self.movies[movie] = SortedList([])
         return [shop for _, shop in self.movies[movie][:5]]
 
     def rent(self, shop: int, movie: int) -> None:
