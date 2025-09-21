@@ -2,9 +2,11 @@ from sortedcontainers import SortedList
 
 class MovieRentingSystem:
 
+    # time: O(N Log N)
+    # space: O(N)
     def __init__(self, n: int, entries: List[List[int]]):
         self.movies = defaultdict(SortedList)
-        self.rented = SortedList()
+        self.rented = SortedList([])
         self.prices = defaultdict(lambda: defaultdict(int))
         for shop, movie, price in entries:
             self.prices[shop][movie] = price
