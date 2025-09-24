@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0146-lru-cache](https://github.com/erdenebayrd/leetcode/tree/master/0146-lru-cache) |
+| [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/erdenebayrd/leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0165-compare-version-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0408-valid-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/erdenebayrd/leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
