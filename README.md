@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/erdenebayrd/leetcode/tree/master/0830-largest-triangle-area) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
 | [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/erdenebayrd/leetcode/tree/master/0826-soup-servings) |
+| [0830-largest-triangle-area](https://github.com/erdenebayrd/leetcode/tree/master/0830-largest-triangle-area) |
 | [0867-new-21-game](https://github.com/erdenebayrd/leetcode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/erdenebayrd/leetcode/tree/master/0900-reordered-power-of-2) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/erdenebayrd/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -1012,6 +1014,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/erdenebayrd/leetcode/tree/master/0830-largest-triangle-area) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/erdenebayrd/leetcode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/erdenebayrd/leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 ## Game Theory
