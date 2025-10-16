@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/erdenebayrd/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2665-minimum-time-to-repair-cars](https://github.com/erdenebayrd/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2487-optimal-partition-of-string](https://github.com/erdenebayrd/leetcode/tree/master/2487-optimal-partition-of-string) |
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -476,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2432-number-of-zero-filled-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/erdenebayrd/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/erdenebayrd/leetcode/tree/master/2649-count-total-number-of-colored-cells) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2998-count-symmetric-integers](https://github.com/erdenebayrd/leetcode/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/erdenebayrd/leetcode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -829,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/erdenebayrd/leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2487-optimal-partition-of-string](https://github.com/erdenebayrd/leetcode/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
