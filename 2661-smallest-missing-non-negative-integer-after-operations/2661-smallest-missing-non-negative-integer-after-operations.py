@@ -7,6 +7,6 @@ class Solution:
         for i in range(n):
             if cnt[i % value] > 0:
                 cnt[i % value] -= 1
-            else:
-                return i
+                continue
+            return i
         return n
