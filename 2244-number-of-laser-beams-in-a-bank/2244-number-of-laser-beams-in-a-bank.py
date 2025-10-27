@@ -3,9 +3,7 @@ class Solution:
         res = 0
         pre = 0
         for row in bank:
-            cur = 0
-            for col in row:
-                cur += int(col)
+            cur = row.count('1')
             if cur == 0:
                 continue
             res += pre * cur
