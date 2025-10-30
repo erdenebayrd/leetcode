@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/erdenebayrd/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
@@ -490,6 +491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2383-add-two-integers](https://github.com/erdenebayrd/leetcode/tree/master/2383-add-two-integers) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2610-closest-prime-numbers-in-range](https://github.com/erdenebayrd/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/erdenebayrd/leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
@@ -563,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/erdenebayrd/leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2610-closest-prime-numbers-in-range](https://github.com/erdenebayrd/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3001-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 ## Union Find
@@ -700,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/erdenebayrd/leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/erdenebayrd/leetcode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
