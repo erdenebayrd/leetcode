@@ -2,6 +2,7 @@ from sortedcontainers import SortedList
 
 class Solution:
     def findXSum(self, nums: List[int], k: int, x: int) -> List[int]:
+        # N * Log N
         cur = 0
         res = []
         n = len(nums)
