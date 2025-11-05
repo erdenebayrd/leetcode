@@ -6,6 +6,11 @@ class Solution:
         self.cur = 0
         self.k = k
     
+    def addTop(self) -> None:
+        self.top.add(self.rest[-1])
+        self.cur += self.rest[-1][0] * self.rest[-1][1]
+        self.rest.pop(-1)
+
     def update(self, val: int, delta: int) -> None:
         cur = (self.fq[val], val)
         if cur in self.top:
@@ -17,16 +22,12 @@ class Solution:
         cur = (self.fq[val], val)
         self.rest.add(cur)
         if len(self.top) < self.k:
-            self.top.add(self.rest[-1])
-            self.cur += self.rest[-1][0] * self.rest[-1][1]
-            self.rest.pop(-1)
-        elif self.top[0][0] < self.rest[-1][0] or (self.top[0][0] == self.rest[-1][0] and self.top[0][1] < self.rest[-1][1]):
+            self.addTop()
+        elif self.rest[-1] > self.top[0]:
             self.rest.add(self.top[0])
             self.cur -= self.top[0][0] * self.top[0][1]
             self.top.pop(0)
-            self.cur += self.rest[-1][0] * self.rest[-1][1]
-            self.top.add(self.rest[-1])
-            self.rest.pop(-1)
+            self.addTop()
 
     def findXSum(self, nums: List[int], k: int, x: int) -> List[int]:
         self.init(x)
