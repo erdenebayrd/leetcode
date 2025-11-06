@@ -24,8 +24,8 @@ class Solution:
             dfs(i, curCompId)
             curCompId += 1
         
-        print(comps)
-        print(comp)
+        # print(comps)
+        # print(comp)
 
         res = []
         for t, v in queries:
@@ -39,7 +39,6 @@ class Solution:
                     res.append(-1)
             else: # goes offline
                 comps[comp[v]].discard(v)
-
 
         return res
         
