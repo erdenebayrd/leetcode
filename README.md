@@ -646,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/erdenebayrd/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0333-largest-bst-subtree](https://github.com/erdenebayrd/leetcode/tree/master/0333-largest-bst-subtree) |
+| [0364-nested-list-weight-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0386-lexicographical-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0386-lexicographical-numbers) |
 | [0543-diameter-of-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
@@ -665,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/erdenebayrd/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0364-nested-list-weight-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -958,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0364-nested-list-weight-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/erdenebayrd/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
