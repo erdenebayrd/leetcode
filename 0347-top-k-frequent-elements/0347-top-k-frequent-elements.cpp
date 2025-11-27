@@ -5,7 +5,7 @@ public:
         const int N = int(1e4);
         int cnt[int(2e4) + 1];
         memset(cnt, 0, sizeof cnt);
-        unordered_map<int, vector<int>> rev;
+        vector<int> rev[n + 1];
         for (int i = 0; i < n; i++) cnt[nums[i] + N] += 1;
         vector<int> freq(n + 1, 0);
         for (int i = 0; i <= int(2e4); i++) {
