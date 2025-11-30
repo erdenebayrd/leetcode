@@ -11,13 +11,13 @@ public:
         if (remainder == 0) return 0;
         int res = n;
         unordered_map<int, int> pos;
+        pos[0] = 0;
         for (int i = 0; i < n; i++) {
-            if (nums[i] == remainder) res = min(res, i + 1);
             // (nums[i] - x) % p == remainder
             // nums[i] % p - x % p == remainder
             // (nums[i] - remainder + p) % p
             int x = (nums[i] - remainder + p) % p;
-            if (pos[x] > 0) res = min(res, i - pos[x] + 1);
+            if (pos.find(x) != pos.end()) res = min(res, i - pos[x] + 1);
             pos[nums[i]] = i + 1;
         }
         if (res == n) res = -1;
