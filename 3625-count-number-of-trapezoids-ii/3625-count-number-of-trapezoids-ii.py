@@ -1,53 +1,25 @@
 class Solution:
     def countTrapezoids(self, points: List[List[int]]) -> int:
-        n = len(points)
-        inf = 10**9 + 7
-        slope_to_intercept = defaultdict(list)
-        mid_to_slope = defaultdict(list)
-        ans = 0
+        slopes = Counter()
+        lines = Counter()
+        mids = Counter()
+        midlines = Counter()
 
-        for i in range(n):
-            x1, y1 = points[i]
-            for j in range(i + 1, n):
-                x2, y2 = points[j]
-                dx = x1 - x2
-                dy = y1 - y2
+        for (x1, y1), (x2, y2) in combinations(points, 2):
+            dx, dy = x1 - x2, y1 - y2
+            g = gcd(dx, dy)
+            dx, dy = dx // g, dy // g
+            if dx < 0 or (dx == 0 and dy < 0):
+                dx, dy = -dx, -dy
+            
+            inter = x1 * dy - y1 * dx
+            slopes[dx, dy] += 1
+            lines[dx, dy, inter] += 1
+            mids[x1 + x2, y1 + y2] += 1
+            midlines[x1 + x2, y1 + y2, dx, dy, inter] += 1
 
-                if x2 == x1:
-                    k = inf
-                    b = x1
-                else:
-                    k = (y2 - y1) / (x2 - x1)
-                    b = (y1 * dx - x1 * dy) / dx
-
-                mid = (x1 + x2) * 10000 + (y1 + y2)
-                slope_to_intercept[k].append(b)
-                mid_to_slope[mid].append(k)
-
-        for sti in slope_to_intercept.values():
-            if len(sti) == 1:
-                continue
-
-            cnt = defaultdict(int)
-            for b_val in sti:
-                cnt[b_val] += 1
-
-            total_sum = 0
-            for count in cnt.values():
-                ans += total_sum * count
-                total_sum += count
-
-        for mts in mid_to_slope.values():
-            if len(mts) == 1:
-                continue
-
-            cnt = defaultdict(int)
-            for k_val in mts:
-                cnt[k_val] += 1
-
-            total_sum = 0
-            for count in cnt.values():
-                ans -= total_sum * count
-                total_sum += count
-
-        return ans
+        res = sum(comb(v, 2) for v in slopes.values())
+        res -= sum(comb(v, 2) for v in lines.values())
+        res -= sum(comb(v, 2) for v in mids.values())
+        res += sum(comb(v, 2) for v in midlines.values())
+        return res
