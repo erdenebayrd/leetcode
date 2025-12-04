@@ -9,9 +9,8 @@ class Solution:
                     res += curR + 1
                     curR = 0
                     leftCh = "S"
-                else: # curR == 0
-                    if leftCh == "S":
-                        res += 1
+                elif leftCh == "S":
+                    res += 1
             elif d == "S":
                 leftCh = "S"
                 res += curR
