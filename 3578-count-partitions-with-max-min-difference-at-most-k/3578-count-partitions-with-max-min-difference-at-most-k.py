@@ -35,8 +35,8 @@ class Solution:
         
         for i in range(n):
             addDeque(i)
+            # print(i, j)
             assert len(dqMax) > 0 and len(dqMin) > 0
-            # farthestLeftIdx = min(dqMax[0], dqMin[0])
             dp[i + 1] = getRangeSum(j, i)
             prefixDpSum[i + 1] = (prefixDpSum[i] + dp[i + 1]) % mod
         
