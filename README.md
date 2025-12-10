@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0170-two-sum-iii-data-structure-design](https://github.com/erdenebayrd/leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/erdenebayrd/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/erdenebayrd/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/erdenebayrd/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/erdenebayrd/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0594-longest-harmonious-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -720,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/erdenebayrd/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0347-top-k-frequent-elements](https://github.com/erdenebayrd/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -1139,6 +1143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/erdenebayrd/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/erdenebayrd/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
