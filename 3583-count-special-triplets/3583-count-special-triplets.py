@@ -9,7 +9,7 @@ class Solution:
         res = 0
         for x in nums:
             suf[x] -= 1
-            res = (res + pre[x * 2] * suf[x * 2]) % mod
+            res += pre[x * 2] * suf[x * 2]
             pre[x] += 1
-        return res
+        return res % mod
 
