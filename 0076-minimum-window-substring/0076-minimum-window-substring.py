@@ -33,6 +33,4 @@ class Solution:
                         res = [le, ri]
                     break
                 
-        if res[-1] == -1:
-            return ""
         return s[res[0]: res[1] + 1]
