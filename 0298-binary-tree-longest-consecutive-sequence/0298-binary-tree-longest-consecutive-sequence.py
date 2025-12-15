@@ -6,21 +6,16 @@
 #         self.right = right
 class Solution:
     def longestConsecutive(self, root: Optional[TreeNode]) -> int:
-        res = 0
-        def dfs(cur) -> int:
-            if cur is None:
+        self.res = 0
+        def dfs(cur, parentVal: int, curLength: int) -> None:
+            if not cur:
                 return 0
-            leftVal = dfs(cur.left)
-            rightVal = dfs(cur.right)
-            curRes = 1
-            if cur.left is not None and cur.left.val - 1 == cur.val:
-                leftVal += 1
-                curRes = max(curRes, leftVal)
-            if cur.right is not None and cur.right.val - 1 == cur.val:
-                rightVal += 1
-                curRes = max(curRes, rightVal)
-            nonlocal res
-            res = max(res, curRes)
-            return curRes
-        dfs(root)
-        return res
+            if parentVal + 1 == cur.val:
+                curLength += 1
+            else:
+                curLength = 1
+            self.res = max(self.res, curLength)
+            dfs(cur.left, cur.val, curLength)
+            dfs(cur.right, cur.val, curLength)
+        dfs(root, float("-inf"), 1)
+        return self.res
