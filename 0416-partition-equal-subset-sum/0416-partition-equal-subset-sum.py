@@ -6,8 +6,12 @@ class Solution:
 
         pre = defaultdict(int)
         for x in nums:
+            if x > s // 2:
+                continue
             cur = defaultdict(int) | pre
             for key in pre:
+                if key + x > s // 2:
+                    continue
                 cur[key + x] = 1
             cur[x] = 1
             pre |= cur
