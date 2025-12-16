@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/erdenebayrd/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
+| [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/erdenebayrd/leetcode/tree/master/0498-diagonal-traverse) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
@@ -793,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/erdenebayrd/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
+| [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0656-coin-path](https://github.com/erdenebayrd/leetcode/tree/master/0656-coin-path) |
 | [0806-domino-and-tromino-tiling](https://github.com/erdenebayrd/leetcode/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/erdenebayrd/leetcode/tree/master/0826-soup-servings) |
@@ -1126,6 +1128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/erdenebayrd/leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
