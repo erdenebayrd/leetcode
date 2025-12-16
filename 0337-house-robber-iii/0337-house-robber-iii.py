@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def rob(self, root: Optional[TreeNode]) -> int:
-        @cache
         def calc(cur: Optional[TreeNode]) -> [int, int]:
             if not cur:
                 return [0, 0]
