@@ -6,9 +6,9 @@ class Solution:
 
         pre = defaultdict(int)
         for x in nums:
-            cur = deepcopy(pre)
+            cur = defaultdict(int) | pre
             for key in pre:
                 cur[key + x] = 1
             cur[x] = 1
-            pre = deepcopy(cur)
+            pre |= cur
         return pre[s // 2] == 1
