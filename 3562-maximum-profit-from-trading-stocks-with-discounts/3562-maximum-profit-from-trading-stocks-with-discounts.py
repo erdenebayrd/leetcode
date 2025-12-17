@@ -35,8 +35,7 @@ class Solution:
             for idx in range(1, len(children)):
                 discount_combined = combine_two(discount_combined, dp[children[idx]][1])
             return [no_discount_combined, discount_combined]
-                
-        
+       
         def merge_with_parent(parent_node: int, combined_children: List[List[int]]): # 2 x (budget + 1) array
             # for parent_node which is starting from 1 NOT 0
             full_price = present[parent_node - 1]
@@ -87,19 +86,21 @@ class Solution:
                     # buy
             cost = present[cur_node - 1]
             profit = future[cur_node - 1] - cost
-            dp[cur_node][0][cost] = profit
+            if budget >= cost:
+                dp[cur_node][0][cost] = profit
                 # 2. Discount / Half price
                     # no buy
             dp[cur_node][1][0] = 0
                     # buy
                         # even has chance to use discount, child have a choice to NOT use discount
             cost = present[cur_node - 1]
-            dp[cur_node][1][cost] = profit
+            if budget >= cost:
+                dp[cur_node][1][cost] = profit
                         # using discount
             cost //= 2
             profit = future[cur_node - 1] - cost
-            dp[cur_node][1][cost] = profit
-            dp[cur_node][1][cost] = profit
+            if budget >= cost:
+                dp[cur_node][1][cost] = profit
 
         def dfs(cur_node: int):
             init(cur_node)
