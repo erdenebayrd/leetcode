@@ -1,6 +1,6 @@
 class Solution:
     def maximumProfit(self, prices: List[int], m: int) -> int:
-        # time: O(k * n ^ 2)
+        # time: O(k * n)
         # space: O(k * n)
         
         # m pairs, which need to choose at most without any intersection between them
