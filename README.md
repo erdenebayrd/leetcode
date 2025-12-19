@@ -680,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/erdenebayrd/leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/erdenebayrd/leetcode/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/erdenebayrd/leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -691,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1100-connecting-cities-with-minimum-cost](https://github.com/erdenebayrd/leetcode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/erdenebayrd/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/erdenebayrd/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
@@ -728,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/erdenebayrd/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1214-two-sum-bsts](https://github.com/erdenebayrd/leetcode/tree/master/1214-two-sum-bsts) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/erdenebayrd/leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/erdenebayrd/leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -746,6 +749,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
@@ -879,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
+| [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/erdenebayrd/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
