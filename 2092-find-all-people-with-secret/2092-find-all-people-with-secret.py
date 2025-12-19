@@ -19,7 +19,7 @@ class UnionFindDisjointSet:
 
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
-        pool = set([0, firstPerson])
+        secret = set([0, firstPerson])
         meetings.sort(key=lambda m: m[2]) # sort by time
         meets = {}
         for x, y, time in meetings:
@@ -41,6 +41,6 @@ class Solution:
                     parents[parent] = set()
                 parents[parent].add(user)
             for parent in parents:
-                if any([user in pool for user in parents[parent]]):
-                    pool.update(parents[parent])
-        return list(pool)
+                if any([user in secret for user in parents[parent]]):
+                    secret.update(parents[parent])
+        return list(secret)
