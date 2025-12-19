@@ -9,11 +9,6 @@ class UnionFindDisjointSet:
             return node
         self.parent[node] = self.findParent(self.parent[node])
         return self.parent[node]
-    
-    def isSameSet(self, nodeX: int, nodeY: int) -> None:
-        parentX = self.findParent(nodeX)
-        parentY = self.findParent(nodeY)
-        return parentX == parentY
 
     def union(self, nodeX: int, nodeY: int) -> None:
         parentX = self.findParent(nodeX)
@@ -46,10 +41,6 @@ class Solution:
                     parents[parent] = set()
                 parents[parent].add(user)
             for parent in parents:
-                flag = False
-                for user in parents[parent]:
-                    flag |= user in pool
-                if flag is True:
-                    for user in parents[parent]:
-                        pool.add(user)
+                if any([user in pool for user in parents[parent]]):
+                    pool.update(parents[parent])
         return list(pool)
