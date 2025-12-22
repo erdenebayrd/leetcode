@@ -20,4 +20,6 @@ class Solution:
             
             return res
         
-        return solve(0, 1)
+        res = solve(0, 1)
+        solve.cache_clear()
+        return res
