@@ -27,7 +27,9 @@ class Solution:
         events.sort()
         # print(events)
         n = len(events)
-        segTree = SegmentTree([val for _, _, val in events])
+        values = [val for _, _, val in events]
+        segTree = SegmentTree(values)
+        res = max(values)
         
         def findLeftMostIdxAfter(endTime: int) -> int:
             lo, hi = -1, n
@@ -40,10 +42,8 @@ class Solution:
                     hi = md
             return hi
 
-        res = 0
         for i in range(n):
             _, endTime, value = events[i]
             le = findLeftMostIdxAfter(endTime)
-            # print(i, le)
-            res = max(res, value + segTree.getMax(1, 0, n - 1, le, n - 1), value)
+            res = max(res, value + segTree.getMax(1, 0, n - 1, le, n - 1))
         return res
