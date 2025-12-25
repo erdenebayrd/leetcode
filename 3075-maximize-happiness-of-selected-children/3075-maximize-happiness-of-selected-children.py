@@ -3,5 +3,8 @@ class Solution:
         happiness.sort(reverse=True)
         res = 0
         for i in range(k):
-            res += max(0, happiness[i] - i)
+            gain = happiness[i] - i
+            if gain <= 0:
+                return res
+            res += gain
         return res
