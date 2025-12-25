@@ -72,7 +72,7 @@ class Solution:
         for i in range(n):
             le = i - xl[i] + 1
             ri = xr[i] - i + 1
-            # x[i] = (le * ri) % (mod - 1) # fermat's little theorem -> Reduce k by x[i] not after mod - 1
+            # x[i] = (le * ri) % (mod - 1) # fermat's little theorem -> Reduce k by x[i] not after mod - 1. Can't apply here fermat's little theorem
             x[i] = le * ri
         # print(x)
         # print(max(x))
