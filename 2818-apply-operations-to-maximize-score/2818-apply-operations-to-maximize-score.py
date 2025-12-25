@@ -1,101 +1,108 @@
+# Gemini pro
+from collections import deque
+from typing import List
+
 class Solution:
     def maximumScore(self, nums: List[int], k: int) -> int:
-        def sieve(N: int) -> List[int]:
-            primes = [2]
-            arr = [True] * (N + 1)
-            for i in range(3, N + 1, 2):
-                if arr[i] is False:
-                    continue
+        mod = 10**9 + 7
+        
+        # --- 1. Sieve of Eratosthenes ---
+        # Only need primes up to sqrt(10^5) approx 316
+        upper_bound = int(100000**0.5) + 5
+        primes = []
+        is_prime = [True] * (upper_bound + 1)
+        for i in range(2, upper_bound + 1):
+            if is_prime[i]:
                 primes.append(i)
-                for j in range(i * i, N + 1, i):
-                    arr[j] = False
-            return primes
+                for j in range(i * i, upper_bound + 1, i):
+                    is_prime[j] = False
         
-        primes = sieve(int(1e5 ** 0.5) + 1)
-        # print(len(primes))
-
+        # --- 2. Calculate Prime Scores ---
         n = len(nums)
-        # n = int(1e5)
-        # nums = [i + 1 for i in range(n)]
-        primeScores = [0] * n # count of distinct primes
-        for i, x in enumerate(nums):
-            for prime in primes:
-                if x % prime == 0:
-                    primeScores[i] += 1
-                while x % prime == 0:
-                    x //= prime
-            primeScores[i] += int(x > 1)
-        # print(max(primeScores))
-        # m = 1
-        # for i in range(max(primeScores) + 1):
-        #     m *= primes[i]
-        # print(m)
+        primeScores = [0] * n
+        for i, val in enumerate(nums):
+            temp = val
+            count = 0
+            for p in primes:
+                if p * p > temp:
+                    break
+                if temp % p == 0:
+                    count += 1
+                    while temp % p == 0:
+                        temp //= p
+            if temp > 1:
+                count += 1
+            primeScores[i] = count
 
-        xl, xr = [], []
-        for i in range(n):
-            xl.append(i)
-            xr.append(i)
+        # --- 3. Find Previous Greater/Equal and Next Greater Element ---
+        # Note: Your bucket/deque approach is O(N) because max score is small (~6).
+        # This effectively replaces the Monotonic Stack.
         
-        maxPrimeScore = max(primeScores)
-        positionPrimeScores = [deque() for i in range(maxPrimeScore + 1)]
+        # Left boundary (Previous Greater or Equal Element)
+        xl = [0] * n
+        maxPrimeScore = max(primeScores) if primeScores else 0
+        
+        # Store indices by score
+        positionPrimeScores = [deque() for _ in range(maxPrimeScore + 1)]
+        
+        # Fill strictly left-to-right to prep for 'pop' logic (simulating backward scan)
+        # Actually, simpler to just iterate and maintain state.
+        # Let's stick to your logic but clean:
         for i in range(n):
             positionPrimeScores[primeScores[i]].append(i)
-        # print(primeScores)
+            
         for i in range(n - 1, -1, -1):
-            positionPrimeScores[primeScores[i]].pop() # pop right most index
+            positionPrimeScores[primeScores[i]].pop() # Remove self
+            
+            # We need index of Nearest Element to the LEFT with score >= current
+            # Since we populated queues with 0..n-1, and popped current, 
+            # the queues now contain only indices < i (if we popped correctly in a forward pass?)
+            # Wait, your original logic populated ALL, then popped from right.
+            # That leaves indices < i in the deque. The largest among them is the neighbor.
+            
             rightMostIdx = -1
-            for j in range(primeScores[i], maxPrimeScore + 1, 1):
-                if len(positionPrimeScores[j]) > 0:
-                    rightMostIdx = max(rightMostIdx, positionPrimeScores[j][-1])
+            for score in range(primeScores[i], maxPrimeScore + 1):
+                if positionPrimeScores[score]:
+                    rightMostIdx = max(rightMostIdx, positionPrimeScores[score][-1])
             xl[i] = rightMostIdx + 1
-        # print(xl)
-        for i in range(i):
-            assert xl[i] <= i
-        
-        positionPrimeScores = [deque() for i in range(maxPrimeScore + 1)]
+
+        # Right boundary (Next Strictly Greater Element)
+        xr = [0] * n
+        positionPrimeScores = [deque() for _ in range(maxPrimeScore + 1)]
         for i in range(n):
             positionPrimeScores[primeScores[i]].append(i)
+            
         for i in range(n):
-            positionPrimeScores[primeScores[i]].popleft()
+            positionPrimeScores[primeScores[i]].popleft() # Remove self
+            
+            # We need index of Nearest Element to the RIGHT with score > current
+            # Queues contain indices > i. We want the smallest index.
             leftMostIndex = n
-            for j in range(primeScores[i] + 1, maxPrimeScore + 1, 1):
-                if len(positionPrimeScores[j]) > 0:
-                    leftMostIndex = min(leftMostIndex, positionPrimeScores[j][0])
+            for score in range(primeScores[i] + 1, maxPrimeScore + 1):
+                if positionPrimeScores[score]:
+                    leftMostIndex = min(leftMostIndex, positionPrimeScores[score][0])
             xr[i] = leftMostIndex - 1
-        # print(xr)
-        for i in range(i):
-            assert i <= xr[i]
+
+        # --- 4. Calculate Contribution and Greedy Selection ---
+        # Create pairs of (num_value, available_operations)
+        pairs = []
+        for i in range(n):
+            # Total subarrays where nums[i] is the pivot
+            # No modulo here!
+            count = (i - xl[i] + 1) * (xr[i] - i + 1)
+            pairs.append((nums[i], count))
         
-        mod = int(1e9 + 7)
-        x = [0] * n
-        for i in range(n):
-            le = i - xl[i] + 1
-            ri = xr[i] - i + 1
-            # x[i] = (le * ri) % (mod - 1) # fermat's little theorem
-            x[i] = le * ri
-        # print(x)
-        # print(max(x))
-
-        def powerLog(a: int, x: int) -> int:
-            res = 1
-            while x > 0:
-                if x & 1:
-                    res = (res * a) % mod
-                    x -= 1
-                else:
-                    x //= 2
-                    a = (a * a) % mod
-            return res
-
-        arr = [(nums[i], x[i]) for i in range(n)]
-        arr.sort(reverse=True)
+        # Sort by number value descending to maximize score
+        pairs.sort(key=lambda x: x[0], reverse=True)
+        
         res = 1
-        for i in range(n):
-            num, xx = arr[i]
-            power = min(xx, k)
-            res = (res * powerLog(num, power)) % mod
-            k -= power
+        for num, limit in pairs:
             if k <= 0:
                 break
-        # print(set(primeScores))
+            
+            take = min(k, limit)
+            # Power calculation with modulo
+            res = (res * pow(num, take, mod)) % mod
+            k -= take
+            
         return res
