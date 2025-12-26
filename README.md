@@ -312,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/erdenebayrd/leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2249-count-the-hidden-sequences](https://github.com/erdenebayrd/leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/erdenebayrd/leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2529-range-product-queries-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/erdenebayrd/leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2915-count-of-interesting-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2915-count-of-interesting-subarrays) |
@@ -469,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/erdenebayrd/leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2429-design-a-food-rating-system](https://github.com/erdenebayrd/leetcode/tree/master/2429-design-a-food-rating-system) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/erdenebayrd/leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2487-optimal-partition-of-string](https://github.com/erdenebayrd/leetcode/tree/master/2487-optimal-partition-of-string) |
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
 | [2887-sort-vowels-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2887-sort-vowels-in-a-string) |
