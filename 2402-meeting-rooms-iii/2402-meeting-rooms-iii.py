@@ -14,7 +14,7 @@ class Solution:
                     roomMin = i
             if room == n:
                 room = roomMin
-            print(startAtMin, room)
+            # print(startAtMin, room)
             start = max(startAt[room], st)
             end = start + ed - st
             startAt[room] = end
