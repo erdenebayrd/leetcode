@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/erdenebayrd/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1293-three-consecutive-odds](https://github.com/erdenebayrd/leetcode/tree/master/1293-three-consecutive-odds) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/erdenebayrd/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
