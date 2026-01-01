@@ -13,8 +13,8 @@ class Leaderboard:
             self.arr.append([score, playerId])
 
     def top(self, K: int) -> int:
-        self.arr.sort(reverse=True)
-        return sum([x for x, _ in self.arr[:K]])
+        self.arr.sort()
+        return sum([x for x, _ in self.arr[-K:]])
 
     def reset(self, playerId: int) -> None:
         for i in range(len(self.arr)):
