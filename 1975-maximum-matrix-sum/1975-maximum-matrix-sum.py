@@ -1,0 +1,14 @@
+class Solution:
+    def maxMatrixSum(self, matrix: List[List[int]]) -> int:
+        mnAbs = float('inf')
+        total = 0
+        cntNegative = 0
+        for row in matrix:
+            for val in row:
+                mnAbs = min(mnAbs, abs(val))
+                total += abs(val)
+                if val < 0:
+                    cntNegative += 1
+        if cntNegative & 1:
+            return total - mnAbs - mnAbs
+        return total
