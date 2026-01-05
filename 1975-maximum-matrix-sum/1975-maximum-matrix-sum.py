@@ -7,8 +7,7 @@ class Solution:
             for val in row:
                 mnAbs = min(mnAbs, abs(val))
                 total += abs(val)
-                if val < 0:
-                    cntNegative += 1
+                cntNegative += int(val < 0)
         if cntNegative & 1:
             total -= 2 * mnAbs
         return total
