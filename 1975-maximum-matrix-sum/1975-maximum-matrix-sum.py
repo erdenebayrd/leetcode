@@ -10,5 +10,5 @@ class Solution:
                 if val < 0:
                     cntNegative += 1
         if cntNegative & 1:
-            return total - mnAbs - mnAbs
+            total -= 2 * mnAbs
         return total
