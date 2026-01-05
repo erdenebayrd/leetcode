@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
@@ -1026,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/erdenebayrd/leetcode/tree/master/0840-magic-squares-in-grid) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/erdenebayrd/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/erdenebayrd/leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -1060,6 +1062,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/erdenebayrd/leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/erdenebayrd/leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/erdenebayrd/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
