@@ -8,7 +8,7 @@ class Solution:
         @cache
         def solve(i: int, j: int) -> int:
             if i >= n or j >= m:
-                return 0
+                return -int(5e8 + 1)
             # Options
             # 1. Choose both i, j
             res = nums1[i] * nums2[j] + solve(i + 1, j + 1)
@@ -16,10 +16,8 @@ class Solution:
             res = max(res, solve(i + 1, j))
             # 3. Skip j
             res = max(res, solve(i, j + 1))
+            # 4. Skip both i, j
+            res = max(res, nums1[i] * nums2[j])
             return res
         
-        res = -int(5e8 + 1)
-        for i in range(n):
-            for j in range(m):
-                res = max(res, nums1[i] * nums2[j] + solve(i + 1, j + 1))
-        return res
+        return solve(0, 0)
