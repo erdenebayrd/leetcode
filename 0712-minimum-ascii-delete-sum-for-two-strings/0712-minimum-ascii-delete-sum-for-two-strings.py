@@ -1,5 +1,7 @@
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
+        # time: O(n * m + n + m)
+        # space: O(n * m + n + m)
         n = len(s1)
         m = len(s2)
 
