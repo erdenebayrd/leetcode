@@ -456,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/erdenebayrd/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/erdenebayrd/leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/erdenebayrd/leetcode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
@@ -860,6 +861,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0656-coin-path](https://github.com/erdenebayrd/leetcode/tree/master/0656-coin-path) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/erdenebayrd/leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/erdenebayrd/leetcode/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/erdenebayrd/leetcode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/erdenebayrd/leetcode/tree/master/0867-new-21-game) |
