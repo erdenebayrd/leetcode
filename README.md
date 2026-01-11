@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/erdenebayrd/leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/erdenebayrd/leetcode/tree/master/0075-sort-colors) |
+| [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0120-triangle) |
 | [0162-find-peak-element](https://github.com/erdenebayrd/leetcode/tree/master/0162-find-peak-element) |
@@ -848,6 +849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [0055-jump-game](https://github.com/erdenebayrd/leetcode/tree/master/0055-jump-game) |
+| [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -1035,6 +1037,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/erdenebayrd/leetcode/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
@@ -1145,6 +1148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0364-nested-list-weight-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
@@ -1223,6 +1227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/erdenebayrd/leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
