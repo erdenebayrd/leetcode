@@ -13,7 +13,8 @@ class Solution:
                 elif bit(num, i) == 1 and bit(cand, i) == 0:
                     num ^= (1 << i)
                 elif bit(num, i) == 0 and bit(cand, i) == 1:
-                    return (1 << i) - num + ((1 << i) ^ cand)
+                    cand ^= (1 << i)
+                    return (1 << i) - num + cand
             return 0
 
 
