@@ -55,6 +55,4 @@ class Solution:
             width, y, area = areas[i]
         # print(width, y, area)
         # print(areas)
-        if width == 0:
-            return y
         return (totalArea - 2.0 * area) / (2.0 * width) + y
