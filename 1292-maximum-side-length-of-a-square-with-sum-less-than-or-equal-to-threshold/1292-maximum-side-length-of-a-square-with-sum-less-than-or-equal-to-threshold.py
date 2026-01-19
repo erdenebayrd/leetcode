@@ -30,7 +30,11 @@ class Solution:
                         return True
             return False
 
-        for k in range(1, min(n, m) + 1):
-            if can(k) is False:
-                return k - 1
-        return min(n, m)
+        lo, hi = 0, min(n, m) + 1
+        while lo + 1 < hi:
+            md = (lo + hi) // 2
+            if can(md) is True:
+                lo = md
+            else:
+                hi = md
+        return lo
