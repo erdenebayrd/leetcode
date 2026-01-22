@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-alternating-groups-ii](https://github.com/erdenebayrd/leetcode/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3531-count-covered-buildings](https://github.com/erdenebayrd/leetcode/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -438,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/erdenebayrd/leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/erdenebayrd/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3531-count-covered-buildings](https://github.com/erdenebayrd/leetcode/tree/master/3531-count-covered-buildings) |
 | [3548-find-the-count-of-good-integers](https://github.com/erdenebayrd/leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3583-count-special-triplets](https://github.com/erdenebayrd/leetcode/tree/master/3583-count-special-triplets) |
@@ -721,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [3336-water-bottles-ii](https://github.com/erdenebayrd/leetcode/tree/master/3336-water-bottles-ii) |
 | [3433-count-mentions-per-user](https://github.com/erdenebayrd/leetcode/tree/master/3433-count-mentions-per-user) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/erdenebayrd/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/erdenebayrd/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 ## Number Theory
@@ -854,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2868-continuous-subarrays) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/erdenebayrd/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/erdenebayrd/leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/erdenebayrd/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -1223,6 +1227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/erdenebayrd/leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2868-continuous-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2868-continuous-subarrays) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3678-design-task-manager](https://github.com/erdenebayrd/leetcode/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/erdenebayrd/leetcode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/erdenebayrd/leetcode/tree/master/3791-fruits-into-baskets-iii) |
@@ -1236,11 +1241,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/erdenebayrd/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/erdenebayrd/leetcode/tree/master/0146-lru-cache) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Divide and Conquer
 |  |
 | ------- |
