@@ -24,9 +24,7 @@ class Solution:
         def replaceMinSumIndex(arr: List[int], leftMostIndex: int) -> List[int]:
             assert 0 <= leftMostIndex < len(arr) - 1
             arr[leftMostIndex] += arr[leftMostIndex + 1]
-            for i in range(leftMostIndex + 1, len(arr) - 1): # 2, -> 2
-                arr[i] = arr[i + 1]
-            arr.pop()
+            arr.pop(leftMostIndex + 1)
             return arr
         
         operations = 0
