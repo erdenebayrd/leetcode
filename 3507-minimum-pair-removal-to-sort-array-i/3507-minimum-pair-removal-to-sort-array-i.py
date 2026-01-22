@@ -1,5 +1,8 @@
 class Solution:
     def minimumPairRemoval(self, nums: List[int]) -> int:
+        if not nums or len(nums) < 2:
+            return 0
+            
         # step 1 is checking the array is nondecreasing or not
         def isNonDecreasing(arr: List[int]) -> bool:
             if len(arr) <= 1:
@@ -11,8 +14,7 @@ class Solution:
         
         # step 2 is find a minimum sum index (the leftmost one)
         def findMinimumSumIndexLeftMost(arr: List[int]) -> int:
-            assert len(arr) > 1
-            minSum = 50001
+            minSum = float('inf')
             leftMostIndex = -1
             for i in range(1, len(arr)):
                 if arr[i - 1] + arr[i] < minSum:
@@ -22,7 +24,6 @@ class Solution:
         
         # step 3 replacing minimum sum index (left most one) by it's sum value
         def replaceMinSumIndex(arr: List[int], leftMostIndex: int) -> List[int]:
-            assert 0 <= leftMostIndex < len(arr) - 1
             arr[leftMostIndex] += arr[leftMostIndex + 1]
             arr.pop(leftMostIndex + 1)
             return arr
