@@ -23,15 +23,15 @@ class Solution:
             return leftMostIndex # 1
         
         # step 3 replacing minimum sum index (left most one) by it's sum value
-        def replaceMinSumIndex(arr: List[int], leftMostIndex: int) -> List[int]:
+        def replaceMinSumIndex(arr: List[int], leftMostIndex: int) -> None:
             arr[leftMostIndex] += arr[leftMostIndex + 1]
             arr.pop(leftMostIndex + 1)
-            return arr
+            # return arr
         
         operations = 0
         while isNonDecreasing(nums) is False:
             leftMostIndex = findMinimumSumIndexLeftMost(nums)
-            nums = replaceMinSumIndex(nums, leftMostIndex)
+            replaceMinSumIndex(nums, leftMostIndex)
             operations += 1
 
         return operations
