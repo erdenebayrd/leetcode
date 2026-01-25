@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/erdenebayrd/leetcode/tree/master/0075-sort-colors) |
 | [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
+| [0088-merge-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0120-triangle) |
 | [0162-find-peak-element](https://github.com/erdenebayrd/leetcode/tree/master/0162-find-peak-element) |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/erdenebayrd/leetcode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/erdenebayrd/leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/0088-merge-sorted-array) |
 | [0165-compare-version-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0165-compare-version-numbers) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/erdenebayrd/leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -948,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/erdenebayrd/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/erdenebayrd/leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
