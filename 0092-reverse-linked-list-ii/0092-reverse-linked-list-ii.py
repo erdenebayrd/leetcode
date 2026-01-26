@@ -5,17 +5,25 @@
 #         self.next = next
 class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
-        arr = []
-        while head:
-            arr.append(head.val)
-            head = head.next
-        left -= 1
-        right -= 1
-        arr[left:right + 1] = arr[left:right + 1][::-1]
-        head = ListNode()
-        currentHead = head
-        for i in range(len(arr)):
-            currentHead.next = ListNode(arr[i])
-            currentHead = currentHead.next
-        del arr
-        return head.next
+        previousNode = None
+        tail = head
+        for _ in range(left - 1):
+            previousNode = tail
+            tail = tail.next
+        
+        currentHead = tail
+        previousNodeReversed = None
+        for _ in range(right - left + 1):
+            nextNode = currentHead.next
+            currentHead.next = previousNodeReversed
+            previousNodeReversed = currentHead
+            currentHead = nextNode
+        
+        # print(previousNodeReversed)
+        tail.next = currentHead
+        # print(previousNodeReversed)
+        if not previousNode:
+            return previousNodeReversed
+        previousNode.next = previousNodeReversed
+        # print(previousNode)
+        return head
