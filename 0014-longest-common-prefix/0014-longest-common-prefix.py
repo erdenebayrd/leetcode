@@ -13,6 +13,6 @@ class Solution:
                     isTerminated = True
                     break
             index += 1
-        if index < 0:
+        if index == -1:
             return ""
         return strs[0][:index]
