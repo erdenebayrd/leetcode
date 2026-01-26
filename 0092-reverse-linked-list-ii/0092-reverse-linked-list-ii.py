@@ -25,4 +25,5 @@ class Solution:
         for i in range(len(arr)):
             currentHead.next = ListNode(arr[i])
             currentHead = currentHead.next
+        del arr
         return head.next
