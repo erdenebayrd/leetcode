@@ -13,7 +13,7 @@ class Solution:
             # index would be in this range [1, n]
             index -= 1
             if nums[index] > 0:
-                nums[index] = -nums[index] # using a "-" (minus) sign instead of boolean auxilary array
+                nums[index] = -nums[index] # using a "-" (minus) sign instead of auxilary boolean array
         for i in range(n):
             if nums[i] > 0:
                 return i + 1
