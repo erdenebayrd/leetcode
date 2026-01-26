@@ -18,12 +18,13 @@ class Solution:
         # ----------- recursive approach -----------
         reversedHead = ListNode()
         currentHead = reversedHead
-        def reversedLinkedList(currentNode: Optional[ListNode]) -> None:
+        def reverseLinkedList(currentNode: Optional[ListNode]) -> None:
             nonlocal currentHead
-            if currentNode is None:
+            if not currentNode:
                 return
-            reversedLinkedList(currentNode.next)
+            reverseLinkedList(currentNode.next)
             currentHead.next = ListNode(currentNode.val)
             currentHead = currentHead.next
-        reversedLinkedList(head)
+        
+        reverseLinkedList(head)
         return reversedHead.next
