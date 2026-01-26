@@ -11,15 +11,7 @@ class Solution:
             head = head.next
         left -= 1
         right -= 1
-        middleIndex = (left + right) // 2 # 5, 6, 7, 8 => (5 + 8) // 2 = 13 // 2 = 6
-        for i in range(left, right + 1, 1):
-            if i > middleIndex:
-                break
-            # swap arr[i], arr[right - i + left]
-            tmp = arr[right - i + left]
-            arr[right - i + left] = arr[i]
-            arr[i] = tmp
-        # print(arr)
+        arr[left:right + 1] = arr[left:right + 1][::-1]
         head = ListNode()
         currentHead = head
         for i in range(len(arr)):
