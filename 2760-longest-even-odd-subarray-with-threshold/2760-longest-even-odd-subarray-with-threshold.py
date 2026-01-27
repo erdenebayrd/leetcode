@@ -17,7 +17,7 @@ class Solution:
         result = 1
         rightIndex = leftIndex + 1 # rightIndex = 3 nums = [3, 2, 5, 4]
         while rightIndex < len(nums):
-            if (nums[rightIndex] ^ nums[rightIndex - 1]) & 1 and nums[rightIndex] <= threshold: # 4 ^ 5 & 1 = 1
+            if nums[rightIndex] % 2 != nums[rightIndex - 1] % 2 and nums[rightIndex] <= threshold: # 4 ^ 5 & 1 = 1
                 result = max(result, rightIndex - leftIndex + 1) # result = 3 - 1 + 1 = 3
                 rightIndex += 1 # rightIndex = 4
             else:
