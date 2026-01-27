@@ -8,7 +8,7 @@ class Solution:
                 totalCost += currentCost
             return totalCost
 
-        lo, hi = 0, 10 ** 18
+        lo, hi = min(nums) - 1, max(nums) + 1
         while lo + 1 < hi:
             md = (lo + hi) // 2
             if calculateCost(md) <= calculateCost(md + 1):
