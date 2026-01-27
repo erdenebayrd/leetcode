@@ -13,10 +13,12 @@ class Solution:
             return abs(total - target)
         
         lo, hi = -1, target + 1
-        while lo + 1 < hi:
+        while lo + 1 < hi: # LogN
             md = (lo + hi) // 2
             if calculateDifference(md, arr) <= calculateDifference(md + 1, arr):
                 hi = md
             else:
                 lo = md
+        # time: O(N * Log(max(arr)))
+        # space: O(1)
         return hi
