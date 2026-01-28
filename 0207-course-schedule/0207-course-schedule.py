@@ -18,7 +18,6 @@ class Solution:
             return False
         
         for course in range(numCourses):
-            if state[course] == 0:
-                if hasCycle(course) is True:
-                    return False
+            if hasCycle(course):
+                return False
         return True
