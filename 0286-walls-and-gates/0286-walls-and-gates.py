@@ -13,12 +13,12 @@ class Solution:
                     queue.append((i, j, 0))
         
         while queue:
-            row, col, cost = queue.popleft()
-            for x, y in directions:
-                newRow = row + x
-                newCol = col + y
-                newCost = cost + 1
-                if newRow < 0 or newRow >= len(rooms) or newCol < 0 or newCol >= len(rooms[0]) or rooms[newRow][newCol] == -1 or rooms[newRow][newCol] <= newCost:
+            row, column, cost = queue.popleft()
+            cost += 1 # added 1 to go to neighbor nodes
+            for deltaRow, deltaColumn in directions:
+                destinationRow = row + deltaRow
+                destinationColumn = column + deltaColumn
+                if destinationRow < 0 or destinationRow >= len(rooms) or destinationColumn < 0 or destinationColumn >= len(rooms[0]) or rooms[destinationRow][destinationColumn] == -1 or rooms[destinationRow][destinationColumn] <= cost:
                     continue
-                queue.append((newRow, newCol, newCost))
-                rooms[newRow][newCol] = newCost
+                queue.append((destinationRow, destinationColumn, cost))
+                rooms[destinationRow][destinationColumn] = cost
