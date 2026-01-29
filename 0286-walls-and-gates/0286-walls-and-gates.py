@@ -2,6 +2,8 @@ from collections import deque
 
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
+        # time: O(N)
+        # space: O(N)
         """
         Do not return anything, modify rooms in-place instead.
         """
