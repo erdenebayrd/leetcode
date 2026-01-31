@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
+| [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
@@ -584,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/erdenebayrd/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0162-find-peak-element](https://github.com/erdenebayrd/leetcode/tree/master/0162-find-peak-element) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
+| [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0611-valid-triangle-number](https://github.com/erdenebayrd/leetcode/tree/master/0611-valid-triangle-number) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -914,6 +916,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/erdenebayrd/leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/erdenebayrd/leetcode/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0333-largest-bst-subtree](https://github.com/erdenebayrd/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0337-house-robber-iii](https://github.com/erdenebayrd/leetcode/tree/master/0337-house-robber-iii) |
 | [0361-bomb-enemy](https://github.com/erdenebayrd/leetcode/tree/master/0361-bomb-enemy) |
