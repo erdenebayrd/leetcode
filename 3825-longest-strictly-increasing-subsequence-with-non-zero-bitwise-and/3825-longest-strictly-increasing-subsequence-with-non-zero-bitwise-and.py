@@ -1,3 +1,5 @@
+import bisect
+
 class Solution:
     def longestSubsequence(self, nums: List[int]) -> int:
         def longesIncreasingSubsequence(arr: List[int]) -> int:
@@ -8,19 +10,13 @@ class Solution:
                 if arr[i] > subArray[-1]:
                     subArray.append(arr[i])
                 else:
-                    lo, hi = -1, len(subArray)
-                    while lo + 1 < hi:
-                        md = (lo + hi) // 2
-                        if arr[i] <= subArray[md]:
-                            hi = md
-                        else:
-                            lo = md
-                    subArray[hi] = arr[i]
+                    idx = bisect.bisect_left(subArray, arr[i])
+                    subArray[idx] = arr[i]
             return len(subArray)
         
         n = len(nums)
         res = 0
-        for bit in range(32):
+        for bit in range(30):
             cur = []
             for i in range(n):
                 if (nums[i] >> bit) & 1:
