@@ -6,8 +6,12 @@ class Solution:
             if subArray[-1] < nums[i]:
                 subArray.append(nums[i])
             else:
-                for j in range(len(subArray)):
-                    if nums[i] <= subArray[j]:
-                        subArray[j] = nums[i]
-                        break
+                lo, hi = -1, len(subArray)
+                while lo + 1 < hi:
+                    md = (lo + hi) // 2
+                    if nums[i] <= subArray[md]:
+                        hi = md
+                    else:
+                        lo = md
+                subArray[hi] = nums[i]
         return len(subArray)
