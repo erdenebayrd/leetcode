@@ -2,6 +2,7 @@ import bisect
 
 class Solution:
     def longestSubsequence(self, nums: List[int]) -> int:
+
         def longesIncreasingSubsequence(arr: List[int]) -> int:
             if len(arr) == 0:
                 return 0
