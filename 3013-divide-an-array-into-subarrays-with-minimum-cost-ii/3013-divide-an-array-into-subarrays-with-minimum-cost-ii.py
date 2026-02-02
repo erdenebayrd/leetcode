@@ -92,42 +92,72 @@ class Solution:
     #     # print("-" * 100)
     #     return sumOfValues
 
-    def minimumCost(self, nums: List[int], k: int, dist: int) -> int:
-        # self.init(len(nums), k, nums) # O(N * Log N)
-        # res = float('inf')
+    # def minimumCost(self, nums: List[int], k: int, dist: int) -> int:
+    #     # self.init(len(nums), k, nums) # O(N * Log N)
+    #     # res = float('inf')
 
-        # # time: O(N * Log N)
-        # for i in range(1, self.n - self.k + 1): # i is the first index of second subArray
-        #     rightMostIndex = min(i + dist, self.n - 1)
-        #     self.slidingWindow(i + 1, rightMostIndex)
-        #     # print(i, i + 1, rightMostIndex, self.count.st[1])
-        #     # self.count.print(1, 0, self.n - 1)
-        #     res = min(res, nums[0] + nums[i] + self.getSumOfLowestKElements(self.k - 1))
-        # return res
+    #     # # time: O(N * Log N)
+    #     # for i in range(1, self.n - self.k + 1): # i is the first index of second subArray
+    #     #     rightMostIndex = min(i + dist, self.n - 1)
+    #     #     self.slidingWindow(i + 1, rightMostIndex)
+    #     #     # print(i, i + 1, rightMostIndex, self.count.st[1])
+    #     #     # self.count.print(1, 0, self.n - 1)
+    #     #     res = min(res, nums[0] + nums[i] + self.getSumOfLowestKElements(self.k - 1))
+    #     # return res
+    #     n = len(nums)
+    #     sortedList = SortedList()
+    #     for i in range(2, min(n, 2 + dist)):
+    #         sortedList.add(nums[i])
+    #     currentSum = sum(sortedList[:k-2])
+    #     res = nums[0] + nums[1] + currentSum
+    #     for i in range(2, n - k + 2): # i is the beginning of second subArray
+    #         # remove i 'th element from sortedList and change currentSum if affected
+    #         value = nums[i]
+    #         index = sortedList.bisect_left(value)
+    #         sortedList.pop(index) # O(Log N)
+    #         if index < k - 2: # which means the value is in currentSum
+    #             currentSum -= value
+    #             if k - 3 < len(sortedList):
+    #                 currentSum += sortedList[k - 3]
+            
+    #         # add i + dist 'th element into sortedList and change currentSum if it's affected
+    #         if i + dist < n:
+    #             value = nums[i + dist]
+    #             sortedList.add(value)
+    #             index = sortedList.bisect_left(value)
+    #             if index < k - 2: # which means the value has to be added into currentSum
+    #                 currentSum += value
+    #                 if k - 2 < len(sortedList):
+    #                     currentSum -= sortedList[k - 2]
+    #         res = min(res, nums[0] + nums[i] + currentSum)
+    #     return res
+    
+    # 2 shots fixed by claude Opus 4.5 
+    def minimumCost(self, nums: List[int], k: int, dist: int) -> int:
         n = len(nums)
         sortedList = SortedList()
         for i in range(2, min(n, 2 + dist)):
             sortedList.add(nums[i])
-        currentSum = sum(sortedList[:k-2])
+        currentSum = sum(sortedList[:k - 2])
         res = nums[0] + nums[1] + currentSum
-        for i in range(2, n - k + 2): # i is the beginning of second subArray
-            # remove i 'th element from sortedList and change currentSum if affected
-            value = nums[i]
+
+        for i in range(2, n - k + 2):
+            value = nums[i]                          # Fix 1: was nums[i-1]
             index = sortedList.bisect_left(value)
-            sortedList.pop(index) # O(Log N)
-            if index < k - 2: # which means the value is in currentSum
+            if index < k - 2:
                 currentSum -= value
-                if k - 3 < len(sortedList):
-                    currentSum += sortedList[k - 3]
-            
-            # add i + dist 'th element into sortedList and change currentSum if it's affected
-            if i + dist < n:
+                if k - 2 < len(sortedList):           # Fix 2+bounds: was sortedList[k-3]
+                    currentSum += sortedList[k - 2]
+            sortedList.pop(index)
+
+            if i + dist < n:                          # Fix 3: only skip addition
                 value = nums[i + dist]
                 sortedList.add(value)
                 index = sortedList.bisect_left(value)
-                if index < k - 2: # which means the value has to be added into currentSum
+                if index < k - 2:
                     currentSum += value
                     if k - 2 < len(sortedList):
                         currentSum -= sortedList[k - 2]
-            res = min(res, nums[0] + nums[i] + currentSum)
+
+            res = min(res, nums[0] + nums[i] + currentSum)  # always computed now
         return res
