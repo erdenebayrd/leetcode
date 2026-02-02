@@ -1,7 +1,8 @@
 from collections import deque
 
 class HitCounter:
-
+    # time: O(N + M) N is the number of calls made to hit, M is number of calls of getHits
+    # space: O(N + M)
     def __init__(self):
         self.logs = deque()
 
@@ -15,7 +16,6 @@ class HitCounter:
 
     def getHits(self, timestamp: int) -> int:
         self.expire(timestamp)
-        print(timestamp, self.logs)
         return len(self.logs)
 
 
