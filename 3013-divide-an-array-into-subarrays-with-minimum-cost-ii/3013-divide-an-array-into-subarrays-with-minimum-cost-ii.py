@@ -1,3 +1,4 @@
+import heapq
 from typing import List
 from sortedcontainers import SortedList
 
@@ -132,32 +133,49 @@ class Solution:
     #         res = min(res, nums[0] + nums[i] + currentSum)
     #     return res
     
-    # 2 shots fixed by claude Opus 4.5 
+    # me at 2 years ago, it was actually very clever solution on c++, here I got the idea from my 2 years old code.
     def minimumCost(self, nums: List[int], k: int, dist: int) -> int:
         n = len(nums)
-        sortedList = SortedList()
-        for i in range(2, min(n, 2 + dist)):
-            sortedList.add(nums[i])
-        currentSum = sum(sortedList[:k - 2])
-        res = nums[0] + nums[1] + currentSum
-
-        for i in range(2, n - k + 2):
-            value = nums[i]                          # Fix 1: was nums[i-1]
-            index = sortedList.bisect_left(value)
-            if index < k - 2:
-                currentSum -= value
-                if k - 2 < len(sortedList):           # Fix 2+bounds: was sortedList[k-3]
-                    currentSum += sortedList[k - 2]
-            sortedList.pop(index)
-
-            if i + dist < n:                          # Fix 3: only skip addition
-                value = nums[i + dist]
-                sortedList.add(value)
-                index = sortedList.bisect_left(value)
-                if index < k - 2:
+        leftSortedList = SortedList() # which contains minimum/first k - 1 elements of range [i, i + dist]
+        rightSortedList = SortedList() # which contains other elements of range [i, i + dist]
+        currentSum = 0
+        for i in range(1, dist + 2):
+            value = nums[i]
+            if len(leftSortedList) < k - 1:
+                leftSortedList.add(value)
+                currentSum += value
+            else:
+                if leftSortedList[-1] > value: # value need to be added into leftSortedList and last/max value of leftSortedList is need to be transitioned into rightSortedList
                     currentSum += value
-                    if k - 2 < len(sortedList):
-                        currentSum -= sortedList[k - 2]
-
-            res = min(res, nums[0] + nums[i] + currentSum)  # always computed now
+                    leftSortedList.add(value)
+                    currentSum -= leftSortedList[-1]
+                    rightSortedList.add(leftSortedList[-1])
+                    leftSortedList.pop()
+                else:
+                    rightSortedList.add(value)
+        res = nums[0] + currentSum
+        for i in range(2, n - dist):
+            # add i + dist 'th value into left or right SortedList, before removing i - 1 'th element from left or right SortedList as adding value would be safe at first instead of removing element at first
+            value = nums[i + dist]
+            if leftSortedList[-1] > value: # value is needed to be added leftSortedList
+                currentSum += value
+                leftSortedList.add(value)
+                currentSum -= leftSortedList[-1]
+                rightSortedList.add(leftSortedList[-1])
+                leftSortedList.pop()
+            else:
+                rightSortedList.add(value)
+            
+            # remove i - 1 'th element from left or right SortedList
+            value = nums[i - 1]
+            if value <= leftSortedList[-1]: # which means leftSortedList contains value in somewhere in a middle
+                currentSum -= value
+                leftSortedList.remove(value)
+                currentSum += rightSortedList[0]
+                leftSortedList.add(rightSortedList[0])
+                rightSortedList.pop(0)
+            else:
+                rightSortedList.remove(value)
+            
+            res = min(res, nums[0] + currentSum)
         return res
