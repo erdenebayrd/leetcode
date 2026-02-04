@@ -38,6 +38,6 @@ class Solution:
             # found "trionic subarray"
             currentSum = sum(nums[middlePeakIndex:middleBottomIndex + 1])
             res = max(res, maxSum(middlePeakIndex - 1, leftIndex) + currentSum + maxSum(middleBottomIndex + 1, rightIndex))
-            middlePeakIndex = middleBottomIndex
+            middlePeakIndex = rightIndex
         
         return res
