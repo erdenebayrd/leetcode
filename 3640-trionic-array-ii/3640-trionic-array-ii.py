@@ -1,4 +1,4 @@
-from typing import Literal
+from typing import Literal, List
 
 class Solution:
     def maxSumTrionic(self, nums: List[int]) -> int:
