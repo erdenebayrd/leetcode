@@ -11,7 +11,7 @@ class Solution:
                     return i
             return len(nums) - 1 if step == 1 else 0
         
-        def maxSum(startIndex: int, endIndex: int) -> int:
+        def maxContingiousSum(startIndex: int, endIndex: int) -> int:
             step = -1 if startIndex > endIndex else 1
             currentSum = nums[startIndex]
             result = currentSum
@@ -37,7 +37,7 @@ class Solution:
                 continue
             # found "trionic subarray"
             currentSum = sum(nums[middlePeakIndex:middleBottomIndex + 1])
-            res = max(res, maxSum(middlePeakIndex - 1, leftIndex) + currentSum + maxSum(middleBottomIndex + 1, rightIndex))
+            res = max(res, maxContingiousSum(middlePeakIndex - 1, leftIndex) + currentSum + maxContingiousSum(middleBottomIndex + 1, rightIndex))
             middlePeakIndex = rightIndex
         
         return res
