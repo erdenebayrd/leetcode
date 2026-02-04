@@ -2,6 +2,8 @@ from typing import Literal
 
 class Solution:
     def maxSumTrionic(self, nums: List[int]) -> int:
+        # time: O(N)
+        # space: O(1)
         def farthestIndexStrictly(startIndex: int, order: Literal["ascending", "descending"], step: Literal[1, -1]) -> int:
             stop = 0 if step == -1 else len(nums) - 1
             for i in range(startIndex, stop, step):
@@ -33,6 +35,7 @@ class Solution:
             if rightIndex == middleBottomIndex: # not found any increasing subarray starting from middleBottomIndex
                 middlePeakIndex = middleBottomIndex
                 continue
+            # found "trionic subarray"
             currentSum = sum(nums[middlePeakIndex:middleBottomIndex + 1])
             res = max(res, maxSum(middlePeakIndex - 1, leftIndex) + currentSum + maxSum(middleBottomIndex + 1, rightIndex))
             middlePeakIndex = middleBottomIndex
