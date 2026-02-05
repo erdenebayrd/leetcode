@@ -1,36 +1,31 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        n = len(s)
-        cnt = Counter(t)
-        m = len(cnt)
-        le = 0
-        res = [le, -1]
-
-        def add(ch: str, m: int) -> int:
-            if ch in cnt:
-                cnt[ch] -= 1
-                if cnt[ch] == 0:
-                    m -= 1
-            return m
-        
-        def remove(ch: str, m: int) -> int:
-            if ch in cnt:
-                cnt[ch] += 1
-                if cnt[ch] == 1:
-                    m += 1
-            return m
-
-        for ri in range(n):
-            m = add(s[ri], m)
-            while le <= ri and m == 0:
-                m = remove(s[le], m)
-                le += 1
-                if m != 0:
-                    le -= 1
-                    m = add(s[le], m)
-                    assert m == 0
-                    if res[-1] == -1 or res[1] - res[0] > ri - le:
-                        res = [le, ri]
-                    break
-                
-        return s[res[0]: res[1] + 1]
+        countPattern = Counter(t)
+        countCurrentWindow = Counter()
+        matchedLength = 0
+        leftIndex = 0
+        minimumLength = float('inf')
+        pointers = []
+        for rightIndex in range(len(s)):
+            currentChar = s[rightIndex]
+            if currentChar not in countPattern:
+                continue
+            if countCurrentWindow[currentChar] < countPattern[currentChar]:
+                matchedLength += 1
+            countCurrentWindow[currentChar] += 1
+            
+            if matchedLength == len(t):
+                while leftIndex < len(s) and (s[leftIndex] not in countPattern or countCurrentWindow[s[leftIndex]] - 1 >= countPattern[s[leftIndex]]):
+                    countCurrentWindow[s[leftIndex]] -= 1
+                    leftIndex += 1
+                currentLength = rightIndex - leftIndex + 1
+                if currentLength < minimumLength:
+                    minimumLength = currentLength
+                    pointers = [leftIndex, rightIndex]
+                countCurrentWindow[s[leftIndex]] -= 1
+                matchedLength -= 1
+                leftIndex += 1
+        if len(pointers) == 0:
+            return ""
+        leftIndex, rightIndex = pointers
+        return s[leftIndex:rightIndex + 1]
