@@ -314,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/erdenebayrd/leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3827-implement-router](https://github.com/erdenebayrd/leetcode/tree/master/3827-implement-router) |
+| [3829-design-ride-sharing-system](https://github.com/erdenebayrd/leetcode/tree/master/3829-design-ride-sharing-system) |
 ## Sliding Window
 |  |
 | ------- |
@@ -491,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/erdenebayrd/leetcode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3797-design-spreadsheet](https://github.com/erdenebayrd/leetcode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/erdenebayrd/leetcode/tree/master/3827-implement-router) |
+| [3829-design-ride-sharing-system](https://github.com/erdenebayrd/leetcode/tree/master/3829-design-ride-sharing-system) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/erdenebayrd/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/erdenebayrd/leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -1242,6 +1244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3678-design-task-manager](https://github.com/erdenebayrd/leetcode/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/erdenebayrd/leetcode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/erdenebayrd/leetcode/tree/master/3827-implement-router) |
+| [3829-design-ride-sharing-system](https://github.com/erdenebayrd/leetcode/tree/master/3829-design-ride-sharing-system) |
 ## Data Stream
 |  |
 | ------- |
@@ -1251,6 +1254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/erdenebayrd/leetcode/tree/master/0362-design-hit-counter) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
+| [3829-design-ride-sharing-system](https://github.com/erdenebayrd/leetcode/tree/master/3829-design-ride-sharing-system) |
 ## Stack
 |  |
 | ------- |
