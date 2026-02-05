@@ -16,7 +16,7 @@ class Solution:
             # print(mountainArr.get(mid), mountainArr.get(mid + 1))
             # print("-" * 100)
             if mountainArr.get(mid) < mountainArr.get(mid + 1): # increasing
-                low = mid + 1
+                low = mid
             else:
                 high = mid
         peakIndex = high
