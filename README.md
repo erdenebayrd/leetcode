@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/erdenebayrd/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/2760-longest-even-odd-subarray-with-threshold) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
+| [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2868-continuous-subarrays) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
@@ -870,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
+| [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
 ## Heap (Priority Queue)
 |  |
@@ -974,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
+| [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -1148,6 +1151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2625-increment-submatrices-by-one](https://github.com/erdenebayrd/leetcode/tree/master/2625-increment-submatrices-by-one) |
+| [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/erdenebayrd/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/erdenebayrd/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
