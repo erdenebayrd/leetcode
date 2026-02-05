@@ -8,6 +8,8 @@
 
 class Solution:
     def leftMostColumnWithOne(self, binaryMatrix: 'BinaryMatrix') -> int:
+        # time: O(rows * Log(cols))
+        # space: O(1)
         rows, columns = binaryMatrix.dimensions()
         if rows <= 0 or columns <= 0:
             return -1
