@@ -2,6 +2,9 @@ from functools import cache
 
 class Solution:
     def minHeightShelves(self, books: List[List[int]], shelfWidth: int) -> int:
+        # time: O(N ^ 2)
+        # space: O(N)
+        # method: bottom-up DP
         n = len(books)
         dp = [float('inf')] * n
         dp[0] = books[0][1]
