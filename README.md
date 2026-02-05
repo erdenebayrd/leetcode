@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1095-find-in-mountain-array](https://github.com/erdenebayrd/leetcode/tree/master/1095-find-in-mountain-array) |
 | [1098-largest-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1098-largest-unique-number) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
+| [1105-filling-bookcase-shelves](https://github.com/erdenebayrd/leetcode/tree/master/1105-filling-bookcase-shelves) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/erdenebayrd/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1118-divide-array-into-increasing-sequences](https://github.com/erdenebayrd/leetcode/tree/master/1118-divide-array-into-increasing-sequences) |
@@ -956,6 +957,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/erdenebayrd/leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
+| [1105-filling-bookcase-shelves](https://github.com/erdenebayrd/leetcode/tree/master/1105-filling-bookcase-shelves) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/erdenebayrd/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/erdenebayrd/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
