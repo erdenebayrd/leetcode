@@ -2,6 +2,8 @@ from collections import defaultdict
 
 class Solution:
     def fullBloomFlowers(self, flowers: List[List[int]], people: List[int]) -> List[int]:
+        # time: O(N * Log N)
+        # space: O(N + M)
         fullBlooms = defaultdict(int)
         for start, end in flowers:
             fullBlooms[start] += 1
