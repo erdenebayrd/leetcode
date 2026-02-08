@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    # time: O(N) visiting every node
+    # space: O(Log N) as I added "depth" integer as a parameter. It'll be created every function calls, and deleted when function end.
     def isBalanced(self, root: Optional[TreeNode], depth: int = 0) -> bool:
         if not root:
             return True
