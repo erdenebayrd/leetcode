@@ -9,8 +9,7 @@ class Solution:
         if not root:
             return True
         root.val = depth
-        result = self.isBalanced(root.left, depth + 1)
-        result &= self.isBalanced(root.right, depth + 1)
+        result = self.isBalanced(root.left, depth + 1) & self.isBalanced(root.right, depth + 1)
         if result is False:
             return False
         leftDepth = root.val if root.left is None else root.left.val
