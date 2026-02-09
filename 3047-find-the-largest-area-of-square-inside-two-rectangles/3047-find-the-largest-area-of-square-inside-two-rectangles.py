@@ -1,40 +1,28 @@
+from typing import List, Tuple
+
 class Solution:
     def largestSquareArea(self, bottomLeft: List[List[int]], topRight: List[List[int]]) -> int:
-        def intersectArea(i: int, j: int) -> int:
-            leftI, bottomI = bottomLeft[i]
-            rightI, topI = topRight[i]
-            leftJ, bottomJ = bottomLeft[j]
-            rightJ, topJ = topRight[j]
-            if rightI <= leftJ or rightJ <= leftI or topI <= bottomJ or topJ <= bottomI: # no intersection
+        #                                       start X, end X, sy,  ey                start X, end X, sy,  ey
+        def areaSquareIntersection(rectangle1: Tuple[int, int, int, int], rectangle2: Tuple[int, int, int, int]) -> int:
+            sx1, ex1, sy1, ey1 = rectangle1
+            sx2, ex2, sy2, ey2 = rectangle2
+            sx = max(sx1, sx2)
+            ex = min(ex1, ex2)
+            width = ex - sx
+            sy = max(sy1, sy2)
+            ey = min(ey1, ey2)
+            height = ey - sy
+            if width <= 0 or height <= 0:
                 return 0
-            width = 0
-            if leftI <= leftJ and rightJ <= rightI: # i contains j by X axis
-                width = rightJ - leftJ
-            elif leftJ <= leftI and rightI <= rightJ: # j continas i by X axis
-                width = rightI - leftI
-            elif rightI <= rightJ and leftJ <= rightI: # i then j
-                width = rightI - leftJ
-            elif rightJ <= rightI and leftI <= rightJ: # j then i
-                width = rightJ - leftI
-            else:
-                assert False
-            height = 0
-            if bottomI <= bottomJ and topJ <= topI: # i contains j by Y axis
-                height = topJ - bottomJ
-            elif bottomJ <= bottomI and topI <= topJ:# j contains i by Y axis
-                height = topI - bottomI
-            elif topI <= topJ and bottomJ <= topI: # i then j
-                height = topI - bottomJ
-            elif topJ <= topI and bottomI <= topJ: # j then i
-                height = topJ - bottomI
-            else:
-                assert False
-            # print(height, width, i, j)
             return min(height, width) ** 2
-
-        n = len(bottomLeft)
+        
         res = 0
+        n = len(bottomLeft)
         for i in range(n):
+            sx1, sy1 = bottomLeft[i]
+            ex1, ey1 = topRight[i]
             for j in range(i + 1, n):
-                res = max(res, intersectArea(i, j))
+                sx2, sy2 = bottomLeft[j]
+                ex2, ey2 = topRight[j]
+                res = max(res, areaSquareIntersection([sx1, ex1, sy1, ey1], [sx2, ex2, sy2, ey2]))
         return res
