@@ -1,27 +1,28 @@
+from functools import cache
+
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
-        # time: O(N ^ 3)
-        # space: O(N ^ 2)
-        
-        n = len(strs)
-        for i in range(n):
-            strs[i] = "a" + strs[i]
-        m = len(strs[0])
+        rows = len(strs)
+        columns = len(strs[0])
+
+        def isLexographicOrdered(previousIndex: int, currentIndex: int) -> bool: # O(rows)
+            if previousIndex < 0: # currentIndex column characters always be greater than nothing
+                return True
+            for row in range(rows):
+                if strs[row][previousIndex] > strs[row][currentIndex]:
+                    return False
+            return True
 
         @cache
-        def solve(le: int, ri: int) -> int:
-            if ri >= m:
+        def solve(fromIndex: int, currentIndex: int) -> int:
+            if currentIndex >= columns:
                 return 0
-            # Case 1: delete ri'th row
-            res = 1 + solve(le, ri + 1) 
-
-            # Case 2: don't delete ri'th row if and only if all rows individualy sorted by lexographic
-            # otherwise ri'th row must be deleted and this case is covered by Case 1
-            if all([strs[i][le] <= strs[i][ri] for i in range(n)]):
-                res = min(res, solve(ri, ri + 1))
-            
+            res = 1 + solve(fromIndex, currentIndex + 1) # deleting currentIndex column
+            if isLexographicOrdered(fromIndex, currentIndex) is True:
+                res = min(res, solve(currentIndex, currentIndex + 1))
             return res
         
-        res = solve(0, 1)
-        solve.cache_clear()
-        return res
+
+        # time: O(N ^ 3) N is number of rows/columns
+        # space: O(N ^ 2) we store every possible "pairs" of column indices
+        return solve(-1, 0)
