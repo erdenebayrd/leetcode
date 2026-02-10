@@ -4,38 +4,61 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
     def longestConsecutive(self, root: Optional[TreeNode]) -> int:
-        self.res = 0
-
-        def solve(cur: Optional[TreeNode]):
-            curLongest = {"inc": 0, "dec": 0}
-            if cur is None:
-                return curLongest
-            leftLongest = solve(cur.left)
-            rightLongest = solve(cur.right)
-            if cur.left is not None:
-                if cur.val + 1 == cur.left.val: # increasing
-                    curLongest["inc"] = max(curLongest["inc"], leftLongest["inc"])
-                elif cur.val - 1 == cur.left.val: # decreasing
-                    curLongest["dec"] = max(curLongest["dec"], leftLongest["dec"])
-            if cur.right is not None:
-                if cur.val + 1 == cur.right.val: # increasing
-                    curLongest["inc"] = max(curLongest["inc"], rightLongest["inc"])
-                elif cur.val - 1 == cur.right.val: # decreasing
-                    curLongest["dec"] = max(curLongest["dec"], rightLongest["dec"])
-            curLongest["inc"] += 1 # adding it's own node count
-            curLongest["dec"] += 1 # adding it's own node count
-            self.res = max(self.res, curLongest["inc"])
-            self.res = max(self.res, curLongest["dec"])
-            if cur.left is not None and cur.right is not None:
-                if cur.val + 1 == cur.left.val and cur.val - 1 == cur.right.val:
-                    self.res = max(self.res, leftLongest["inc"] + 1 + rightLongest["dec"])
-                elif cur.val - 1 == cur.left.val and cur.val + 1 == cur.right.val: 
-                    self.res = max(self.res, leftLongest["dec"] + 1 + rightLongest["inc"])
-            
-            return curLongest
+        def initDpTree(currentNode: Optional[TreeNode]) -> None:
+            if not currentNode:
+                return
+            currentNode.increasing = 0
+            currentNode.decreasing = 0
+            initDpTree(currentNode.left)
+            initDpTree(currentNode.right)
         
-        solve(root)
+        initDpTree(root)
+        self.longest = 0
+        def calculateDpTree(currentNode: Optional[TreeNode]) -> None:
+            if not currentNode:
+                return
+            calculateDpTree(currentNode.left)
+            calculateDpTree(currentNode.right)
+            # calculating "increasing" of currentNode
+            if currentNode.left and currentNode.left.val - 1 == currentNode.val:
+                currentNode.increasing = max(currentNode.increasing, currentNode.left.increasing)
+            if currentNode.right and currentNode.right.val - 1 == currentNode.val:
+                currentNode.increasing = max(currentNode.increasing, currentNode.right.increasing)
+            currentNode.increasing += 1
 
-        return self.res
+            # calculating "decreasing" of currentNode
+            if currentNode.left and currentNode.left.val + 1 == currentNode.val:
+                currentNode.decreasing = max(currentNode.decreasing, currentNode.left.decreasing)
+            if currentNode.right and currentNode.right.val + 1 == currentNode.val:
+                currentNode.decreasing = max(currentNode.decreasing, currentNode.right.decreasing)
+            currentNode.decreasing += 1
+
+            # calculating "longest" of currentNode
+
+            # decreasing to left
+            if currentNode.left and currentNode.left.val + 1 == currentNode.val:
+                self.longest = max(self.longest, 1 + currentNode.left.decreasing)
+            # increasing to left
+            if currentNode.left and currentNode.left.val - 1 == currentNode.val:
+                self.longest = max(self.longest, 1 + currentNode.left.increasing)
+            
+            # decreasing to right
+            if currentNode.right and currentNode.right.val + 1 == currentNode.val:
+                self.longest = max(self.longest, 1 + currentNode.right.decreasing)
+            # increasing to right
+            if currentNode.right and currentNode.right.val - 1 == currentNode.val:
+                self.longest = max(self.longest, 1 + currentNode.right.increasing)
+            
+            # decreasing left and increasing right
+            if currentNode.left and currentNode.right and currentNode.left.val + 1 == currentNode.val == currentNode.right.val - 1:
+                self.longest = max(self.longest, currentNode.left.decreasing + 1 + currentNode.right.increasing)
+            # increasing left and decreasing right
+            if currentNode.left and currentNode.right and currentNode.left.val - 1 == currentNode.val == currentNode.right.val + 1:
+                self.longest = max(self.longest, currentNode.left.increasing + 1 + currentNode.right.decreasing)
+            self.longest = max(self.longest, 1)
+        calculateDpTree(root)
+
+        return self.longest
