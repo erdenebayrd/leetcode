@@ -28,5 +28,6 @@ class Solution:
                         if (rightBit >> j) ^ 1 == 1:
                             res = min(res, cost[i][j] + solve(leftBit | (1 << i), rightBit | (1 << j)))
             return res
-        
+        # time: O((2 ^ 2N) * (N ^ 2))
+        # space: O(N)
         return solve(0, 0)
