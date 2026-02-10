@@ -20,7 +20,10 @@ class Solution:
                     if right - left + 1 > longest:
                         longest = right - left + 1
                         leftIndex, rightIndex = left, right
-        isPalindromic.cache_clear()
+        
+        isPalindromic.cache_clear() # clearing cache in every single test cases. Because leetcode uses same memory (RAM) during all test cases
+        # time: O(N ^ 2)
+        # space: O(N ^ 2)
         if leftIndex == -1:
             return ""
         return s[leftIndex:rightIndex + 1]
