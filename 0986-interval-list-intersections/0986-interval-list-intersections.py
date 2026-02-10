@@ -1,5 +1,8 @@
 class Solution:
     def intervalIntersection(self, firstList: List[List[int]], secondList: List[List[int]]) -> List[List[int]]:
+        # time: O(N)
+        # sapce: O(1)
+        # method: 2 pointer
         def getIntersectionPair(firstPair, secondPair):
             start = max(firstPair[0], secondPair[0])
             end = min(firstPair[1], secondPair[1])
