@@ -5,8 +5,8 @@ class Solution:
         n = len(nums)
         res = 0
         for i in range(n):
-            counter = defaultdict(int)
             balanced = 0
+            counter = defaultdict(int)
             for j in range(i, n):
                 counter[nums[j]] += 1
                 if counter[nums[j]] == 1:
