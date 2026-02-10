@@ -5,12 +5,13 @@ class Solution:
         n = len(nums)
         res = 0
         for i in range(n):
-            balanced = 0
-            counter = defaultdict(int)
+            odd = set()
+            even = set()
             for j in range(i, n):
-                counter[nums[j]] += 1
-                if counter[nums[j]] == 1:
-                    balanced += int(nums[j] % 2 == 1) - int(nums[j] % 2 == 0)
-                if balanced == 0:
+                if nums[j] & 1:
+                    odd.add(nums[j])
+                else:
+                    even.add(nums[j])
+                if len(even) == len(odd):
                     res = max(res, j - i + 1)
         return res
