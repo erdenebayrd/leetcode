@@ -27,7 +27,7 @@ class Solution:
         for start, end, value in events:
             times.append([start, True, value]) # True means starts at this time
             times.append([end + 1, False, value]) # False means end at here, why "end + 1" not "end". The reason is we can start from end + 1, can't start from end because end time is inclusive so that we can't directly start at endtime
-        times.sort()
+        times.sort() # sort by timestamp, if timestamps are same, END (False) comes first. Because before starting at "timestamp", other events which ends at same "timestamp" must be calculated as maxValue
         # print(times)
         previousMaxValue = 0
         result = 0
