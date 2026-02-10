@@ -19,9 +19,6 @@ class Solution:
                 result.append(intersection)
             if firstList[firstPointer][1] < secondList[secondPointer][1]:
                 firstPointer += 1
-            elif firstList[firstPointer][1] > secondList[secondPointer][1]:
-                secondPointer += 1
             else:
-                firstPointer += 1
                 secondPointer += 1
         return result
