@@ -1,49 +1,48 @@
+from typing import List
+
 class SegmentTree:
     def __init__(self, values: List[int]) -> None:
-        self.arr = values
-        self.n = len(values)
-        self.st = [0] * 4 * self.n
-        self.build(1, 0, self.n - 1)
-
-    def build(self, p: int, l: int, r: int) -> None:
-        if l == r:
-            self.st[p] = self.arr[r]
-            return
-        self.build(2 * p, l, (l + r) // 2)
-        self.build(2 * p + 1, (l + r) // 2 + 1, r)
-        self.st[p] = max(self.st[2 * p], self.st[2 * p + 1])
+        self.values = values
+        self.tree = [0] * 4 * len(values)
+        self.__build(1, 0, len(values) - 1)
     
-    def getMax(self, p: int, l: int, r: int, L: int, R: int) -> int:
-        if l > r or l > R or r < L:
-            return int(-2e6)
-        if l >= L and r <= R:
-            return self.st[p]
-        leftValue = self.getMax(2 * p, l, (l + r) // 2, L, R)
-        rightValue = self.getMax(2 * p + 1, (l + r) // 2 + 1, r, L, R)
+    def __build(self, pointer: int, left: int, right: int) -> None:
+        if left == right:
+            self.tree[pointer] = self.values[right]
+            return
+        self.__build(2 * pointer, left, (left + right) // 2)
+        self.__build(2 * pointer + 1, (left + right) // 2 + 1, right)
+        self.tree[pointer] = max(self.tree[2 * pointer], self.tree[2 * pointer + 1])
+
+    def rangeMax(self, pointer: int, left: int, right: int, queryLeft: int, queryRight: int) -> int:
+        if left > right or left > queryRight or right < queryLeft:
+            return 0
+        if queryLeft <= left and right <= queryRight:
+            return self.tree[pointer]
+        leftValue = self.rangeMax(2 * pointer, left, (left + right) // 2, queryLeft, queryRight)
+        rightValue = self.rangeMax(2 * pointer + 1, (left + right) // 2 + 1, right, queryLeft, queryRight)
         return max(leftValue, rightValue)
 
 class Solution:
     def maxTwoEvents(self, events: List[List[int]]) -> int:
-        events.sort()
-        # print(events)
         n = len(events)
-        values = [val for _, _, val in events]
-        segTree = SegmentTree(values)
-        res = max(values)
-        
-        def findLeftMostIdxAfter(endTime: int) -> int:
-            lo, hi = -1, n
-            while lo + 1 < hi:
-                md = (lo + hi) // 2
-                startTime, _, _ = events[md]
-                if startTime <= endTime:
-                    lo = md
-                else:
-                    hi = md
-            return hi
-
+        events.sort(key=lambda event: event[1])
+        print(events)
+        values = [value for _, _, value in events]
+        result = max(values) # if I chose only one event, max values would be the answer
+        segmentTree = SegmentTree(values=values)
         for i in range(n):
-            _, endTime, value = events[i]
-            le = findLeftMostIdxAfter(endTime)
-            res = max(res, value + segTree.getMax(1, 0, n - 1, le, n - 1))
-        return res
+            # find j'th index, under ==>> "j < i and events[j][1] <= events[i][0]"
+            low, high = -1, i
+            while low + 1 < high:
+                middle = (low + high) // 2
+                if events[middle][1] < events[i][0]:
+                    low = middle
+                else: # events[middle][1] > events[i][0]:
+                    high = middle
+            print(i, low)
+            if low == -1: # means we didn't found any j under the condition
+                continue
+            value = segmentTree.rangeMax(1, 0, n - 1, 0, low)
+            result = max(result, value + events[i][2])
+        return result
