@@ -28,7 +28,7 @@ class Solution:
             times.append([start, True, value]) # True means starts at this time
             times.append([end + 1, False, value]) # False means end at here, why "end + 1" not "end". The reason is we can start from end + 1, can't start from end because end time is inclusive so that we can't directly start at endtime
         times.sort()
-        print(times)
+        # print(times)
         previousMaxValue = 0
         result = 0
         for time, isStart, value in times:
