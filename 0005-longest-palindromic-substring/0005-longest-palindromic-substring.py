@@ -1,5 +1,8 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        # time: O(N * log N) 
+        # space: O(N) # prefix, suffix hashes
+        # method: rolling hash + binary search
         n = len(s)
         prefixHash = [0] * n # contains hash value of substring of [0 i'th character] Ex: cbbd => "c * 257 ^ 3 + b * 257 ^ 2 + b * 257 ^ 1 + d * 257 ^ 0"
         suffixHash = [0] * n # similar to prefixHash but from right to left, suffix
@@ -68,4 +71,7 @@ class Solution:
                     longest = currentLength
                     leftIndex, rightIndex = index - low + 1, index + low
 
+        # time: O(N * log N) 
+        # space: O(N) # prefix, suffix hashes
+        # method: rolling hash + binary search
         return s[leftIndex: rightIndex + 1]
