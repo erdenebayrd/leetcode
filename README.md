@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
 | [1200-minimum-absolute-difference](https://github.com/erdenebayrd/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1244-design-a-leaderboard](https://github.com/erdenebayrd/leetcode/tree/master/1244-design-a-leaderboard) |
@@ -627,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/erdenebayrd/leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
 | [1214-two-sum-bsts](https://github.com/erdenebayrd/leetcode/tree/master/1214-two-sum-bsts) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1300-sum-of-mutated-array-closest-to-target](https://github.com/erdenebayrd/leetcode/tree/master/1300-sum-of-mutated-array-closest-to-target) |
@@ -1271,6 +1274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/erdenebayrd/leetcode/tree/master/0362-design-hit-counter) |
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
+| [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
 | [1244-design-a-leaderboard](https://github.com/erdenebayrd/leetcode/tree/master/1244-design-a-leaderboard) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
