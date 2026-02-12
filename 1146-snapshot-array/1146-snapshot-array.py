@@ -22,17 +22,19 @@ class SnapshotArray:
         # print(self.array)
         snapshots = self.array[index] # contains [version, value], [version, value] etc
         # print(snapshots)
-        # snapshotIndex = bisect.bisect_left(snapshots, [snap_id, -1])
-        low, high = -1, len(snapshots)
-        while low + 1 < high:
-            middle = (low + high) // 2
-            version = snapshots[middle][0]
-            if snap_id >= version:
-                low = middle
-            else: # snap_id < version
-                high = middle
+        snapshotIndex = bisect.bisect_left(snapshots, [snap_id, -1])
+        if snapshotIndex >= len(snapshots) or snapshots[snapshotIndex][0] != snap_id:
+            snapshotIndex -= 1
+        # low, high = -1, len(snapshots)
+        # while low + 1 < high:
+        #     middle = (low + high) // 2
+        #     version = snapshots[middle][0]
+        #     if snap_id >= version:
+        #         low = middle
+        #     else: # snap_id < version
+        #         high = middle
 
-        snapshotIndex = low
+        # snapshotIndex = low
         return snapshots[snapshotIndex][-1]
 
 
