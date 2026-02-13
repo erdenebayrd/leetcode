@@ -2,7 +2,7 @@ from collections import deque
 
 class Solution:
     def shortestSubarray(self, nums: List[int], k: int) -> int:
-        # time: O(N Log N)
+        # time: O(N)
         # space: O(N)
         n = len(nums)
         cumulativeSum = 0
