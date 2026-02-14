@@ -4,6 +4,7 @@ from sortedcontainers import SortedDict
 class UnionFind:
     def __init__(self) -> None:
         self.parent = {}
+        self.rank = defaultdict(int)
     
     def findParent(self, node: int) -> int:
         if node not in self.parent:
@@ -13,16 +14,19 @@ class UnionFind:
         self.parent[node] = self.findParent(self.parent[node])
         return self.parent[node]
     
-    def isConnected(self, nodeU: int, nodeV: int) -> bool:
-        parentU = self.findParent(nodeU)
-        parentV = self.findParent(nodeV)
-        return parentU == parentV
-    
     def connect(self, nodeU: int, nodeV: int) -> None:
         parentU = self.findParent(nodeU)
         parentV = self.findParent(nodeV)
-        if parentU != parentV:
-            self.parent[parentU] = parentV
+        if self.rank[parentU] > self.rank[parentV]:
+            self.parent[parentV] = self.parent[parentU]
+        elif self.rank[parentU] < self.rank[parentV]:
+            self.parent[parentU] = self.parent[parentV]
+        else: # self.rank[parentU] == self.rank[parentV]:
+            self.rank[parentV] += 1
+            self.parent[parentU] = self.parent[parentV]
+
+        # if parentU != parentV:
+        #     self.parent[parentU] = parentV
 
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
