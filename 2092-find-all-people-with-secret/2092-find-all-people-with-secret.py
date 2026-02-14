@@ -30,6 +30,8 @@ class UnionFind:
 
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
+        # time: O(M * Log M + N) M is number of meetings, N is n
+        # space: O(M + N)
         meetingsByTime = SortedDict()
         for nodeU, nodeV, time in meetings:
             if time not in meetingsByTime:
