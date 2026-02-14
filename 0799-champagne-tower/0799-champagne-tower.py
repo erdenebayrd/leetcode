@@ -1,5 +1,5 @@
 class Solution:
-    def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
+    def champagneTower(self, poured: int, queryRow: int, queryGlass: int) -> float:
         # at 1st row 1 glass
         # 1 or more poured 1st row glasses be full
 
@@ -16,22 +16,21 @@ class Solution:
         #      0        0.25        0.25        0                                       4
 
         # N * N
-
-        n = query_row + 1
-        glasses = []
-        for row in range(n):
-            glasses.append([0] * (row + 1))
-        glasses[0][0] = poured
-        for row in range(1, n):
-            for column in range(len(glasses[row])):
-                # [row - 1][column - 1] if column - 1 >= 0
-                # [row - 1][column]
-                if column < len(glasses[row - 1]):
-                    glasses[row][column] += max(glasses[row - 1][column] - 1, 0) / 2
+        # time: O(N * N) # N is queryRow
+        # space: O(N * N) -> O(N) by using only previous row of glasses
+        glasses = [poured]
+        for row in range(1, queryRow + 1):
+            currentRowGlasses = [0] * (row + 1)
+            for column in range(len(currentRowGlasses)):
+                # glasses[column]
+                # glasses[column - 1]
+                if column < len(glasses):
+                    currentRowGlasses[column] += max(0, glasses[column] - 1) / 2
                 if column - 1 >= 0:
-                    glasses[row][column] += max(glasses[row - 1][column - 1] - 1, 0) / 2
-        
-        return min(glasses[query_row][query_glass], 1)
+                    currentRowGlasses[column] += max(0, glasses[column - 1] - 1) / 2
+            glasses = currentRowGlasses[:]
+            
+        return min(glasses[queryGlass], 1)
 
         # 0 0 0 0 0 0
         # 0 0 0 0 0 0
