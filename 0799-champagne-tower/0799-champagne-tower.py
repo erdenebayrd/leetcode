@@ -32,9 +32,20 @@ class Solution:
             
         return min(glasses[queryGlass], 1)
 
-        # 0 0 0 0 0 0
-        # 0 0 0 0 0 0
-        # 0 0 0 0 0 0
-        # 0 0 0 0 0 0
-        # 0 0 0 0 0 0
-        # 0 0 0 0 0 0
+        # iteration 0
+        # 0
+        # 0 0
+
+        # iteration 1
+        # 0 0
+        # 0 0 0
+
+        # iteration 2
+        # 0 0 0
+        # 0 0 0 0
+
+        # iteration 3
+        # 0 0 0 0
+        # 0 0 0 0 0
+
+
