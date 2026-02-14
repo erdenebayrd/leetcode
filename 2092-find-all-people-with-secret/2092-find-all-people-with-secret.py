@@ -32,15 +32,13 @@ class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
         # time: O(M * Log M + N) M is number of meetings, N is n
         # space: O(M + N)
-        meetingsByTime = SortedDict()
+        meetingsByTime = defaultdict(list)
         for nodeU, nodeV, time in meetings:
-            if time not in meetingsByTime:
-                meetingsByTime[time] = []
             meetingsByTime[time].append([nodeU, nodeV])
         
         pool = set([0, firstPerson]) # people who know the secret
 
-        for time in meetingsByTime:
+        for time in sorted(meetingsByTime):
             unionFind = UnionFind()
             edges = meetingsByTime[time]
             for nodeU, nodeV in edges:
