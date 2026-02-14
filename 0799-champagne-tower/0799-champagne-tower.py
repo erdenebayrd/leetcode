@@ -15,10 +15,9 @@ class Solution:
         #         0.75        1          0.75                                           3
         #      0        0.25        0.25        0                                       4
 
-
         # N * N
 
-        n = 100
+        n = query_row + 1
         glasses = []
         for row in range(n):
             glasses.append([0] * (row + 1))
