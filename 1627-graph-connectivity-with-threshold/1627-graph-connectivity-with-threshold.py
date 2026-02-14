@@ -29,10 +29,10 @@ class UnionFind:
     
 class Solution:
     def areConnected(self, n: int, threshold: int, queries: List[List[int]]) -> List[bool]:
-        # time: O(N * Log ^ 2 (N) + len(queries) * Log N)
+        # time: O(N * Log (N) + len(queries))
         # space: O(N)
         pool = UnionFind(n)
-        for node in range(threshold + 1, n + 1): # harmonic series # O(N * log N) but pool.connect requires Log N
+        for node in range(threshold + 1, n + 1): # harmonic series # O(N * log N) but pool.connect requires Log N but with the rank optimization it's nearly O(1)
             for neighbor in range(2 * node, n + 1, node):
                 pool.connect(node, neighbor)
         
