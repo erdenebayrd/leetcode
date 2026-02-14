@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
 | [1200-minimum-absolute-difference](https://github.com/erdenebayrd/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/erdenebayrd/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1266-minimum-time-visiting-all-points](https://github.com/erdenebayrd/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
+| [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/erdenebayrd/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/erdenebayrd/leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1590-make-sum-divisible-by-p](https://github.com/erdenebayrd/leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
@@ -449,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1244-design-a-leaderboard](https://github.com/erdenebayrd/leetcode/tree/master/1244-design-a-leaderboard) |
+| [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/erdenebayrd/leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -694,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/erdenebayrd/leetcode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/erdenebayrd/leetcode/tree/master/0900-reordered-power-of-2) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/erdenebayrd/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1390-four-divisors](https://github.com/erdenebayrd/leetcode/tree/master/1390-four-divisors) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/erdenebayrd/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
