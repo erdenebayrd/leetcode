@@ -25,9 +25,6 @@ class UnionFind:
             self.rank[parentV] += 1
             self.parent[parentU] = self.parent[parentV]
 
-        # if parentU != parentV:
-        #     self.parent[parentU] = parentV
-
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
         # time: O(M * Log M + N) M is number of meetings, N is n
