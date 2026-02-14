@@ -19,13 +19,16 @@ class Solution:
         # N * N
 
         n = 100
-        glasses = [[0] * n for _ in range(n)]
+        glasses = []
+        for row in range(n):
+            glasses.append([0] * (row + 1))
         glasses[0][0] = poured
         for row in range(1, n):
-            for column in range(n):
+            for column in range(len(glasses[row])):
                 # [row - 1][column - 1] if column - 1 >= 0
                 # [row - 1][column]
-                glasses[row][column] += max(glasses[row - 1][column] - 1, 0) / 2
+                if column < len(glasses[row - 1]):
+                    glasses[row][column] += max(glasses[row - 1][column] - 1, 0) / 2
                 if column - 1 >= 0:
                     glasses[row][column] += max(glasses[row - 1][column - 1] - 1, 0) / 2
         
