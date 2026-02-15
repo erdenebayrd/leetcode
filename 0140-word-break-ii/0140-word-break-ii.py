@@ -2,6 +2,7 @@ from collections import defaultdict
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
+        # -------------------------------------- recursive --------------------------------------
         # time: O(N * 2 ^ N)
         # space: O(N * 2 ^ N)
         # words = defaultdict(bool)
