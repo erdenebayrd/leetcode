@@ -22,7 +22,8 @@ class Solution:
                 left += 1
                 right -= 1
             return True
-        
+        # --------------------------------------------- bitmask ---------------------------------------------
+
         # result = []
         # n = len(s) # aab n = 3 -> 2 ^ 2 = 4 total options to split 
         # for bit in range(1 << (n - 1)): # 00 -> 01 -> 10 -> 11 O(2 ^ N)
@@ -50,7 +51,7 @@ class Solution:
         # # space: O(N * 2 ^ N)
         # return result
 
-        # --------------------------------------------- Recursive method ---------------------------------------------
+        # --------------------------------------------- recursive ---------------------------------------------
         result = []
         currentResult = []
         n = len(s)
