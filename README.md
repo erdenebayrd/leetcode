@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/erdenebayrd/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/erdenebayrd/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0422-valid-word-square](https://github.com/erdenebayrd/leetcode/tree/master/0422-valid-word-square) |
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0490-the-maze](https://github.com/erdenebayrd/leetcode/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
@@ -1220,6 +1221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0361-bomb-enemy](https://github.com/erdenebayrd/leetcode/tree/master/0361-bomb-enemy) |
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [0422-valid-word-square](https://github.com/erdenebayrd/leetcode/tree/master/0422-valid-word-square) |
 | [0490-the-maze](https://github.com/erdenebayrd/leetcode/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/erdenebayrd/leetcode/tree/master/0498-diagonal-traverse) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
