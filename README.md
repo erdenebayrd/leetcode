@@ -534,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0038-count-and-say](https://github.com/erdenebayrd/leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/erdenebayrd/leetcode/tree/master/0076-minimum-window-substring) |
+| [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/erdenebayrd/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
 | [0165-compare-version-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0165-compare-version-numbers) |
@@ -993,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/erdenebayrd/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/erdenebayrd/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/erdenebayrd/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/erdenebayrd/leetcode/tree/master/0198-house-robber) |
@@ -1434,6 +1436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
