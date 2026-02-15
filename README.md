@@ -290,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/erdenebayrd/leetcode/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
@@ -533,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/erdenebayrd/leetcode/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/erdenebayrd/leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/erdenebayrd/leetcode/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/erdenebayrd/leetcode/tree/master/0076-minimum-window-substring) |
 | [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/erdenebayrd/leetcode/tree/master/0139-word-break) |
@@ -690,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/erdenebayrd/leetcode/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/erdenebayrd/leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/erdenebayrd/leetcode/tree/master/0067-add-binary) |
 | [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/erdenebayrd/leetcode/tree/master/0326-power-of-three) |
@@ -801,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/erdenebayrd/leetcode/tree/master/0067-add-binary) |
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0498-diagonal-traverse](https://github.com/erdenebayrd/leetcode/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/erdenebayrd/leetcode/tree/master/0735-asteroid-collision) |
