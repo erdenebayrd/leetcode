@@ -15,7 +15,7 @@ class Solution:
         # at 1 we use the splitter for example: 00000000010 ["pabcasdfasdfa", "sd"] is palindrome or not, if there is at least one element which is not palindrome, we would just ignore this partition.
         # otherwise we would add ["aa", "b"], ["a", "a", "b"] splitted strings into result array etc
 
-        def isPalindrome(left: int, right: int) -> bool:
+        def isPalindrome(left: int, right: int) -> bool: # O(N)
             while left < right:
                 if s[left] != s[right]:
                     return False
@@ -25,10 +25,10 @@ class Solution:
         
         result = []
         n = len(s) # aab n = 3 -> 2 ^ 2 = 4 total options to split 
-        for bit in range(1 << (n - 1)): # 00 -> 01 -> 10 -> 11
+        for bit in range(1 << (n - 1)): # 00 -> 01 -> 10 -> 11 O(2 ^ N)
             indices = [] # contains [left, right] indexes of s. For example: aab, [[0, 0], [1, 2]] = [a, ab]
             left, right = 0, n - 1          #                                  1   0
-            for indexOfBit in range(n - 1): # indexOfBit = 3 means 11 => a,  a,  b # 10
+            for indexOfBit in range(n - 1): # indexOfBit = 3 means 11 => a,  a,  b # 10 O(N)
                # Left                                                        ^
                # Right                                                   ^
                 if bit & (1 << indexOfBit): # we would use indexOfBit'th splitter
@@ -46,5 +46,6 @@ class Solution:
                 for left, right in indices:
                     nestedResult.append(s[left:right + 1])
                 result.append(nestedResult)
-        
+        # time: O(N * 2 ^ N)
+        # space: O(N * 2 ^ N)
         return result
