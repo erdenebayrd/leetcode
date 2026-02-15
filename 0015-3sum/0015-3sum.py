@@ -1,25 +1,19 @@
+from typing import Tuple
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()
         n = len(nums)
-        cnt = defaultdict(int)
         seen = set()
-        cnt[nums[0]] = 1
-        tmp = 0
-        for i in range(n):
-            if nums[i] == 0:
-                tmp += 1
-        if tmp == n:
-            return [[0, 0, 0]]
-        for i in range(1, n):
-            for j in range(i + 1, n):
-                x = -nums[i] - nums[j]
-                if cnt[x] > 0:
-                    arr = tuple(sorted([x, nums[i], nums[j]]))
-                    if arr not in seen:
-                        seen.add(arr)
-            cnt[nums[i]] += 1
-        
-        res = []
-        for item in seen:
-            res.append(list(item))
-        return res
+        result = set()
+        for middle in range(n):
+            for right in range(middle + 1, n):
+                currentSum = nums[middle] + nums[right]
+                need = -currentSum
+                if need in seen:
+                    candidate = sorted([need, nums[middle], nums[right]])
+                    candidateTuple = (candidate[0], candidate[1], candidate[2])
+                    if candidateTuple not in result:
+                        result.add(candidateTuple)
+            seen.add(nums[middle])
+        return list(result)
