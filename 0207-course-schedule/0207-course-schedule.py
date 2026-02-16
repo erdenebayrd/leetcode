@@ -1,23 +1,25 @@
+from collections import defaultdict, deque
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        adj = [[] for _ in range(numCourses)]
-        for u, v in prerequisites:
-            adj[v].append(u)
-        state = [0] * numCourses # 0 unvisited, 1 visiting, 2 done
-
-        def hasCycle(currentNode: int) -> bool:
-            if state[currentNode] == 1:
-                return True
-            if state[currentNode] == 2:
-                return False
-            state[currentNode] = 1
-            for neighbor in adj[currentNode]:
-                if hasCycle(neighbor):
-                    return True
-            state[currentNode] = 2
-            return False
+        graph = defaultdict(list)
+        indegree = defaultdict(int)
+        for nodeU, nodeV in prerequisites:
+            graph[nodeU].append(nodeV)
+            indegree[nodeV] += 1
         
-        for course in range(numCourses):
-            if hasCycle(course):
+        queue = deque()
+        for node in range(numCourses):
+            if indegree[node] == 0:
+                queue.append(node)
+        
+        while queue:
+            node = queue.pop()
+            for neighbor in graph[node]:
+                indegree[neighbor] -= 1
+                if indegree[neighbor] == 0:
+                    queue.append(neighbor)
+        for node in range(numCourses):
+            if indegree[node] > 0: # has cycle
                 return False
         return True
