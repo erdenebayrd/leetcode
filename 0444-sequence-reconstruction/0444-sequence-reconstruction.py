@@ -16,11 +16,9 @@ class Solution:
                 queue.append(node)
         index = 0
         while queue:
-            if len(queue) > 1:
+            if len(queue) > 1 or queue[0] != nums[index]:
                 return False
             node = queue.popleft()
-            if nums[index] != node:
-                return False
             index += 1
             for neighbor in graph[node]:
                 indegree[neighbor] -= 1
