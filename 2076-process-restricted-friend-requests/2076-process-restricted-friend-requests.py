@@ -13,24 +13,25 @@ class UnionFind:
         parentU = self.findParent(nodeU)
         parentV = self.findParent(nodeV)
         if self.rank[parentU] > self.rank[parentV]:
-            self.parent[parentV] = self.parent[parentU]
+            self.parent[parentV] = parentU
         elif self.rank[parentU] < self.rank[parentV]:
-            self.parent[parentU] = self.parent[parentV]
+            self.parent[parentU] = parentV
         else: # self.rank[parentU] == self.rank[parentV]:
-            self.parent[parentU] = self.parent[parentV]
-            self.rank[parentU] += 1
+            self.parent[parentU] = parentV
+            self.rank[parentV] += 1
     
 class Solution:
     def friendRequests(self, n: int, restrictions: List[List[int]], requests: List[List[int]]) -> List[bool]:
-        pool = UnionFind(n)
+        # time: O(N + O(len(requests) * len(restrictions))) => O(N ^ 2)
+        pool = UnionFind(n) # O(N)
         result = []
-        for u, v in requests:
+        for u, v in requests: # O(len(requests))
             parentU = pool.findParent(u)
             parentV = pool.findParent(v)
             if parentU > parentV:
                 parentV, parentU = parentU, parentV
             restricted = False
-            for x, y in restrictions:
+            for x, y in restrictions: # O(len(restrictions))
                 parentX = pool.findParent(x)
                 parentY = pool.findParent(y)
                 if parentX > parentY:
