@@ -38,6 +38,6 @@ class Solution:
             result[currentLevel].append(node.val)
             buildOrder(node.left, currentLevel + 1)
             buildOrder(node.right, currentLevel + 1)
-
+        # O(h) h is the maximum height of the tree. but at worst case h can be N, 1 -> 2 -> 3 etc, there is no left child at all.
         buildOrder(root, 0)
         return result
