@@ -2,6 +2,10 @@ from collections import deque, defaultdict
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        # time: O(V + E) V is number of nodes (numCourses), E is number edges len(prerequisites)
+        # space: O(V + E)
+        # method: topological order + Kahn's algorithm
+
         # numCourses = 6
         # --------------
         # 1 <- 0
@@ -34,6 +38,4 @@ class Solution:
         
         if len(topological) != numCourses:
             return []
-        # time: O(V + E) V is number of nodes (numCourses), E is number edges len(prerequisites)
-        # space: O(V + E)
         return topological
