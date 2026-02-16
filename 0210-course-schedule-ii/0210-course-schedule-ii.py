@@ -31,9 +31,9 @@ class Solution:
                 indegree[neighbor] -= 1
                 if indegree[neighbor] == 0:
                     queue.append(neighbor)
-        for node in range(numCourses):
-            if indegree[node] > 0:
-                return []
+        
+        if len(topological) != numCourses:
+            return []
         # time: O(V + E) V is number of nodes (numCourses), E is number edges len(prerequisites)
         # space: O(V + E)
         return topological
