@@ -34,4 +34,6 @@ class Solution:
         for node in range(numCourses):
             if indegree[node] > 0:
                 return []
+        # time: O(V + E) V is number of nodes (numCourses), E is number edges len(prerequisites)
+        # space: O(V + E)
         return topological
