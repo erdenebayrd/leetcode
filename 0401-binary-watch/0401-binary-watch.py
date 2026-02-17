@@ -10,7 +10,8 @@ class Solution:
             turnedOn = 1 
             Output: ["0:01","0:02","0:04","0:08","0:16","0:32","1:00","2:00","4:00","8:00"]
         """
-
+        # time O(12 * 60 * log (60))
+        # sc: O(12 * 60)
         result = []
         for hour in range(12):
             for minute in range(60):
