@@ -300,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
+| [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/erdenebayrd/leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
@@ -1471,6 +1472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
+| [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
