@@ -17,8 +17,6 @@ class Trie:
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        # tc: O(N ^ 2) canBreak startIndex be [1, n], inside each recursive, for loop from 1 to n 
-        # space: O(M) M is total character of wordDict
         n = len(s)
         trie = Trie()
         for word in wordDict:
@@ -28,15 +26,16 @@ class Solution:
         def canBreak(startIndex):
             if startIndex >= n:
                 return True
-            node = trie # start from root
+            result = False
+            node = trie
             for index in range(startIndex, n):
-                ch = s[index]    
+                ch = s[index]
+                if ch in node.children and node.children[ch].isWord:
+                    result |= canBreak(index + 1)
                 if ch not in node.children:
                     break
                 node = node.children[ch]
-                if node.isWord:
-                    if canBreak(index + 1):
-                        return True
-            return False
+
+            return result
         
         return canBreak(0)
