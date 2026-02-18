@@ -15,8 +15,10 @@ class Solution:
             if startIndex == len(s):
                 return True
             result = False
+            currentSubWord = ""
             for index in range(startIndex, len(s)):
-                if s[startIndex:index + 1] in words:
+                currentSubWord += s[index]
+                if currentSubWord in words:
                     result |= canBreak(index + 1)
             return result
         
