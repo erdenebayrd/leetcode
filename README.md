@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/erdenebayrd/leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1428-leftmost-column-with-at-least-a-one](https://github.com/erdenebayrd/leetcode/tree/master/1428-leftmost-column-with-at-least-a-one) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/1458-max-dot-product-of-two-subsequences) |
+| [1470-shuffle-the-array](https://github.com/erdenebayrd/leetcode/tree/master/1470-shuffle-the-array) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/erdenebayrd/leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
