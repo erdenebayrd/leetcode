@@ -20,6 +20,6 @@ class Solution:
                     result |= canBreak(index + 1)
             return result
         
-        # time: O(N ^ 2)
+        # time: O(N ^ 3)
         # space: O(N)
         return canBreak(0)
