@@ -11,8 +11,7 @@ class Solution:
                    a   c chances=0        c    c, chances = 0
         left       ^.  ^                  ^    ^ 
         right
-        """        
-        @cache
+        """
         def valid(left: int, right: int, chances: int) -> bool: #O ( N * chances) N is length of s
             if chances < 0:
                 return False
