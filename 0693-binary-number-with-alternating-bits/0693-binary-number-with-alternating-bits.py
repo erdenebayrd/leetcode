@@ -8,5 +8,20 @@ class Solution:
         # 000011111
         # 000100000
         
-        xorValue = n ^ (n >> 1)
-        return xorValue & (xorValue + 1) == 0
+        if "11" in bin(n):
+            return False
+        if "00" in bin(n):
+            return False
+        return True
+
+        xorShift = (n >> 1) ^ n
+        result = xorShift & (xorShift + 1) == 0
+        return result
+        # 000011111111111.   (2 ^ m) - 1
+        # 000100000000000.    2 ^ m
+        # 000000000000000
+        # 1001
+        #  100
+        #  1101
+        # 10000
+            
