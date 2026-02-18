@@ -31,7 +31,6 @@ class Solution:
                 if nums[index] > 0:
                     nums[index] = -nums[index]
 
-
         for i in range(n):
             if nums[i] > 0:
                 return i + 1
