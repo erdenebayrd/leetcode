@@ -12,6 +12,9 @@ class Solution:
         left       ^.  ^                  ^    ^ 
         right
         """
+        # tc: O(N * chances)
+        # sc: O(N) at worst case recursive stack can reach N when its initially palindrome
+        
         def valid(left: int, right: int, chances: int) -> bool: #O ( N * chances) N is length of s
             if chances < 0:
                 return False
