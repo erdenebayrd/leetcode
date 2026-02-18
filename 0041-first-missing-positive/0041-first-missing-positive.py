@@ -1,20 +1,15 @@
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
+        # tc: O(N)
+        # sc: O(N)
+
         n = len(nums)
+        existed = [False] * (n + 1)
+
         for i in range(n):
             if 1 <= nums[i] <= n:
-                continue
-            nums[i] = n + 1
-        # [1 -> n, n + 1]
-        for i in range(n):
-            index = nums[i] if nums[i] > 0 else -nums[i]
-            if index == n + 1:
-                continue
-            # index would be in this range [1, n]
-            index -= 1
-            if nums[index] > 0:
-                nums[index] = -nums[index] # using a "-" (minus) sign instead of auxilary boolean array
-        for i in range(n):
-            if nums[i] > 0:
-                return i + 1
+                existed[nums[i]] = True
+        for i in range(1, n + 1):
+            if existed[i] is False:
+                return i
         return n + 1
