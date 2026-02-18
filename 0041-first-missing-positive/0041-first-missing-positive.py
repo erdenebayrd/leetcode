@@ -22,14 +22,9 @@ class Solution:
             nums[i] = float("inf")
         
         for i in range(n):
-            if 1 <= nums[i] <= n:
-                index = nums[i] - 1
-                if nums[index] > 0:
-                    nums[index] = -nums[index]
-            elif -n <= nums[i] <= -1: # negative number
-                index = -nums[i] - 1
-                if nums[index] > 0:
-                    nums[index] = -nums[index]
+            index = abs(nums[i]) - 1
+            if 0 <= index < n:
+                nums[index] = -abs(nums[index])
 
         for i in range(n):
             if nums[i] > 0:
