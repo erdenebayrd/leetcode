@@ -2,6 +2,8 @@ from functools import cache
 
 class Solution:
     def areSentencesSimilar(self, sentence1: str, sentence2: str) -> bool:
+        # time: O(N * M)
+        # space: O(N * M) ene deer aldsan, ehleed O(N) gecheed teriigee zasaagui orhiod yavtsan!!!
         arr1 = sentence1.split()
         arr2 = sentence2.split()
 
@@ -12,7 +14,7 @@ class Solution:
         def isValid(first: int, second: int, chances: int) -> bool:
             if chances < 0:
                 return False
-                
+
             if first == n:
                 if chances > 0:
                     return True
@@ -34,9 +36,6 @@ class Solution:
             
             for right in range(second, m):
                 result |= isValid(first, right + 1, chances - 1)
-            
-            if result:
-                print(first, second, chances)
 
             return result
         
