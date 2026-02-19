@@ -1,6 +1,7 @@
 class UnionFind:
     def __init__(self, n: int) -> None:
         self.parent = [node for node in range(n)]
+        self.rank = [0 for _ in range(n)]
     
     def findParent(self, node: int) -> int:
         if self.parent[node] == node:
@@ -11,7 +12,14 @@ class UnionFind:
     def connect(self, nodeU: int, nodeV: int) -> None:
         parentU = self.findParent(nodeU)
         parentV = self.findParent(nodeV)
-        self.parent[parentV] = self.parent[parentU]
+        if self.rank[parentU] > self.rank[parentV]:
+            self.parent[parentV] = self.parent[parentU]
+        elif self.rank[parentU] < self.rank[parentV]:
+            self.parent[parentU] = self.parent[parentV]
+        else: # if the ranks are same
+            self.rank[parentV] += 1
+            self.parent[parentU] = self.parent[parentV]
+        # self.parent[parentV] = self.parent[parentU]
 
 class Solution:
     def areSentencesSimilarTwo(self, sentence1: List[str], sentence2: List[str], similarPairs: List[List[str]]) -> bool:
