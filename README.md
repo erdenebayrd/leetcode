@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
+| [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/erdenebayrd/leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
@@ -581,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/erdenebayrd/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
 | [1894-merge-strings-alternately](https://github.com/erdenebayrd/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/erdenebayrd/leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -808,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/erdenebayrd/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/erdenebayrd/leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1894-merge-strings-alternately](https://github.com/erdenebayrd/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
