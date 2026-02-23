@@ -447,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0347-top-k-frequent-elements](https://github.com/erdenebayrd/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -563,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0408-valid-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
@@ -636,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/erdenebayrd/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0594-longest-harmonious-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
@@ -989,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0347-top-k-frequent-elements](https://github.com/erdenebayrd/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/erdenebayrd/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
@@ -1133,6 +1137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/erdenebayrd/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
 | [0594-longest-harmonious-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0594-longest-harmonious-subsequence) |
@@ -1306,6 +1311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/erdenebayrd/leetcode/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/erdenebayrd/leetcode/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
 | [0611-valid-triangle-number](https://github.com/erdenebayrd/leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
