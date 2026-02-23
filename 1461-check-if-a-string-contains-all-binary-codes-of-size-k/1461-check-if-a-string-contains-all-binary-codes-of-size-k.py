@@ -1,10 +1,13 @@
 class Solution:
     def hasAllCodes(self, s: str, k: int) -> bool:
+        # time: O(N)
+        # space: O(N)
+        # method: bit + adhoc
         current = 0
         n = len(s)
         if n < (1 << k):
             return False
-            
+
         for i in range(k):
             current = current * 2 + int(s[i])
         count = set()
