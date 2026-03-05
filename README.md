@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0611-valid-triangle-number](https://github.com/erdenebayrd/leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0656-coin-path](https://github.com/erdenebayrd/leetcode/tree/master/0656-coin-path) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
@@ -455,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0594-longest-harmonious-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0621-task-scheduler](https://github.com/erdenebayrd/leetcode/tree/master/0621-task-scheduler) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0734-sentence-similarity](https://github.com/erdenebayrd/leetcode/tree/master/0734-sentence-similarity) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0408-valid-word-abbreviation) |
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0680-valid-palindrome-ii](https://github.com/erdenebayrd/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/erdenebayrd/leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0734-sentence-similarity](https://github.com/erdenebayrd/leetcode/tree/master/0734-sentence-similarity) |
@@ -914,6 +917,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/erdenebayrd/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/erdenebayrd/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -1291,6 +1295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/erdenebayrd/leetcode/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/erdenebayrd/leetcode/tree/master/0498-diagonal-traverse) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0840-magic-squares-in-grid](https://github.com/erdenebayrd/leetcode/tree/master/0840-magic-squares-in-grid) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
@@ -1381,6 +1386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/erdenebayrd/leetcode/tree/master/0362-design-hit-counter) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0981-time-based-key-value-store](https://github.com/erdenebayrd/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
@@ -1658,6 +1664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
+| [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [2076-process-restricted-friend-requests](https://github.com/erdenebayrd/leetcode/tree/master/2076-process-restricted-friend-requests) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
