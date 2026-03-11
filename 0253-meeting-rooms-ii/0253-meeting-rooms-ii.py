@@ -1,16 +1,16 @@
+import heapq
+
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        # time: O(N * Log N)
-        # space: O(N)
+        # time: O(N log N) for sorting and min heap
+        # space: O(N) using a heap
+        # method: heap
         intervals.sort()
-        _, ed = intervals[0]
-        freeRooms = [ed]
-        heapq.heapify(freeRooms)
-        res = 1
-        for i in range(1, len(intervals)):
-            st, ed = intervals[i]
-            if freeRooms[0] <= st:
-                heapq.heappop(freeRooms)
-            heapq.heappush(freeRooms, ed)
-            res = max(res, len(freeRooms))
-        return res
+        result = 0
+        running = []
+        for start, end in intervals:
+            while running and running[0] <= start:
+                heapq.heappop(running)
+            heapq.heappush(running, end)
+            result = max(result, len(running))
+        return result
