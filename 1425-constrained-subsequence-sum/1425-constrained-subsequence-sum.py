@@ -32,22 +32,39 @@ class SegmentTree:
 
 class Solution:
     def constrainedSubsetSum(self, nums: List[int], k: int) -> int:
-        # time: O(N Log N)
+        # # time: O(N Log N)
+        # # space: O(N)
+        # # method: DP + Segment Tree
+        # n = len(nums)
+        # # st = SegmentTree(n)
+        # sl = SortedList()
+        # dp = nums[:]
+        # # st.add(dp[0])
+        # sl.add(dp[0])
+        # for i in range(1, n):
+        #     # dp[i] = max(dp[i], st.query(k) + nums[i])
+        #     dp[i] = max(dp[i], sl[-1] + nums[i])
+        #     # st.add(dp[i])
+        #     sl.add(dp[i])
+        #     if i >= k:
+        #         sl.remove(dp[i - k])
+        # result = max(dp)
+        # # print(dp)
+        # return result
+
+        # ----------------------------- MONOTONIC STACK -----------------------------
+        # time: O(N)
         # space: O(N)
-        # method: DP + Segment Tree
+        # method: DP + sliding window max by monotonic stack (max value among lastK elements)
         n = len(nums)
-        # st = SegmentTree(n)
-        sl = SortedList()
-        dp = nums[:]
-        # st.add(dp[0])
-        sl.add(dp[0])
+        dp = [0] * n
+        dp[0] = nums[0]
+        queue = deque([0]) # monotonic decreasing queue (indices)
         for i in range(1, n):
-            # dp[i] = max(dp[i], st.query(k) + nums[i])
-            dp[i] = max(dp[i], sl[-1] + nums[i])
-            # st.add(dp[i])
-            sl.add(dp[i])
-            if i >= k:
-                sl.remove(dp[i - k])
-        result = max(dp)
-        # print(dp)
-        return result
+            while queue and queue[0] < i - k:
+                queue.popleft()
+            dp[i] = max(nums[i], nums[i] + dp[queue[0]])
+            while queue and dp[queue[-1]] <= dp[i]:
+                queue.pop()
+            queue.append(i)
+        return max(dp)
