@@ -6,6 +6,9 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        # time: O(N)
+        # space: O(h) height of the tree
+        # method: dfs
         def check(first: Optional[TreeNode], second: Optional[TreeNode]) -> bool:
             if first is None and second is None:
                 return True
