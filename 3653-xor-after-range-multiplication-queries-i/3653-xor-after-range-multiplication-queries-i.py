@@ -6,9 +6,8 @@ class Solution:
 
         mod = int(1e9) + 7
         for left, right, step, value in queries:
-            while left <= right:
-                nums[left] = (nums[left] * value) % mod
-                left += step
+            for index in range(left, right + 1, step):
+                nums[index] = (nums[index] * value) % mod
         result = 0
         for number in nums:
             result ^= number
