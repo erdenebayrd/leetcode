@@ -5,9 +5,21 @@ class Solution:
         n = len(start)
         start = list(start)
         result = list(result)
+        startIndexL = 0
+        startIndexX = 0
 
         def findNext(startIndex: int, ch: str, acceptable: str) -> int:
-            for i in range(startIndex + 1, n):
+            nonlocal startIndexL, startIndexX
+            if ch == "L":
+                startIndex = max(startIndex + 1, startIndexL)
+            if ch == "X":
+                startIndex = max(startIndex + 1, startIndexX)
+
+            for i in range(startIndex, n):
+                if ch == "L":
+                    startIndexL = i
+                if ch == "X":
+                    startIndexX = i
                 if ch == start[i]:
                     return i
                 elif start[i] != acceptable:
