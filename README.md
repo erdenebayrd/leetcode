@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0457-circular-array-loop](https://github.com/erdenebayrd/leetcode/tree/master/0457-circular-array-loop) |
 | [0474-ones-and-zeroes](https://github.com/erdenebayrd/leetcode/tree/master/0474-ones-and-zeroes) |
+| [0477-total-hamming-distance](https://github.com/erdenebayrd/leetcode/tree/master/0477-total-hamming-distance) |
 | [0490-the-maze](https://github.com/erdenebayrd/leetcode/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/erdenebayrd/leetcode/tree/master/0498-diagonal-traverse) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
 | [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
+| [0477-total-hamming-distance](https://github.com/erdenebayrd/leetcode/tree/master/0477-total-hamming-distance) |
 | [0693-binary-number-with-alternating-bits](https://github.com/erdenebayrd/leetcode/tree/master/0693-binary-number-with-alternating-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -774,6 +776,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/erdenebayrd/leetcode/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
+| [0477-total-hamming-distance](https://github.com/erdenebayrd/leetcode/tree/master/0477-total-hamming-distance) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0651-4-keys-keyboard](https://github.com/erdenebayrd/leetcode/tree/master/0651-4-keys-keyboard) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
