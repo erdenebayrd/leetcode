@@ -21,26 +21,41 @@ class Solution:
         method: 2 pointers / sliding window
         """
 
-        # time: O(N * 26)
-        # space: O(1)
-        # method: sliding window / 2 pointers
+        # # time: O(N * 26)
+        # # space: O(1)
+        # # method: sliding window / 2 pointers
 
-        def longestSameCharacters(character: str) -> int:
-            currentK = k
-            left = 0
-            result = 0
-            for right in range(len(s)):
-                if s[right] != character:
-                    currentK -= 1
-                while left <= right and currentK < 0:
-                    if s[left] != character:
-                        currentK += 1
-                    left += 1
-                result = max(result, right - left + 1)
-            return result
+        # def longestSameCharacters(character: str) -> int:
+        #     currentK = k
+        #     left = 0
+        #     result = 0
+        #     for right in range(len(s)):
+        #         if s[right] != character:
+        #             currentK -= 1
+        #         while left <= right and currentK < 0:
+        #             if s[left] != character:
+        #                 currentK += 1
+        #             left += 1
+        #         result = max(result, right - left + 1)
+        #     return result
         
+        # result = 0
+        # for asciiCode in range(ord("A"), ord("Z") + 1): # O(26)
+        #     character = chr(asciiCode)
+        #     result = max(result, longestSameCharacters(character)) # O(N)
+        # return result
+
+
+        maxFrequency = 0
+        left = 0
+        n = len(s)
         result = 0
-        for asciiCode in range(ord("A"), ord("Z") + 1): # O(26)
-            character = chr(asciiCode)
-            result = max(result, longestSameCharacters(character)) # O(N)
+        count = defaultdict(int)
+        for right in range(n):
+            count[s[right]] += 1
+            maxFrequency = max(maxFrequency, count[s[right]])
+            while right - left + 1 - maxFrequency > k:
+                count[s[left]] -= 1
+                left += 1
+            result = max(result, right - left + 1)
         return result
