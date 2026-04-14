@@ -197,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2432-number-of-zero-filled-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/erdenebayrd/leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
+| [2463-minimum-total-distance-traveled](https://github.com/erdenebayrd/leetcode/tree/master/2463-minimum-total-distance-traveled) |
 | [2479-meeting-rooms-iii](https://github.com/erdenebayrd/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/erdenebayrd/leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -1169,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2408-number-of-people-aware-of-a-secret](https://github.com/erdenebayrd/leetcode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [2463-minimum-total-distance-traveled](https://github.com/erdenebayrd/leetcode/tree/master/2463-minimum-total-distance-traveled) |
 | [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
@@ -1240,6 +1242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/erdenebayrd/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2402-meeting-rooms-iii](https://github.com/erdenebayrd/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/erdenebayrd/leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
+| [2463-minimum-total-distance-traveled](https://github.com/erdenebayrd/leetcode/tree/master/2463-minimum-total-distance-traveled) |
 | [2479-meeting-rooms-iii](https://github.com/erdenebayrd/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
