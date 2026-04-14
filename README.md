@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2048-build-array-from-permutation](https://github.com/erdenebayrd/leetcode/tree/master/2048-build-array-from-permutation) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/erdenebayrd/leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
+| [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/erdenebayrd/leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/erdenebayrd/leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
@@ -526,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/erdenebayrd/leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/erdenebayrd/leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
@@ -739,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1428-leftmost-column-with-at-least-a-one](https://github.com/erdenebayrd/leetcode/tree/master/1428-leftmost-column-with-at-least-a-one) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/erdenebayrd/leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
