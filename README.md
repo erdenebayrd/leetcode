@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/erdenebayrd/leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/erdenebayrd/leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0986-interval-list-intersections](https://github.com/erdenebayrd/leetcode/tree/master/0986-interval-list-intersections) |
+| [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/erdenebayrd/leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1049-last-stone-weight-ii](https://github.com/erdenebayrd/leetcode/tree/master/1049-last-stone-weight-ii) |
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/erdenebayrd/leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0867-new-21-game](https://github.com/erdenebayrd/leetcode/tree/master/0867-new-21-game) |
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
@@ -502,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/erdenebayrd/leetcode/tree/master/0940-fruit-into-baskets) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/erdenebayrd/leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [0981-time-based-key-value-store](https://github.com/erdenebayrd/leetcode/tree/master/0981-time-based-key-value-store) |
+| [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
@@ -696,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/erdenebayrd/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0914-x-of-a-kind-in-a-deck-of-cards](https://github.com/erdenebayrd/leetcode/tree/master/0914-x-of-a-kind-in-a-deck-of-cards) |
+| [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1118-divide-array-into-increasing-sequences](https://github.com/erdenebayrd/leetcode/tree/master/1118-divide-array-into-increasing-sequences) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
