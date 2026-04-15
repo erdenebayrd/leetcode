@@ -1,6 +1,6 @@
 class Solution:
     def closestTarget(self, words: List[str], target: str, startIndex: int) -> int:
-        # time: O(N + M)
+        # time: O(N * M)
         # space: O(1)
         # method: search
         n = len(words)
