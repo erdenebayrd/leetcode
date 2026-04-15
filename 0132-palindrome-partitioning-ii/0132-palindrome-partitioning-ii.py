@@ -1,7 +1,7 @@
 class Solution:
     def minCut(self, s: str) -> int:
         # time: O(N ^ 2)
-        # space: O(N)
+        # space: O(N ^ 2)
         # method: DP
         @cache
         def isPalindrome(left: int, right: int) -> bool:
