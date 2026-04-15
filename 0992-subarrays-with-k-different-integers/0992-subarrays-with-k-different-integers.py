@@ -1,5 +1,8 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
+        # time: O(N)
+        # space: O(N)
+        # method: sliding window + COUNTING (which is the most important one)
         def atMost(distinctCountLimit: int) -> int:
             left = 0
             count = defaultdict(int)
