@@ -1,6 +1,6 @@
 class Solution:
     def checkPartitioning(self, s: str) -> bool:
-        # time: O(N ^ 3)
+        # time: O(N ^ 2)
         # space: O(N)
         # method: DP
 
