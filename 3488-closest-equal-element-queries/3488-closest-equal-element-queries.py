@@ -1,6 +1,6 @@
 class Solution:
     def solveQueries(self, nums: List[int], queries: List[int]) -> List[int]:
-        # time: O(Q)
+        # time: O(N + Q)
         # space: O(N)
         # method: hashmap indexing
         n = len(nums)
