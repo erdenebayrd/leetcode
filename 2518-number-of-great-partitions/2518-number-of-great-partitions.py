@@ -1,5 +1,8 @@
 class Solution:
     def countPartitions(self, nums: List[int], k: int) -> int:
+        # time: O(N * K)
+        # space: O(N * K)
+        # method: DP
         if sum(nums) < 2 * k:
             return 0
         mod = int(1e9 + 7)
