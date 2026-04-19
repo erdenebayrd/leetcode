@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0247-strobogrammatic-number-ii](https://github.com/erdenebayrd/leetcode/tree/master/0247-strobogrammatic-number-ii) |
 | [0253-meeting-rooms-ii](https://github.com/erdenebayrd/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
+| [0256-paint-house](https://github.com/erdenebayrd/leetcode/tree/master/0256-paint-house) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
 | [0265-paint-house-ii](https://github.com/erdenebayrd/leetcode/tree/master/0265-paint-house-ii) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
@@ -1159,6 +1160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/erdenebayrd/leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/erdenebayrd/leetcode/tree/master/0213-house-robber-ii) |
+| [0256-paint-house](https://github.com/erdenebayrd/leetcode/tree/master/0256-paint-house) |
 | [0265-paint-house-ii](https://github.com/erdenebayrd/leetcode/tree/master/0265-paint-house-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0333-largest-bst-subtree](https://github.com/erdenebayrd/leetcode/tree/master/0333-largest-bst-subtree) |
