@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1673-find-the-most-competitive-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/1673-find-the-most-competitive-subsequence) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1756-design-most-recently-used-queue](https://github.com/erdenebayrd/leetcode/tree/master/1756-design-most-recently-used-queue) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
@@ -1048,6 +1049,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/1382-balance-a-binary-search-tree) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/erdenebayrd/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1847,6 +1849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/erdenebayrd/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [1627-graph-connectivity-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1627-graph-connectivity-with-threshold) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2076-process-restricted-friend-requests](https://github.com/erdenebayrd/leetcode/tree/master/2076-process-restricted-friend-requests) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
