@@ -405,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/erdenebayrd/leetcode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/erdenebayrd/leetcode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [1156-swap-for-longest-repeated-character-substring](https://github.com/erdenebayrd/leetcode/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1425-constrained-subsequence-sum](https://github.com/erdenebayrd/leetcode/tree/master/1425-constrained-subsequence-sum) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
+| [1156-swap-for-longest-repeated-character-substring](https://github.com/erdenebayrd/leetcode/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1244-design-a-leaderboard](https://github.com/erdenebayrd/leetcode/tree/master/1244-design-a-leaderboard) |
@@ -661,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1108-analyze-user-website-visit-pattern](https://github.com/erdenebayrd/leetcode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
+| [1156-swap-for-longest-repeated-character-substring](https://github.com/erdenebayrd/leetcode/tree/master/1156-swap-for-longest-repeated-character-substring) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/erdenebayrd/leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/erdenebayrd/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/erdenebayrd/leetcode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
