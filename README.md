@@ -242,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2750-ways-to-split-array-into-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2750-ways-to-split-array-into-good-subarrays) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/erdenebayrd/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/2760-longest-even-odd-subarray-with-threshold) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -870,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2610-closest-prime-numbers-in-range](https://github.com/erdenebayrd/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/erdenebayrd/leetcode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [2750-ways-to-split-array-into-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2750-ways-to-split-array-into-good-subarrays) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/erdenebayrd/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2998-count-symmetric-integers](https://github.com/erdenebayrd/leetcode/tree/master/2998-count-symmetric-integers) |
@@ -1246,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2518-number-of-great-partitions](https://github.com/erdenebayrd/leetcode/tree/master/2518-number-of-great-partitions) |
 | [2585-number-of-ways-to-earn-points](https://github.com/erdenebayrd/leetcode/tree/master/2585-number-of-ways-to-earn-points) |
 | [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
+| [2750-ways-to-split-array-into-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2750-ways-to-split-array-into-good-subarrays) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
