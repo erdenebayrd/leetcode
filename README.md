@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2915-count-of-interesting-subarrays) |
+| [2936-number-of-equal-numbers-blocks](https://github.com/erdenebayrd/leetcode/tree/master/2936-number-of-equal-numbers-blocks) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/erdenebayrd/leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/erdenebayrd/leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
@@ -805,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2936-number-of-equal-numbers-blocks](https://github.com/erdenebayrd/leetcode/tree/master/2936-number-of-equal-numbers-blocks) |
 | [3453-separate-squares-i](https://github.com/erdenebayrd/leetcode/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/erdenebayrd/leetcode/tree/master/3454-separate-squares-ii) |
 | [3488-closest-equal-element-queries](https://github.com/erdenebayrd/leetcode/tree/master/3488-closest-equal-element-queries) |
@@ -1859,6 +1861,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1095-find-in-mountain-array](https://github.com/erdenebayrd/leetcode/tree/master/1095-find-in-mountain-array) |
 | [1428-leftmost-column-with-at-least-a-one](https://github.com/erdenebayrd/leetcode/tree/master/1428-leftmost-column-with-at-least-a-one) |
+| [2936-number-of-equal-numbers-blocks](https://github.com/erdenebayrd/leetcode/tree/master/2936-number-of-equal-numbers-blocks) |
 ## Sweep Line
 |  |
 | ------- |
