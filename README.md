@@ -341,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/erdenebayrd/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
 | [3904-smallest-stable-index-ii](https://github.com/erdenebayrd/leetcode/tree/master/3904-smallest-stable-index-ii) |
+| [3905-multi-source-flood-fill](https://github.com/erdenebayrd/leetcode/tree/master/3905-multi-source-flood-fill) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1100,6 +1101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [3820-pythagorean-distance-nodes-in-a-tree](https://github.com/erdenebayrd/leetcode/tree/master/3820-pythagorean-distance-nodes-in-a-tree) |
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
+| [3905-multi-source-flood-fill](https://github.com/erdenebayrd/leetcode/tree/master/3905-multi-source-flood-fill) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -1453,6 +1455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/erdenebayrd/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/erdenebayrd/leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3797-design-spreadsheet](https://github.com/erdenebayrd/leetcode/tree/master/3797-design-spreadsheet) |
+| [3905-multi-source-flood-fill](https://github.com/erdenebayrd/leetcode/tree/master/3905-multi-source-flood-fill) |
 ## Greedy
 |  |
 | ------- |
