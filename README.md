@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/erdenebayrd/leetcode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
+| [2121-intervals-between-identical-elements](https://github.com/erdenebayrd/leetcode/tree/master/2121-intervals-between-identical-elements) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/erdenebayrd/leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/erdenebayrd/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/erdenebayrd/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2100-find-good-days-to-rob-the-bank](https://github.com/erdenebayrd/leetcode/tree/master/2100-find-good-days-to-rob-the-bank) |
+| [2121-intervals-between-identical-elements](https://github.com/erdenebayrd/leetcode/tree/master/2121-intervals-between-identical-elements) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/erdenebayrd/leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2249-count-the-hidden-sequences](https://github.com/erdenebayrd/leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/erdenebayrd/leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
@@ -572,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
+| [2121-intervals-between-identical-elements](https://github.com/erdenebayrd/leetcode/tree/master/2121-intervals-between-identical-elements) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2169-simple-bank-system](https://github.com/erdenebayrd/leetcode/tree/master/2169-simple-bank-system) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/erdenebayrd/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
