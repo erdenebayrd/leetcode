@@ -13,7 +13,7 @@ class Solution:
                 return False
             if state[row][col] == 1: # 1 means visiting
                 return True
-            state[row][col] = 1 # stated visiting
+            state[row][col] = 1 # started visiting
             result = False
             for deltaRow, deltaCol in directions:
                 nextRow, nextCol = row + deltaRow, col + deltaCol
