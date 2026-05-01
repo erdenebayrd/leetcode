@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/erdenebayrd/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2214-minimum-health-to-beat-game](https://github.com/erdenebayrd/leetcode/tree/master/2214-minimum-health-to-beat-game) |
 | [2215-finding-3-digit-even-numbers](https://github.com/erdenebayrd/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2218-maximum-value-of-k-coins-from-piles](https://github.com/erdenebayrd/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/erdenebayrd/leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/erdenebayrd/leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -488,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2100-find-good-days-to-rob-the-bank](https://github.com/erdenebayrd/leetcode/tree/master/2100-find-good-days-to-rob-the-bank) |
 | [2121-intervals-between-identical-elements](https://github.com/erdenebayrd/leetcode/tree/master/2121-intervals-between-identical-elements) |
+| [2218-maximum-value-of-k-coins-from-piles](https://github.com/erdenebayrd/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/erdenebayrd/leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2249-count-the-hidden-sequences](https://github.com/erdenebayrd/leetcode/tree/master/2249-count-the-hidden-sequences) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/erdenebayrd/leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
@@ -1301,6 +1303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/erdenebayrd/leetcode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/erdenebayrd/leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
+| [2218-maximum-value-of-k-coins-from-piles](https://github.com/erdenebayrd/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
 | [2262-solving-questions-with-brainpower](https://github.com/erdenebayrd/leetcode/tree/master/2262-solving-questions-with-brainpower) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/erdenebayrd/leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/erdenebayrd/leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
