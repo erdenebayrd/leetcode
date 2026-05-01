@@ -4,7 +4,7 @@ class Solution:
     def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
         # time O(n log n + k log n) -> O((n + k) * log n)
         # space: O(n)
-        # method: 2 heaps
+        # method: 2 heaps + greedy
         n = len(capital)
         ready = [] # ready to start projects heap by total profit (max at top)
         others = [] # other projects not available for w capital right now, heap by k (min at top)
