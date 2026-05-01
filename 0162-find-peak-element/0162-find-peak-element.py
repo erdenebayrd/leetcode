@@ -8,6 +8,9 @@ class Solution:
         if consecutive 3 elements of an array (including outside of an array which is -inf) is strictly decreasing, we need to go left side
         if we found an peak element, we can just return it's index, so that time complexity would be O( log N ), space: O(1)
         """
+        # time: O(log N)
+        # space: O(1)
+        # method: binary search
         def isIncreasing(index: int) -> bool:
             prev = float('-inf') if index - 1 < 0 else nums[index - 1]
             next = float('-inf') if index + 1 >= n else nums[index + 1]
