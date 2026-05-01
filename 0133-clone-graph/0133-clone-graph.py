@@ -7,19 +7,41 @@ class Node:
 """
 
 from typing import Optional
+from collections import deque
+
 class Solution:
-    def __init__(self) -> None:
-        self.visited = {}
+    # def __init__(self) -> None:
+    #     self.visited = {}
 
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+        # if not node:
+        #     return node
+
+        # if node in self.visited:
+        #     return self.visited[node]
+
+        # self.visited[node] = Node(node.val, [])
+        # for neighbor in node.neighbors:
+        #     self.visited[node].neighbors.append(self.cloneGraph(neighbor))
+
+        # return self.visited[node]
+
+        # ------------------------- BFS ------------------------- 
         if not node:
             return node
+        
+        visited = {}
+        queue = deque()
+        queue.append(node)
+        visited[node] = Node(node.val, [])
 
-        if node in self.visited:
-            return self.visited[node]
+        while queue:
+            currentNode = queue.popleft()
 
-        self.visited[node] = Node(node.val, [])
-        for neighbor in node.neighbors:
-            self.visited[node].neighbors.append(self.cloneGraph(neighbor))
+            for neighbor in currentNode.neighbors:
+                if neighbor not in visited:
+                    queue.append(neighbor)
+                    visited[neighbor] = Node(neighbor.val, [])
+                visited[currentNode].neighbors.append(visited[neighbor])
 
-        return self.visited[node]
+        return visited[node]
