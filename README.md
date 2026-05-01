@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0370-range-addition](https://github.com/erdenebayrd/leetcode/tree/master/0370-range-addition) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/erdenebayrd/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0380-insert-delete-getrandom-o1](https://github.com/erdenebayrd/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/erdenebayrd/leetcode/tree/master/0396-rotate-function) |
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/erdenebayrd/leetcode/tree/master/0416-partition-equal-subset-sum) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/erdenebayrd/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/erdenebayrd/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0457-circular-array-loop](https://github.com/erdenebayrd/leetcode/tree/master/0457-circular-array-loop) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -877,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/erdenebayrd/leetcode/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/erdenebayrd/leetcode/tree/master/0368-largest-divisible-subset) |
+| [0380-insert-delete-getrandom-o1](https://github.com/erdenebayrd/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0396-rotate-function](https://github.com/erdenebayrd/leetcode/tree/master/0396-rotate-function) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/erdenebayrd/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0477-total-hamming-distance](https://github.com/erdenebayrd/leetcode/tree/master/0477-total-hamming-distance) |
@@ -1630,6 +1633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/erdenebayrd/leetcode/tree/master/0362-design-hit-counter) |
+| [0380-insert-delete-getrandom-o1](https://github.com/erdenebayrd/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0901-online-stock-span](https://github.com/erdenebayrd/leetcode/tree/master/0901-online-stock-span) |
 | [0981-time-based-key-value-store](https://github.com/erdenebayrd/leetcode/tree/master/0981-time-based-key-value-store) |
@@ -2001,4 +2005,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/erdenebayrd/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
