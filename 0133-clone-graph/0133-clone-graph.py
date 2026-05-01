@@ -14,6 +14,10 @@ class Solution:
     #     self.visited = {}
 
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+        # time: O(V + E)
+        # space: O(V)
+        # method: DFS
+
         # if not node:
         #     return node
 
@@ -27,6 +31,10 @@ class Solution:
         # return self.visited[node]
 
         # ------------------------- BFS ------------------------- 
+        # time: O(V + E)
+        # space: O(V)
+        # method: BFS
+        
         if not node:
             return node
         
