@@ -35,7 +35,7 @@ class Solution:
 
     def serialize(self, node: Optional[TreeNode]) -> str:
         if not node:
-            return "#,"
+            return "#"
         return f"^{node.val},{self.serialize(node.left)},{self.serialize(node.right)}"
 
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
@@ -52,13 +52,37 @@ class Solution:
         pattern = self.serialize(subRoot)
         # print(text)
         # print(pattern)
-        textHash = RollingHash(text, 257, int(1e9 + 7))
-        patternHash = RollingHash(pattern, 257, int(1e9 + 7))
-        textHash1 = RollingHash(text, 37, int(1e9 + 9))
-        patternHash1 = RollingHash(pattern, 37, int(1e9 + 9))
-        for i in range(len(pattern) - 1, len(text)):
-            left = i - len(pattern) + 1
-            right = i
-            if textHash.getRangeHash(left, right) == patternHash.getRangeHash(0, len(pattern) - 1) and textHash1.getRangeHash(left, right) == patternHash1.getRangeHash(0, len(pattern) - 1):
+        # return pattern in text
+
+        # ---------------------------------- KMP ----------------------------------------
+        # pattern = "aabaabaaa"
+        m = len(pattern)
+        lps = [0] * m
+        length = 0
+        for i in range(1, m):
+            while length > 0 and pattern[length] != pattern[i]:
+                length = lps[length - 1]
+            if pattern[length] == pattern[i]:
+                length += 1
+            lps[i] = length
+        
+        length = 0
+        for i in range(len(text)):
+            while length > 0 and text[i] != pattern[length]:
+                length = lps[length - 1]
+            if text[i] == pattern[length]:
+                length += 1
+            if length >= len(pattern):
                 return True
         return False
+
+        # textHash = RollingHash(text, 257, int(1e9 + 7))
+        # patternHash = RollingHash(pattern, 257, int(1e9 + 7))
+        # textHash1 = RollingHash(text, 37, int(1e9 + 9))
+        # patternHash1 = RollingHash(pattern, 37, int(1e9 + 9))
+        # for i in range(len(pattern) - 1, len(text)):
+        #     left = i - len(pattern) + 1
+        #     right = i
+        #     if textHash.getRangeHash(left, right) == patternHash.getRangeHash(0, len(pattern) - 1) and textHash1.getRangeHash(left, right) == patternHash1.getRangeHash(0, len(pattern) - 1):
+        #         return True
+        # return False
