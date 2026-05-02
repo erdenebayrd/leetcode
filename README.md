@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0986-interval-list-intersections](https://github.com/erdenebayrd/leetcode/tree/master/0986-interval-list-intersections) |
 | [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
+| [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/erdenebayrd/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/erdenebayrd/leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1049-last-stone-weight-ii](https://github.com/erdenebayrd/leetcode/tree/master/1049-last-stone-weight-ii) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
@@ -1583,6 +1584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/erdenebayrd/leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/erdenebayrd/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/erdenebayrd/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1382-balance-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/1382-balance-a-binary-search-tree) |
