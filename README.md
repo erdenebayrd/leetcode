@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/erdenebayrd/leetcode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/erdenebayrd/leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3301-maximize-the-total-height-of-unique-towers](https://github.com/erdenebayrd/leetcode/tree/master/3301-maximize-the-total-height-of-unique-towers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/erdenebayrd/leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
@@ -1440,6 +1441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/erdenebayrd/leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/erdenebayrd/leetcode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/erdenebayrd/leetcode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3301-maximize-the-total-height-of-unique-towers](https://github.com/erdenebayrd/leetcode/tree/master/3301-maximize-the-total-height-of-unique-towers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/erdenebayrd/leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/erdenebayrd/leetcode/tree/master/3321-type-of-triangle) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/erdenebayrd/leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -1630,6 +1632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/erdenebayrd/leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/erdenebayrd/leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
+| [3301-maximize-the-total-height-of-unique-towers](https://github.com/erdenebayrd/leetcode/tree/master/3301-maximize-the-total-height-of-unique-towers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/erdenebayrd/leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/erdenebayrd/leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/erdenebayrd/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
