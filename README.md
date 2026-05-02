@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2750-ways-to-split-array-into-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2750-ways-to-split-array-into-good-subarrays) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/erdenebayrd/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/2760-longest-even-odd-subarray-with-threshold) |
+| [2786-visit-array-positions-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
@@ -1340,6 +1341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2585-number-of-ways-to-earn-points](https://github.com/erdenebayrd/leetcode/tree/master/2585-number-of-ways-to-earn-points) |
 | [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2750-ways-to-split-array-into-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2750-ways-to-split-array-into-good-subarrays) |
+| [2786-visit-array-positions-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
