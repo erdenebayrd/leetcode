@@ -888,6 +888,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0477-total-hamming-distance](https://github.com/erdenebayrd/leetcode/tree/master/0477-total-hamming-distance) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0651-4-keys-keyboard](https://github.com/erdenebayrd/leetcode/tree/master/0651-4-keys-keyboard) |
+| [0788-rotated-digits](https://github.com/erdenebayrd/leetcode/tree/master/0788-rotated-digits) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/erdenebayrd/leetcode/tree/master/0826-soup-servings) |
 | [0830-largest-triangle-area](https://github.com/erdenebayrd/leetcode/tree/master/0830-largest-triangle-area) |
@@ -1274,6 +1275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0664-strange-printer](https://github.com/erdenebayrd/leetcode/tree/master/0664-strange-printer) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/erdenebayrd/leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0741-cherry-pickup](https://github.com/erdenebayrd/leetcode/tree/master/0741-cherry-pickup) |
+| [0788-rotated-digits](https://github.com/erdenebayrd/leetcode/tree/master/0788-rotated-digits) |
 | [0792-number-of-matching-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/0792-number-of-matching-subsequences) |
 | [0799-champagne-tower](https://github.com/erdenebayrd/leetcode/tree/master/0799-champagne-tower) |
 | [0806-domino-and-tromino-tiling](https://github.com/erdenebayrd/leetcode/tree/master/0806-domino-and-tromino-tiling) |
