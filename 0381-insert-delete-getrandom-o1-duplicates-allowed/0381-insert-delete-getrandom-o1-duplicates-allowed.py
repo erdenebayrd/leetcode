@@ -13,18 +13,22 @@ class RandomizedCollection:
         return len(self.positions[val]) == 1
 
     def remove(self, val: int) -> bool:
-        if len(self.positions[val]) == 0:
+        if val not in self.positions:
             return False
         lastIndex = len(self.arr) - 1
         lastValue = self.arr[lastIndex]
         index = next(iter(self.positions[val]))
         if lastValue == val:
             self.positions[val].remove(lastIndex)
+            if len(self.positions[val]) == 0:
+                del self.positions[val]
             self.arr.pop()
         else: # values are different
             self.arr[index] = lastValue
             self.arr.pop()
             self.positions[val].remove(index)
+            if len(self.positions[val]) == 0:
+                del self.positions[val]
             self.positions[lastValue].remove(lastIndex)
             self.positions[lastValue].add(index)
 
