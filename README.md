@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
 | [1756-design-most-recently-used-queue](https://github.com/erdenebayrd/leetcode/tree/master/1756-design-most-recently-used-queue) |
 | [1813-maximum-erasure-value](https://github.com/erdenebayrd/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
@@ -1173,6 +1174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-minimum-knight-moves](https://github.com/erdenebayrd/leetcode/tree/master/1197-minimum-knight-moves) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/erdenebayrd/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1549,6 +1551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-cherry-pickup-ii](https://github.com/erdenebayrd/leetcode/tree/master/1463-cherry-pickup-ii) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/erdenebayrd/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
