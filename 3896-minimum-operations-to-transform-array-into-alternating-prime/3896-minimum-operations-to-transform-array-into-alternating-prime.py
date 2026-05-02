@@ -23,8 +23,9 @@ class Solution:
         isPrime = set(primes)
         
         def nextPrime(number: int) -> int:
-            index = bisect.bisect_left(primes, number)
-            return primes[index]
+            while number not in isPrime:
+                number += 1
+            return number
         
         result = 0
         n = len(nums)
