@@ -719,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0777-swap-adjacent-in-lr-string](https://github.com/erdenebayrd/leetcode/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
 | [0792-number-of-matching-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/0792-number-of-matching-subsequences) |
+| [0796-rotate-string](https://github.com/erdenebayrd/leetcode/tree/master/0796-rotate-string) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
 | [0856-score-of-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0856-score-of-parentheses) |
 | [0868-push-dominoes](https://github.com/erdenebayrd/leetcode/tree/master/0868-push-dominoes) |
@@ -2058,6 +2059,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/erdenebayrd/leetcode/tree/master/0796-rotate-string) |
 ## Randomized
 |  |
 | ------- |
