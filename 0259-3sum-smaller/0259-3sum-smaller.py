@@ -8,6 +8,8 @@ class Solution:
         nums.sort()
         result = 0
         for i in range(n - 2):
+            if nums[i] + nums[i + 1] + nums[i + 2] >= target:
+                break
             left, right = i + 1, n - 1
             while left < right:
                 currentSum = nums[i] + nums[left] + nums[right]
