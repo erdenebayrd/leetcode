@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1914-cyclically-rotating-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/erdenebayrd/leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/erdenebayrd/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
@@ -868,6 +869,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/erdenebayrd/leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/erdenebayrd/leetcode/tree/master/1870-minimum-speed-to-arrive-on-time) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/erdenebayrd/leetcode/tree/master/2054-two-best-non-overlapping-events) |
@@ -1179,6 +1181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1382-balance-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/erdenebayrd/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1218,6 +1221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/erdenebayrd/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1610,6 +1614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1861-rotating-the-box](https://github.com/erdenebayrd/leetcode/tree/master/1861-rotating-the-box) |
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
 | [1914-cyclically-rotating-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -2066,6 +2071,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1627-graph-connectivity-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1627-graph-connectivity-with-threshold) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2076-process-restricted-friend-requests](https://github.com/erdenebayrd/leetcode/tree/master/2076-process-restricted-friend-requests) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
