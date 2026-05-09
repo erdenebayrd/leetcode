@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/erdenebayrd/leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
+| [1914-cyclically-rotating-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/erdenebayrd/leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
@@ -1058,6 +1059,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/erdenebayrd/leetcode/tree/master/0735-asteroid-collision) |
 | [0874-walking-robot-simulation](https://github.com/erdenebayrd/leetcode/tree/master/0874-walking-robot-simulation) |
 | [1756-design-most-recently-used-queue](https://github.com/erdenebayrd/leetcode/tree/master/1756-design-most-recently-used-queue) |
+| [1914-cyclically-rotating-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [2048-build-array-from-permutation](https://github.com/erdenebayrd/leetcode/tree/master/2048-build-array-from-permutation) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/erdenebayrd/leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/erdenebayrd/leetcode/tree/master/2169-simple-bank-system) |
@@ -1602,6 +1604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
 | [1861-rotating-the-box](https://github.com/erdenebayrd/leetcode/tree/master/1861-rotating-the-box) |
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
+| [1914-cyclically-rotating-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1975-maximum-matrix-sum](https://github.com/erdenebayrd/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/erdenebayrd/leetcode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
