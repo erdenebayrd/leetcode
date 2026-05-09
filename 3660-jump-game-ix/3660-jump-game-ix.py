@@ -1,96 +1,48 @@
-class SegmentTree:
-    def __init__(self, arr: List[int]) -> None:
-        n = len(arr)
-        self.stMin = [0] * 4 * n
-        self.stMax = [0] * 4 * n
-        self.arr = arr
-        self.build(1, 0, n - 1)
-    
-    def build(self, pointer: int, left: int, right: int) -> None:
-        if left == right:
-            self.stMin[pointer] = left
-            self.stMax[pointer] = right
-            return
-        self.build(2 * pointer, left, (left + right) // 2) # left child
-        self.build(2 * pointer + 1, (left + right) // 2 + 1, right) # right child
-        if self.arr[self.stMax[2 * pointer]] < self.arr[self.stMax[2 * pointer + 1]]:
-            self.stMax[pointer] = self.stMax[2 * pointer + 1]
-        else:
-            self.stMax[pointer] = self.stMax[2 * pointer]
-        if self.arr[self.stMin[2 * pointer]] < self.arr[self.stMin[2 * pointer + 1]]:
-            self.stMin[pointer] = self.stMin[2 * pointer]
-        else:
-            self.stMin[pointer] = self.stMin[2 * pointer + 1]
-    
-    def queryMax(self, pointer: int, left: int, right: int, queryLeft: int, queryRight: int) -> int:
-        if left > right or left > queryRight or right < queryLeft:
-            return -1
-        if left >= queryLeft and right <= queryRight:
-            return self.stMax[pointer]
-        leftIndex = self.queryMax(2 * pointer, left, (left + right) // 2, queryLeft, queryRight)
-        rightIndex = self.queryMax(2 * pointer + 1, (left + right) // 2 + 1, right, queryLeft, queryRight)
-        if leftIndex == -1 or rightIndex == -1:
-            return max(leftIndex, rightIndex)
-        if self.arr[leftIndex] < self.arr[rightIndex]:
-            return rightIndex
-        return leftIndex
-
-    def queryMin(self, pointer: int, left: int, right: int, queryLeft: int, queryRight: int) -> int:
-        if left > right or left > queryRight or right < queryLeft:
-            return -1
-        if left >= queryLeft and right <= queryRight:
-            return self.stMin[pointer]
-        leftIndex = self.queryMin(2 * pointer, left, (left + right) // 2, queryLeft, queryRight)
-        rightIndex = self.queryMin(2 * pointer + 1, (left + right) // 2 + 1, right, queryLeft, queryRight)
-        if leftIndex == -1 or rightIndex == -1:
-            return max(leftIndex, rightIndex)
-        if self.arr[leftIndex] < self.arr[rightIndex]:
-            return leftIndex
-        return rightIndex
-
 class Solution:
     def maxValue(self, nums: List[int]) -> List[int]:
-        # time: O(N log N)
-        # space: O(N)
-        # method: rmq + binary search
-        n = len(nums)
-        st = SegmentTree(nums)
-        prefixMax = [0] * n
-        prefixMax[0] = nums[0]
-        for i in range(1, n):
-            prefixMax[i] = max(prefixMax[i - 1], nums[i])
-        result = nums[:]
-
-        def findLeftMostIndex(left: int, minIndex: int) -> int:
-            low, high = left - 1, minIndex
-            while low + 1 < high:
-                mid = (low + high) // 2
-                if prefixMax[mid] > nums[minIndex]:
-                    high = mid
-                else:
-                    low = mid
-            return high
-
-        def repeat(left: int, right: int, maxIndex: int):
-            minIndex = st.queryMin(1, 0, n - 1, maxIndex, right)
-            leftIndex = findLeftMostIndex(left, minIndex)
-            while True:
-                minIndex2 = st.queryMin(1, 0, n - 1, leftIndex, right)
-                if minIndex == minIndex2:
-                    break
-                minIndex = minIndex2
-                leftIndex = findLeftMostIndex(left, minIndex)
-            return leftIndex
-
-        def solve(left: int, right: int) -> None:
-            if left > right:
-                return
-            maxIndex = st.queryMax(1, 0, n - 1, left, right)
-            leftIndex = repeat(left, right, maxIndex)
-            # print(left, right, maxIndex, leftIndex)
-            for i in range(leftIndex, right + 1):
-                result[i] = nums[maxIndex]
-            solve(left, leftIndex - 1)
+        """
+        2 important things
+            1. if current value (nums[i]) can go to any index at its right side when the right side value is smaller than nums[i]
+            2. if current value is smaller than any element it's left side also can go directly
         
-        solve(0, n - 1)
+        meaning
+        if we have prefix max and suffix min
+
+        until index "i"
+            if prefixMax[i] > suffixMin[i + 1]
+                i'th index can join i + 1'th component (same component as i + 1 in)
+            otherwise prefixMax <= suffixMin[i + 1]
+                new component will begin
+        after determining components for all index we can find max element of each component and each element of that component can reach the max value
+        """
+        # time: O(N)
+        # space: O(N)
+        # method: prefix + suffix + observations
+        n = len(nums)
+        prefixMax = [0] * n
+        suffixMin = [0] * n
+        prefixMax[0] = nums[0]
+        suffixMin[n - 1] = nums[n - 1]
+        for i in range(1, n):
+            prefixMax[i] = max(nums[i], prefixMax[i - 1])
+        for i in range(n - 2, -1, -1):
+            suffixMin[i] = min(suffixMin[i + 1], nums[i])
+        components = [0] * n
+        components[n - 1] = 1
+        for i in range(n - 2, -1, -1):
+            if prefixMax[i] > suffixMin[i + 1]:
+                components[i] = components[i + 1]
+            else:
+                components[i] = components[i + 1] + 1
+        maxValueByComponents = {}
+        for i in range(n):
+            component = components[i]
+            if component not in maxValueByComponents:
+                maxValueByComponents[component] = nums[i]
+            maxValueByComponents[component] = max(nums[i], maxValueByComponents[component])
+        result = [0] * n
+        for i in range(n):
+            component = components[i]
+            value = maxValueByComponents[component]
+            result[i] = value
         return result
