@@ -7,17 +7,13 @@ class Solution:
         # method: DP
         
         n = len(nums)
-        @cache
-        def solve(index: int) -> float:
-            if index == n - 1:
-                return 0
-            result = float('-inf')
-            for j in range(index + 1, n):
-                if -target <= nums[j] - nums[index] <= target:
-                    result = max(result, 1 + solve(j))
-            return result
+        dp = [0] * n
+        dp[0] = 1
+        for j in range(n):
+            for i in range(j):
+                # i -> j
+                if -target <= nums[j] - nums[i] <= target and dp[i] > 0:
+                    dp[j] = max(dp[j], dp[i] + 1)
         
-        result = solve(0)
-        if result == float('-inf'):
-            result = -1
+        result = dp[n - 1] - 1
         return result
