@@ -1892,6 +1892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
 | [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
+| [0489-robot-room-cleaner](https://github.com/erdenebayrd/leetcode/tree/master/0489-robot-room-cleaner) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
 | [0756-pyramid-transition-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0756-pyramid-transition-matrix) |
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
@@ -2060,6 +2061,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Interactive
 |  |
 | ------- |
+| [0489-robot-room-cleaner](https://github.com/erdenebayrd/leetcode/tree/master/0489-robot-room-cleaner) |
 | [1095-find-in-mountain-array](https://github.com/erdenebayrd/leetcode/tree/master/1095-find-in-mountain-array) |
 | [1428-leftmost-column-with-at-least-a-one](https://github.com/erdenebayrd/leetcode/tree/master/1428-leftmost-column-with-at-least-a-one) |
 | [2936-number-of-equal-numbers-blocks](https://github.com/erdenebayrd/leetcode/tree/master/2936-number-of-equal-numbers-blocks) |
