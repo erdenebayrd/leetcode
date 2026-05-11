@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2518-number-of-great-partitions](https://github.com/erdenebayrd/leetcode/tree/master/2518-number-of-great-partitions) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/erdenebayrd/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2529-range-product-queries-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [2534-time-taken-to-cross-the-door](https://github.com/erdenebayrd/leetcode/tree/master/2534-time-taken-to-cross-the-door) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2553-separate-the-digits-in-an-array) |
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/erdenebayrd/leetcode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/erdenebayrd/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
+| [2534-time-taken-to-cross-the-door](https://github.com/erdenebayrd/leetcode/tree/master/2534-time-taken-to-cross-the-door) |
 | [2868-continuous-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2868-continuous-subarrays) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/erdenebayrd/leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
@@ -1079,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/erdenebayrd/leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/erdenebayrd/leetcode/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2479-meeting-rooms-iii](https://github.com/erdenebayrd/leetcode/tree/master/2479-meeting-rooms-iii) |
+| [2534-time-taken-to-cross-the-door](https://github.com/erdenebayrd/leetcode/tree/master/2534-time-taken-to-cross-the-door) |
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2553-separate-the-digits-in-an-array) |
 | [3336-water-bottles-ii](https://github.com/erdenebayrd/leetcode/tree/master/3336-water-bottles-ii) |
