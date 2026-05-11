@@ -704,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/erdenebayrd/leetcode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/erdenebayrd/leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/erdenebayrd/leetcode/tree/master/0014-longest-common-prefix) |
+| [0032-longest-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/erdenebayrd/leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/erdenebayrd/leetcode/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/erdenebayrd/leetcode/tree/master/0067-add-binary) |
@@ -1303,6 +1304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/erdenebayrd/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/erdenebayrd/leetcode/tree/master/0010-regular-expression-matching) |
+| [0032-longest-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/erdenebayrd/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/erdenebayrd/leetcode/tree/master/0055-jump-game) |
@@ -1757,6 +1759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/erdenebayrd/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/erdenebayrd/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0085-maximal-rectangle) |
