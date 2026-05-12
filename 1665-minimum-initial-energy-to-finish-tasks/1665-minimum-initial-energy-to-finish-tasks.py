@@ -3,17 +3,13 @@ class Solution:
         # time: O(N log N)
         # space: O(N)
         # method: observation
-
-        diff = []
-        for actual, minimum in tasks:
-            diff.append(minimum - actual)
         
-        tasks = sorted(zip(tasks, diff), key=lambda x: x[1], reverse=True)
+        tasks = sorted(tasks, key=lambda x: x[1] - x[0], reverse=True)
         # print(tasks)
         
         result = 0
         current = 0
-        for [actual, minimum], _ in tasks:
+        for actual, minimum in tasks:
             if current < minimum:
                 diff = minimum - current
                 current = minimum
