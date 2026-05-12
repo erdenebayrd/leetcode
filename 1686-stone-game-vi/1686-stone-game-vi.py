@@ -1,27 +1,19 @@
 class Solution:
-    def stoneGameVI(self, aliceValues: List[int], bobValues: List[int]) -> int:
+    def stoneGameVI(self, alice_values: List[int], bob_values: List[int]) -> int:
         # time: O(N log N)
         # space: O(N)
-        # method: sort + greedy
-        n = len(aliceValues)
-        scores = []
-        for i in range(n):
-            value = aliceValues[i] + bobValues[i]
-            index = i
-            scores.append([value, index])
-        
-        scores.sort(reverse=True)
-        alice = 0
-        bob = 0
-        for i in range(n):
-            index = scores[i][1]
-            if i & 1:
-                bob += bobValues[index]
+        # method: sorting + greedy
+        values = sorted(zip(alice_values, bob_values), key=sum, reverse=True)
+        is_alice_turn = True
+        alice = bob = 0
+        for alice_value, bob_value in values:
+            if is_alice_turn:
+                alice += alice_value
             else:
-                alice += aliceValues[index]
-        
+                bob += bob_value
+            is_alice_turn = not is_alice_turn
         if alice > bob:
             return 1
-        elif alice < bob:
+        elif bob > alice:
             return -1
         return 0
