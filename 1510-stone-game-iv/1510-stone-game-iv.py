@@ -10,10 +10,10 @@ class Solution:
         dp = [False] * (n + 1)
         dp[1] = True
         for i in range(2, n + 1):
-            k = int(sqrt(i))
-            if k * k == i:
-                dp[i] = True
-            else:
-                for j in range(1, k + 1):
-                    dp[i] |= (not dp[i - j * j])
+            k = 1
+            while k * k <= i:
+                if dp[i - k * k] is False:
+                    dp[i] = True
+                    break
+                k += 1
         return dp[n]
