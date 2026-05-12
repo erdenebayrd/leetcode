@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1118-divide-array-into-increasing-sequences](https://github.com/erdenebayrd/leetcode/tree/master/1118-divide-array-into-increasing-sequences) |
 | [1132-before-and-after-puzzle](https://github.com/erdenebayrd/leetcode/tree/master/1132-before-and-after-puzzle) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
@@ -511,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/erdenebayrd/leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/erdenebayrd/leetcode/tree/master/0930-binary-subarrays-with-sum) |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1590-make-sum-divisible-by-p](https://github.com/erdenebayrd/leetcode/tree/master/1590-make-sum-divisible-by-p) |
@@ -949,6 +951,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0914-x-of-a-kind-in-a-deck-of-cards](https://github.com/erdenebayrd/leetcode/tree/master/0914-x-of-a-kind-in-a-deck-of-cards) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/erdenebayrd/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1266-minimum-time-visiting-all-points](https://github.com/erdenebayrd/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1390-four-divisors](https://github.com/erdenebayrd/leetcode/tree/master/1390-four-divisors) |
@@ -1366,6 +1369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1067-campus-bikes-ii](https://github.com/erdenebayrd/leetcode/tree/master/1067-campus-bikes-ii) |
 | [1105-filling-bookcase-shelves](https://github.com/erdenebayrd/leetcode/tree/master/1105-filling-bookcase-shelves) |
 | [1134-shortest-distance-to-target-color](https://github.com/erdenebayrd/leetcode/tree/master/1134-shortest-distance-to-target-color) |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/erdenebayrd/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/erdenebayrd/leetcode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/erdenebayrd/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -2041,6 +2045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/erdenebayrd/leetcode/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1686-stone-game-vi](https://github.com/erdenebayrd/leetcode/tree/master/1686-stone-game-vi) |
 | [3462-vowels-game-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/3462-vowels-game-in-a-string) |
 ## Minimum Spanning Tree
