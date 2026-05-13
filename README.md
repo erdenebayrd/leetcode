@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/erdenebayrd/leetcode/tree/master/1656-count-good-triplets) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/erdenebayrd/leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1673-find-the-most-competitive-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/1673-find-the-most-competitive-subsequence) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/erdenebayrd/leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1686-stone-game-vi](https://github.com/erdenebayrd/leetcode/tree/master/1686-stone-game-vi) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1590-make-sum-divisible-by-p](https://github.com/erdenebayrd/leetcode/tree/master/1590-make-sum-divisible-by-p) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/erdenebayrd/leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1895-largest-magic-square](https://github.com/erdenebayrd/leetcode/tree/master/1895-largest-magic-square) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2100-find-good-days-to-rob-the-bank](https://github.com/erdenebayrd/leetcode/tree/master/2100-find-good-days-to-rob-the-bank) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1500-count-largest-group](https://github.com/erdenebayrd/leetcode/tree/master/1500-count-largest-group) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1590-make-sum-divisible-by-p](https://github.com/erdenebayrd/leetcode/tree/master/1590-make-sum-divisible-by-p) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/erdenebayrd/leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/erdenebayrd/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [1797-design-authentication-manager](https://github.com/erdenebayrd/leetcode/tree/master/1797-design-authentication-manager) |
