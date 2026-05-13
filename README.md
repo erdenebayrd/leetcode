@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/erdenebayrd/leetcode/tree/master/1200-minimum-absolute-difference) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/erdenebayrd/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1254-number-of-closed-islands](https://github.com/erdenebayrd/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/erdenebayrd/leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1266-minimum-time-visiting-all-points](https://github.com/erdenebayrd/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -1213,6 +1214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/erdenebayrd/leetcode/tree/master/1214-two-sum-bsts) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1254-number-of-closed-islands](https://github.com/erdenebayrd/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -1255,6 +1257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1197-minimum-knight-moves](https://github.com/erdenebayrd/leetcode/tree/master/1197-minimum-knight-moves) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [1254-number-of-closed-islands](https://github.com/erdenebayrd/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -1651,6 +1654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/erdenebayrd/leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0931-minimum-falling-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/erdenebayrd/leetcode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1254-number-of-closed-islands](https://github.com/erdenebayrd/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/erdenebayrd/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1428-leftmost-column-with-at-least-a-one](https://github.com/erdenebayrd/leetcode/tree/master/1428-leftmost-column-with-at-least-a-one) |
@@ -2129,6 +2133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/erdenebayrd/leetcode/tree/master/0130-surrounded-regions) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
+| [1254-number-of-closed-islands](https://github.com/erdenebayrd/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1627-graph-connectivity-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1627-graph-connectivity-with-threshold) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
