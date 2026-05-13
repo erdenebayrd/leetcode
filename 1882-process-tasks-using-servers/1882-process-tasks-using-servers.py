@@ -51,7 +51,7 @@ class Solution:
                 freed_timestamp, server_index = heapq.heappop(running)
                 heapq.heappush(free, (servers[server_index], server_index))
             
-            weight, server_index = heapq.heappop(free)
+            _, server_index = heapq.heappop(free)
             result[i] = server_index
             heapq.heappush(running, (tasks[i] + current_timestamp, server_index))
 
