@@ -21,16 +21,17 @@ class Solution:
             return prefix[right] - prefix[left - 1]
 
         @lru_cache(None)
-        def solve(left: int, right: int, alice_turn: bool) -> Tuple[int, int]:
+        def solve(left: int, right: int) -> Tuple[int, int]:
             if left > right:
                 return (0, 0)
             
             alice = bob = 0
             take_left_score = score(left + 1, right)
-            take_left_alice, take_left_bob = solve(left + 1, right, not alice_turn)
+            take_left_alice, take_left_bob = solve(left + 1, right)
 
             take_right_score = score(left, right - 1)
-            take_right_alice, take_right_bob = solve(left, right - 1, not alice_turn)
+            take_right_alice, take_right_bob = solve(left, right - 1)
+            alice_turn = (right - left + 1) & 1 == n & 1
             if alice_turn:
                 if take_left_score + take_left_alice - take_left_bob > take_right_score + take_right_alice - take_right_bob:
                     alice, bob = take_left_score + take_left_alice, take_left_bob
@@ -43,6 +44,6 @@ class Solution:
                     alice, bob = take_right_alice, take_right_score + take_right_bob
             return (alice, bob)
         
-        alice, bob = solve(0, n - 1, True)
+        alice, bob = solve(0, n - 1)
         solve.cache_clear()
         return alice - bob
