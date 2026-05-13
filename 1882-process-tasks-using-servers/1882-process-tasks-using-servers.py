@@ -40,20 +40,19 @@ class Solution:
         result = [-1] * n
 
         current_timestamp = 0
-        i = 0
-        while i < n:
+
+        for i in range(n):
             current_timestamp = max(current_timestamp, i)
+
+            if not free:
+                current_timestamp = running[0][0]
 
             while running and current_timestamp >= running[0][0]:
                 freed_timestamp, server_index = heapq.heappop(running)
                 heapq.heappush(free, (servers[server_index], server_index))
             
-            if free:
-                weight, server_index = heapq.heappop(free)
-                result[i] = server_index
-                heapq.heappush(running, (tasks[i] + current_timestamp, server_index))
-                i += 1
-            else: # no free servers
-                current_timestamp = running[0][0]
+            weight, server_index = heapq.heappop(free)
+            result[i] = server_index
+            heapq.heappush(running, (tasks[i] + current_timestamp, server_index))
 
         return result
