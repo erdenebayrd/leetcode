@@ -2,8 +2,8 @@ from collections import Counter
 
 class Solution:
     def balancedString(self, s: str) -> int:
-        # time: O(N log N)
-        # space: O(N)
+        # time: O(N)
+        # space: O(1)
         # method: binary search + frequency
 
         n = len(s)
@@ -19,29 +19,23 @@ class Solution:
         if total == 0:
             return 0
 
-        def check(length: int) -> bool:
-            current_count = Counter()
-            for i in range(length):
-                current_count[s[i]] += 1
-            for i in range(length, n):
-                flag = True
-                for character in search_pattern:
-                    flag &= current_count[character] >= search_pattern[character]
-                if flag:
-                    return True
-                current_count[s[i]] += 1
-                current_count[s[i - length]] -= 1
-            flag = True
-            for character in search_pattern:
-                flag &= current_count[character] >= search_pattern[character]
-            return flag
-
-        low, high = total - 1, n + 1
-        while low + 1 < high:
-            mid = (low + high) // 2
-            if check(mid):
-                high = mid
-            else:
-                low = mid
-        return high
+        current_count = Counter()
+        left = 0
+        count_found = 0
+        for character in search_pattern:
+            if search_pattern[character] == 0:
+                count_found += 1
         
+        result = n
+        for right in range(n):
+            current_count[s[right]] += 1
+            if current_count[s[right]] == search_pattern[s[right]]:
+                count_found += 1
+
+            while left <= right and count_found == len(search_pattern):
+                result = min(result, right - left + 1)
+                current_count[s[left]] -= 1
+                if current_count[s[left]] + 1 == search_pattern[s[left]]:
+                    count_found -= 1
+                left += 1
+        return result
