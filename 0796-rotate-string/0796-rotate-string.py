@@ -8,7 +8,7 @@ class Solution:
         if len(s) != len(goal):
             return False
 
-        text = goal + "#" + s + s
+        text = goal + s + s
         n = len(text)
         left, right = -1, -1
         z = [0] * n
