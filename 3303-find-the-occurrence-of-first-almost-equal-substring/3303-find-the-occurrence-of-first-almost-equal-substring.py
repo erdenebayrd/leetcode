@@ -139,6 +139,9 @@ class Solution:
             just run the trivial algorithm
             total time woudl be linear O(len(text) + len(pattern) + 1) if we add "$" or "#"
         """
+        # time: O(len(text) + len(pattern) + 1)
+        # space: O(len(text) + len(pattern) + 1)
+        # method: z function + some reversals
 
         def z_function(text: str) -> list:
             n = len(text)
