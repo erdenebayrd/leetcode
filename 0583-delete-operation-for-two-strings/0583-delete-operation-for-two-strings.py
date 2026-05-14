@@ -3,28 +3,29 @@ from functools import lru_cache
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         
+        # time: O(N * M)
+        # space: O(N * M)
+        # method: DP
+        
         n = len(word1)
         m = len(word2)
         
-        @lru_cache(None)
-        def cost(first_pointer: int, second_pointer: int) -> int:
-            if first_pointer == n and second_pointer == m:
-                return 0
-            
-            # first_pointer = n
-            # when second_pointer = 3
-            
-            if first_pointer >= n:
-                return m - second_pointer
-            if second_pointer >= m:
-                return n - first_pointer
-            
-            if word1[first_pointer] == word2[second_pointer]:
-                return cost(first_pointer + 1, second_pointer + 1)
-            else:
-                return 1 + min(cost(first_pointer + 1, second_pointer), cost(first_pointer, second_pointer + 1))
-    
-        result = cost(0, 0)
-
-        cost.cache_clear()
+        dp = [[0] * m for _ in range(n)]
+        
+        lcs = 0
+        for i in range(n):
+            for j in range(m):
+                if j - 1 >= 0:
+                    dp[i][j] = max(dp[i][j], dp[i][j - 1])
+                if i - 1 >= 0:
+                    dp[i][j] = max(dp[i][j], dp[i - 1][j])
+                if word1[i] == word2[j]:
+                    if i - 1 >= 0 and j - 1 >= 0:
+                        dp[i][j] = max(dp[i][j], dp[i - 1][j - 1] + 1)
+                    else:
+                        dp[i][j] = 1
+                lcs = max(lcs, dp[i][j])
+        # print(dp)
+        # print(lcs)
+        result = n + m - 2 * lcs
         return result
