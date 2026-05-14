@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/erdenebayrd/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/2760-longest-even-odd-subarray-with-threshold) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/erdenebayrd/leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2784-check-if-array-is-good](https://github.com/erdenebayrd/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2786-visit-array-positions-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
@@ -677,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2784-check-if-array-is-good](https://github.com/erdenebayrd/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2915-count-of-interesting-subarrays) |
@@ -1532,6 +1534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2784-check-if-array-is-good](https://github.com/erdenebayrd/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2887-sort-vowels-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2887-sort-vowels-in-a-string) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
