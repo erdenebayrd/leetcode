@@ -3,18 +3,20 @@ from collections import defaultdict
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
         # time: O(N)
-        # space: O(N)
+        # space: O(1)
         # method: frequency
-        frequency = defaultdict(int)
+        frequency = 0
         n = len(A)
         counter = 0
         result = [0] * n
         for i in range(n):
-            frequency[A[i]] += 1
-            if frequency[A[i]] == 2:
+            value = A[i]
+            frequency ^= (1 << value)
+            if (frequency >> value) & 1 == 0:
                 counter += 1
-            frequency[B[i]] += 1
-            if frequency[B[i]] == 2:
+            value = B[i]
+            frequency ^= (1 << value)
+            if (frequency >> value) & 1 == 0:
                 counter += 1
             result[i] = counter
         return result
