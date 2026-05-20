@@ -1,50 +1,44 @@
+import bisect
+from typing import Optional
+
 class Solution:
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        n = len(nums1)
-        m = len(nums2)
-        inf = int(2e6)
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:                
+        # time: O(log(n) * log(m))
+        # space: O(1)
+        # method: binary search
 
-        def countStrictlyLowerElements(x: int) -> int:
-            res = bisect_left(nums1, x) 
-            res += bisect_left(nums2, x)
-            return res
-        
-        def countExactlyEqualElements(x: int) -> int:
-            res = bisect_right(nums1, x) - bisect_left(nums1, x)
-            res += bisect_right(nums2, x) - bisect_left(nums2, x)
-            return res
+        def count_less(value: int, strictly: bool) -> int:
+            if strictly:
+                return bisect.bisect_left(nums1, value) + bisect.bisect_left(nums2, value)
+            return bisect.bisect_right(nums1, value) + bisect.bisect_right(nums2, value)
 
-        def countStrictlyGreaterElements(x: int) -> int:
-            res = countStrictlyLowerElements(x)
-            res += countExactlyEqualElements(x)
-            res = n + m - res
-            return res
-
-        def binSearch(k: int, nums) -> int:
-            lo, hi = -1, len(nums)
-            while lo + 1 < hi:
-                md = (lo + hi) // 2
-                x = nums[md]
-                lower = countStrictlyLowerElements(x)
-                equal = countExactlyEqualElements(x)
-                higher = countStrictlyGreaterElements(x)
-                if lower <= k <= lower + equal - 1:
-                    return x
-                if k <= lower - 1:
-                    hi = md
+        def binary_search(k: int, nums: List[int]) -> Optional[int]:
+            low, high = -1, len(nums)
+            while low + 1 < high:
+                mid = (low + high) // 2
+                value = nums[mid]
+                less_count = count_less(value, True)
+                less_equal_count = count_less(value, False)
+                if less_count <= k < less_equal_count:
+                    return value
+                elif k < less_count:
+                    high = mid
                 else:
-                    lo = md
-            return inf
+                    low = mid
+            return None
 
-        # after concatenating 2 arrays, returns a value of k'th index by O(Log(m + n))
-        def findElementByIndex(k: int) -> float:
-            res = binSearch(k, nums1)
-            if res == inf:
-                res = binSearch(k, nums2)
-            assert res != inf
-            return res
-
-        idx = (n + m) // 2
-        if (n + m) & 1:
-            return findElementByIndex(idx)
-        return (findElementByIndex(idx) + findElementByIndex(idx - 1)) / 2
+        def find_kth_value(k: int) -> int:
+            # start searching from nums1
+            value = binary_search(k, nums1)
+            if value is not None:
+                return value
+            value = binary_search(k, nums2)
+            return value
+        
+        n = len(nums1) + len(nums2)
+        mid_index = (n - 1) // 2
+        median = find_kth_value(mid_index)
+        if n & 1 == 0: # even length
+            median += find_kth_value(mid_index + 1)
+            median /= 2
+        return median
