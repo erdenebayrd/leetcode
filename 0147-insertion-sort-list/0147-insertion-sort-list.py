@@ -9,26 +9,24 @@ class Solution:
         # space: O(1)
         # method: simulation of insertion sort in singly linked list
 
-        dummy = ListNode()
-        dummy.next = head
+        dummy = ListNode(float('-inf'), head)
         prev = dummy
         curr = dummy.next
 
         while curr:
-            nested_prev, nested_curr = dummy, dummy.next
-            while nested_curr != curr and nested_curr.val < curr.val:
-                nested_curr = nested_curr.next
-                nested_prev = nested_prev.next
-            
-            if nested_curr == curr:
-                curr = curr.next
-                prev = prev.next
+            if prev.val <= curr.val: # already in sorted order
+                prev, curr = curr, curr.next
                 continue
-
-            # swap nodes
+            
+            node = dummy
+            while node.next.val <= curr.val:
+                node = node.next
+            
+            # swapping
             prev.next = curr.next
-            nested_prev.next = curr
-            curr.next = nested_curr
+            curr.next = node.next
+            node.next = curr
 
             curr = prev.next
+        
         return dummy.next
