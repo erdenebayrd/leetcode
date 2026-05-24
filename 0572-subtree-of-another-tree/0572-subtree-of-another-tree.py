@@ -33,12 +33,12 @@ class Solution:
     #         return False
     #     return self.isSameTree(tree1.left, tree2.left) & self.isSameTree(tree1.right, tree2.right)
 
-    def serialize(self, node: Optional[TreeNode]) -> str:
-        if not node:
-            return "#"
-        return f"^{node.val},{self.serialize(node.left)},{self.serialize(node.right)}"
+    # def serialize(self, node: Optional[TreeNode]) -> str:
+    #     if not node:
+    #         return "#"
+    #     return f"^{node.val},{self.serialize(node.left)},{self.serialize(node.right)}"
 
-    def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+    def isSubtree(self, root: Optional[TreeNode], sub_root: Optional[TreeNode]) -> bool:
         # if not root:
         #     return False
         # if self.isSameTree(root, subRoot):
@@ -48,33 +48,33 @@ class Solution:
         # space: O(N + M)
         # method: string searching algo ( rolling hash )
 
-        text = self.serialize(root)
-        pattern = self.serialize(subRoot)
+        # text = self.serialize(root)
+        # pattern = self.serialize(subRoot)
         # print(text)
         # print(pattern)
         # return pattern in text
 
-        # ---------------------------------- KMP ----------------------------------------
-        # pattern = "aabaabaaa"
-        m = len(pattern)
-        lps = [0] * m
-        length = 0
-        for i in range(1, m):
-            while length > 0 and pattern[length] != pattern[i]:
-                length = lps[length - 1]
-            if pattern[length] == pattern[i]:
-                length += 1
-            lps[i] = length
+        # # ---------------------------------- KMP ----------------------------------------
+        # # pattern = "aabaabaaa"
+        # m = len(pattern)
+        # lps = [0] * m
+        # length = 0
+        # for i in range(1, m):
+        #     while length > 0 and pattern[length] != pattern[i]:
+        #         length = lps[length - 1]
+        #     if pattern[length] == pattern[i]:
+        #         length += 1
+        #     lps[i] = length
         
-        length = 0
-        for i in range(len(text)):
-            while length > 0 and text[i] != pattern[length]:
-                length = lps[length - 1]
-            if text[i] == pattern[length]:
-                length += 1
-            if length >= len(pattern):
-                return True
-        return False
+        # length = 0
+        # for i in range(len(text)):
+        #     while length > 0 and text[i] != pattern[length]:
+        #         length = lps[length - 1]
+        #     if text[i] == pattern[length]:
+        #         length += 1
+        #     if length >= len(pattern):
+        #         return True
+        # return False
 
         # textHash = RollingHash(text, 257, int(1e9 + 7))
         # patternHash = RollingHash(pattern, 257, int(1e9 + 7))
@@ -86,3 +86,31 @@ class Solution:
         #     if textHash.getRangeHash(left, right) == patternHash.getRangeHash(0, len(pattern) - 1) and textHash1.getRangeHash(left, right) == patternHash1.getRangeHash(0, len(pattern) - 1):
         #         return True
         # return False
+
+        def serialize(node: Optional[TreeNode]) -> str:
+            if not node:
+                return "#"
+            return f"^{node.val},{serialize(node.left)},{serialize(node.right)}"
+        
+        text = serialize(root)
+        pattern = serialize(sub_root)
+        text = pattern + "$" + text
+        n = len(text)
+        z_values = [0] * n
+        z_values[0] = n
+        left = right = 0
+        for i in range(1, n):
+            if i <= right:
+                z_values[i] = min(z_values[i - left], right - i + 1)
+            
+            while i + z_values[i] < n and text[z_values[i]] == text[i + z_values[i]]:
+                z_values[i] += 1
+            
+            if i + z_values[i] - 1 > right:
+                right = i + z_values[i] - 1
+                left = i
+        
+        for i in range(1, n):
+            if z_values[i] == len(pattern):
+                return True
+        return False
