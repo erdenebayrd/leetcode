@@ -390,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3660-jump-game-ix](https://github.com/erdenebayrd/leetcode/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/erdenebayrd/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/erdenebayrd/leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3698-split-array-with-minimum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3698-split-array-with-minimum-difference) |
 | [3706-maximum-distance-between-unequal-words-in-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3706-maximum-distance-between-unequal-words-in-array-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/erdenebayrd/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/erdenebayrd/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -564,6 +565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/erdenebayrd/leetcode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/erdenebayrd/leetcode/tree/master/3647-zero-array-transformation-iii) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/erdenebayrd/leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3698-split-array-with-minimum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3698-split-array-with-minimum-difference) |
 | [3719-longest-balanced-subarray-i](https://github.com/erdenebayrd/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/erdenebayrd/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/erdenebayrd/leetcode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
