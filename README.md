@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0256-paint-house](https://github.com/erdenebayrd/leetcode/tree/master/0256-paint-house) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
 | [0265-paint-house-ii](https://github.com/erdenebayrd/leetcode/tree/master/0265-paint-house-ii) |
+| [0275-h-index-ii](https://github.com/erdenebayrd/leetcode/tree/master/0275-h-index-ii) |
 | [0281-zigzag-iterator](https://github.com/erdenebayrd/leetcode/tree/master/0281-zigzag-iterator) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
 | [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -888,6 +889,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/erdenebayrd/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0240-search-a-2d-matrix-ii](https://github.com/erdenebayrd/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
+| [0275-h-index-ii](https://github.com/erdenebayrd/leetcode/tree/master/0275-h-index-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/erdenebayrd/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
