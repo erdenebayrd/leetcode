@@ -1,116 +1,96 @@
-class RollingHash:
-    def __init__(self, text: str, base: int, mod: int) -> None:
-        self.base = base
-        self.mod = mod
-        n = len(text)
-        self.hash = []
-        self.bases = [1]
-        self.hash.append(ord(text[0]))
-        for i in range(1, n):
-            self.bases.append((self.bases[-1] * base) % mod)
-            self.hash.append((self.hash[-1] * base + ord(text[i])) % mod)
-
-    def getRangeHash(self, left: int, right: int) -> int:
-        if left == 0:
-            return self.hash[right]
-        return (self.hash[right] - (self.hash[left - 1] * self.bases[right - left + 1]) % self.mod) % self.mod
-
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution:
-    # time: O( len(root) * len(subRoot) )
-    # space: O(log(len(root)))
-    # method: DFS
-
-    # def isSameTree(self, tree1: Optional[TreeNode], tree2: Optional[TreeNode]) -> bool: # O(N) N is the size of minimum tree (nodes)
-    #     if not tree1 and not tree2:
-    #         return True
-    #     if not tree1 or not tree2 or tree1.val != tree2.val:
-    #         return False
-    #     return self.isSameTree(tree1.left, tree2.left) & self.isSameTree(tree1.right, tree2.right)
-
-    # def serialize(self, node: Optional[TreeNode]) -> str:
-    #     if not node:
-    #         return "#"
-    #     return f"^{node.val},{self.serialize(node.left)},{self.serialize(node.right)}"
-
     def isSubtree(self, root: Optional[TreeNode], sub_root: Optional[TreeNode]) -> bool:
-        # if not root:
+        """
+        observations
+            * somehow if we serialize the given tree and sub_stree into flat text and pattern, it will become pattern search problem from string
+            * we need to serialize a tree into text as O(length of tree)
+            * after converting root into text and sub_root into pattern, we can use Z-Function algorithm to find pattern in text that will take O(N) time and space.
+        """
+        # time: O(N) N is number of nodes in root + number of nodes in sub_root
+        # space: O(N)
+        # method: serialize + pattern search
+
+        # def serialize(node: Optional[TreeNode]) -> str:
+        #     # we can use stack iterative way to serialize tree into string
+        #     stack = [node]
+        #     result = []
+        #     while stack:
+        #         node = stack.pop() # takes last node
+        #         if node:
+        #             result.append("^" + str(node.val))
+        #             stack.append(node.right)
+        #             stack.append(node.left)
+        #         else: # node is None
+        #             result.append("#")
+        #     return ",".join(result)
+        
+        # text = serialize(root)
+        # pattern = serialize(sub_root)
+
+        # def find(text: str, pattern: str) -> bool:
+        #     # in this case we will use z function which is O(length text + length pattern) time & space complexity
+        #     text = pattern + text
+        #     n = len(text)
+        #     z_values = [0] * n
+        #     z_values[0] = n
+
+        #     left = right = 0
+        #     for i in range(1, n):
+        #         if i <= right: # "i" is inside [left, right] range, meaning, starting from 0 -> (right - left) == [left, right], then we can use calculated z_value
+        #             z_values[i] = min(z_values[i - left], right - i + 1)
+                
+        #         while i + z_values[i] < n and text[z_values[i]] == text[i + z_values[i]]:
+        #             z_values[i] += 1
+                
+        #         if i + z_values[i] - 1 > right:
+        #             left = i
+        #             right = i + z_values[i] - 1
+
+        #     for i in range(1, n):
+        #         if z_values[i] >= len(pattern):
+        #             return True
         #     return False
-        # if self.isSameTree(root, subRoot):
-        #     return True
-        # return self.isSubtree(root.left, subRoot) | self.isSubtree(root.right, subRoot)
-        # time: O(N + M)
-        # space: O(N + M)
-        # method: string searching algo ( rolling hash )
 
-        # text = self.serialize(root)
-        # pattern = self.serialize(subRoot)
-        # print(text)
-        # print(pattern)
-        # return pattern in text
+        # is_sub_tree = find(text, pattern)
+        # return is_sub_tree
 
-        # # ---------------------------------- KMP ----------------------------------------
-        # # pattern = "aabaabaaa"
-        # m = len(pattern)
-        # lps = [0] * m
-        # length = 0
-        # for i in range(1, m):
-        #     while length > 0 and pattern[length] != pattern[i]:
-        #         length = lps[length - 1]
-        #     if pattern[length] == pattern[i]:
-        #         length += 1
-        #     lps[i] = length
+
+        # ------------------ Merkle Tree O(n + m) ---------------------
+        # time: O(n + m)
+        # space: O(n + m)
+        # method: merkle tree using hash builtin function
+
+        if not root or not sub_root:
+            return False
         
-        # length = 0
-        # for i in range(len(text)):
-        #     while length > 0 and text[i] != pattern[length]:
-        #         length = lps[length - 1]
-        #     if text[i] == pattern[length]:
-        #         length += 1
-        #     if length >= len(pattern):
-        #         return True
-        # return False
-
-        # textHash = RollingHash(text, 257, int(1e9 + 7))
-        # patternHash = RollingHash(pattern, 257, int(1e9 + 7))
-        # textHash1 = RollingHash(text, 37, int(1e9 + 9))
-        # patternHash1 = RollingHash(pattern, 37, int(1e9 + 9))
-        # for i in range(len(pattern) - 1, len(text)):
-        #     left = i - len(pattern) + 1
-        #     right = i
-        #     if textHash.getRangeHash(left, right) == patternHash.getRangeHash(0, len(pattern) - 1) and textHash1.getRangeHash(left, right) == patternHash1.getRangeHash(0, len(pattern) - 1):
-        #         return True
-        # return False
-
-        def serialize(node: Optional[TreeNode]) -> str:
+        def get_hash(node: Optional[TreeNode]) -> int:
             if not node:
-                return "#"
-            return f"^{node.val},{serialize(node.left)},{serialize(node.right)}"
-        
-        text = serialize(root)
-        pattern = serialize(sub_root)
-        text = pattern + "$" + text
-        n = len(text)
-        z_values = [0] * n
-        z_values[0] = n
-        left = right = 0
-        for i in range(1, n):
-            if i <= right:
-                z_values[i] = min(z_values[i - left], right - i + 1)
+                return 0
             
-            while i + z_values[i] < n and text[z_values[i]] == text[i + z_values[i]]:
-                z_values[i] += 1
-            
-            if i + z_values[i] - 1 > right:
-                right = i + z_values[i] - 1
-                left = i
+            left_hash = get_hash(node.left)
+            right_hash = get_hash(node.right)
+            node_hash = hash(node.val)
+            hash_value = hash((node_hash, left_hash, right_hash))
+            return hash_value
         
-        for i in range(1, n):
-            if z_values[i] == len(pattern):
-                return True
-        return False
+        sub_tree_hash = get_hash(sub_root)
+        
+        def find(node: Optional[TreeNode], sub_tree_hash: int) -> tuple: # first value is hash value of subtree at node, second value is found a subtree_hash value (bool)
+            if not node:
+                return (0, False)
+            left_hash, is_found_left = find(node.left, sub_tree_hash)
+            right_hash, is_found_right = find(node.right, sub_tree_hash)
+            node_hash = hash(node.val)
+            hash_value = hash((node_hash, left_hash, right_hash))
+            is_found = (hash_value == sub_tree_hash) or is_found_left or is_found_right
+            return (hash_value, is_found)
+
+        _, is_found = find(root, sub_tree_hash)
+        return is_found
