@@ -593,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/erdenebayrd/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0170-two-sum-iii-data-structure-design](https://github.com/erdenebayrd/leetcode/tree/master/0170-two-sum-iii-data-structure-design) |
+| [0205-isomorphic-strings](https://github.com/erdenebayrd/leetcode/tree/master/0205-isomorphic-strings) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -757,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
 | [0165-compare-version-numbers](https://github.com/erdenebayrd/leetcode/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/erdenebayrd/leetcode/tree/master/0166-fraction-to-recurring-decimal) |
+| [0205-isomorphic-strings](https://github.com/erdenebayrd/leetcode/tree/master/0205-isomorphic-strings) |
 | [0247-strobogrammatic-number-ii](https://github.com/erdenebayrd/leetcode/tree/master/0247-strobogrammatic-number-ii) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
