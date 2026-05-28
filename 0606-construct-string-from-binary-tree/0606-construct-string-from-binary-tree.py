@@ -9,15 +9,22 @@ class Solution:
         """
             tree hash/AHU
         """
-        
-        def dfs(node: TreeNode) -> str:
-            if node.left and node.right:
-                return f"({str(node.val)}{dfs(node.left)}{dfs(node.right)})"
-            elif node.left and not node.right:
-                return f"({str(node.val)}{dfs(node.left)})"
-            elif not node.left and node.right:
-                return f"({str(node.val)}(){dfs(node.right)})"
-            return f"({str(node.val)})"
-        
-        result = dfs(root)
-        return result[1:-1]
+        if not root:
+            return ""
+        out = []
+
+        def dfs(node: TreeNode) -> None:
+            out.append(str(node.val))
+            if node.left:
+                out.append("(")
+                dfs(node.left)
+                out.append(")")
+            elif node.right:
+                out.append("()")
+            if node.right:
+                out.append("(")
+                dfs(node.right)
+                out.append(")")
+
+        dfs(root)
+        return "".join(out)
