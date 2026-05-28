@@ -770,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0527-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0527-word-abbreviation) |
 | [0583-delete-operation-for-two-strings](https://github.com/erdenebayrd/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/erdenebayrd/leetcode/tree/master/0599-minimum-index-sum-of-two-lists) |
+| [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0664-strange-printer](https://github.com/erdenebayrd/leetcode/tree/master/0664-strange-printer) |
 | [0680-valid-palindrome-ii](https://github.com/erdenebayrd/leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -1240,6 +1241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
@@ -1630,6 +1632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -1670,6 +1673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
