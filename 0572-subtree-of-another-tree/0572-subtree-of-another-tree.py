@@ -62,35 +62,56 @@ class Solution:
         # return is_sub_tree
 
 
-        # ------------------ Merkle Tree O(n + m) ---------------------
-        # time: O(n + m)
-        # space: O(n + m)
-        # method: merkle tree using hash builtin function
+        # # ------------------ Merkle Tree O(n + m) ---------------------
+        # # time: O(n + m)
+        # # space: O(n + m)
+        # # method: merkle tree using hash builtin function
 
-        if not root or not sub_root:
-            return False
+        # if not root or not sub_root:
+        #     return False
         
-        def get_hash(node: Optional[TreeNode]) -> int:
-            if not node:
-                return 0
+        # def get_hash(node: Optional[TreeNode]) -> int:
+        #     if not node:
+        #         return 0
             
-            left_hash = get_hash(node.left)
-            right_hash = get_hash(node.right)
-            node_hash = hash(node.val)
-            hash_value = hash((node_hash, left_hash, right_hash))
-            return hash_value
+        #     left_hash = get_hash(node.left)
+        #     right_hash = get_hash(node.right)
+        #     node_hash = hash(node.val)
+        #     hash_value = hash((node_hash, left_hash, right_hash))
+        #     return hash_value
         
-        sub_tree_hash = get_hash(sub_root)
+        # sub_tree_hash = get_hash(sub_root)
         
-        def find(node: Optional[TreeNode], sub_tree_hash: int) -> tuple: # first value is hash value of subtree at node, second value is found a subtree_hash value (bool)
-            if not node:
-                return (0, False)
-            left_hash, is_found_left = find(node.left, sub_tree_hash)
-            right_hash, is_found_right = find(node.right, sub_tree_hash)
-            node_hash = hash(node.val)
-            hash_value = hash((node_hash, left_hash, right_hash))
-            is_found = (hash_value == sub_tree_hash) or is_found_left or is_found_right
-            return (hash_value, is_found)
+        # def find(node: Optional[TreeNode], sub_tree_hash: int) -> tuple: # first value is hash value of subtree at node, second value is found a subtree_hash value (bool)
+        #     if not node:
+        #         return (0, False)
+        #     left_hash, is_found_left = find(node.left, sub_tree_hash)
+        #     right_hash, is_found_right = find(node.right, sub_tree_hash)
+        #     node_hash = hash(node.val)
+        #     hash_value = hash((node_hash, left_hash, right_hash))
+        #     is_found = (hash_value == sub_tree_hash) or is_found_left or is_found_right
+        #     return (hash_value, is_found)
 
-        _, is_found = find(root, sub_tree_hash)
-        return is_found
+        # _, is_found = find(root, sub_tree_hash)
+        # return is_found
+
+        # __________________________________ ISOMORPHISM __________________________________
+        # time: O(N + M)
+        # space: O(N)
+        # method: isomorphic tree -> like a merkle tree
+
+        def get_id(node: Optional[TreeNode], tree_ids: dict) -> int:
+            if not node:
+                return -1
+            left_id = get_id(node.left, tree_ids)
+            right_id = get_id(node.right, tree_ids)
+            node_shape_with_value = (node.val, left_id, right_id)
+            if node_shape_with_value not in tree_ids:
+                tree_ids[node_shape_with_value] = len(tree_ids)
+
+            return tree_ids[node_shape_with_value]
+        
+        tree_ids = {} # key as subtree shape with values, value as a given id (which is just a 0, 1, 2 .. etc)
+        root_id = get_id(root, tree_ids)
+        subtree_id = get_id(sub_root, tree_ids)
+        return subtree_id <= root_id
