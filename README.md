@@ -1226,6 +1226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0250-count-univalue-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0250-count-univalue-subtrees) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/erdenebayrd/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/erdenebayrd/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
@@ -1624,6 +1625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0250-count-univalue-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0250-count-univalue-subtrees) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/erdenebayrd/leetcode/tree/master/0285-inorder-successor-in-bst) |
@@ -1666,6 +1668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/erdenebayrd/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0250-count-univalue-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0250-count-univalue-subtrees) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/erdenebayrd/leetcode/tree/master/0285-inorder-successor-in-bst) |
