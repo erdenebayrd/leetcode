@@ -1002,6 +1002,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/erdenebayrd/leetcode/tree/master/0900-reordered-power-of-2) |
 | [0914-x-of-a-kind-in-a-deck-of-cards](https://github.com/erdenebayrd/leetcode/tree/master/0914-x-of-a-kind-in-a-deck-of-cards) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1056-confusing-number](https://github.com/erdenebayrd/leetcode/tree/master/1056-confusing-number) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/erdenebayrd/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
