@@ -16,14 +16,16 @@ class Codec:
         :rtype: str
         """
         encoded = []
-        def dfs(node: Optional[TreeNode], ref: list) -> None:
+        stack = [root]
+        while stack:
+            node = stack.pop()
             if not node:
-                ref.append("#") # null
-                return
-            ref.append(str(node.val))
-            dfs(node.left, ref)
-            dfs(node.right, ref)
-        dfs(root, encoded)
+                encoded.append("#")
+                continue
+            
+            encoded.append(str(node.val))
+            stack.append(node.right)
+            stack.append(node.left)
         return ",".join(encoded)
 
     def deserialize(self, data):
