@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/erdenebayrd/leetcode/tree/master/0717-1-bit-and-2-bit-characters) |
+| [0723-candy-crush](https://github.com/erdenebayrd/leetcode/tree/master/0723-candy-crush) |
 | [0734-sentence-similarity](https://github.com/erdenebayrd/leetcode/tree/master/0734-sentence-similarity) |
 | [0735-asteroid-collision](https://github.com/erdenebayrd/leetcode/tree/master/0735-asteroid-collision) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
@@ -1106,6 +1107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0457-circular-array-loop](https://github.com/erdenebayrd/leetcode/tree/master/0457-circular-array-loop) |
 | [0611-valid-triangle-number](https://github.com/erdenebayrd/leetcode/tree/master/0611-valid-triangle-number) |
 | [0680-valid-palindrome-ii](https://github.com/erdenebayrd/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0723-candy-crush](https://github.com/erdenebayrd/leetcode/tree/master/0723-candy-crush) |
 | [0768-partition-labels](https://github.com/erdenebayrd/leetcode/tree/master/0768-partition-labels) |
 | [0777-swap-adjacent-in-lr-string](https://github.com/erdenebayrd/leetcode/tree/master/0777-swap-adjacent-in-lr-string) |
 | [0868-push-dominoes](https://github.com/erdenebayrd/leetcode/tree/master/0868-push-dominoes) |
@@ -1140,6 +1142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/erdenebayrd/leetcode/tree/master/0067-add-binary) |
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0498-diagonal-traverse](https://github.com/erdenebayrd/leetcode/tree/master/0498-diagonal-traverse) |
+| [0723-candy-crush](https://github.com/erdenebayrd/leetcode/tree/master/0723-candy-crush) |
 | [0735-asteroid-collision](https://github.com/erdenebayrd/leetcode/tree/master/0735-asteroid-collision) |
 | [0874-walking-robot-simulation](https://github.com/erdenebayrd/leetcode/tree/master/0874-walking-robot-simulation) |
 | [1756-design-most-recently-used-queue](https://github.com/erdenebayrd/leetcode/tree/master/1756-design-most-recently-used-queue) |
@@ -1732,6 +1735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
+| [0723-candy-crush](https://github.com/erdenebayrd/leetcode/tree/master/0723-candy-crush) |
 | [0741-cherry-pickup](https://github.com/erdenebayrd/leetcode/tree/master/0741-cherry-pickup) |
 | [0840-magic-squares-in-grid](https://github.com/erdenebayrd/leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0931-minimum-falling-path-sum](https://github.com/erdenebayrd/leetcode/tree/master/0931-minimum-falling-path-sum) |
