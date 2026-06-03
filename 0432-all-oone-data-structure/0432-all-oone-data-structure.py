@@ -1,6 +1,5 @@
 class Node:
     def __init__(self) -> None:
-        # self.val = 0
         self.keys = set()
         self.next = None
         self.prev = None
@@ -12,14 +11,6 @@ class LinkedList:
         self.head.next = self.tail
         self.tail.prev = self.head
     
-    def append_left(self) -> "Node": # returns node reference
-        node = Node()
-        node.prev = self.head
-        node.next = self.head.next
-        self.head.next.prev = node
-        self.head.next = node
-        return node
-    
     def append_after(self, ref: "Node") -> "Node": # returns node reference
         node = Node()
         node.prev = ref
@@ -29,15 +20,8 @@ class LinkedList:
         return node
     
     def append_before(self, ref: "Node") -> "Node": # returns node reference
-        node = Node()
-        node.prev = ref.prev
-        node.next = ref
-        ref.prev.next = node
-        ref.prev = node
-        return node
+        return self.append_after(ref.prev)
         
-
-    
     def remove(self, ref: "Node") -> None:
         ref.prev.next = ref.next
         ref.next.prev = ref.prev
@@ -73,7 +57,7 @@ class AllOne:
             elif frequency + 1 in self.counter_refs:
                 ref = self.freq.append_before(self.counter_refs[frequency + 1])
             else: # first time appending
-                ref = self.freq.append_left()
+                ref = self.freq.append_after(self.freq.head)
             self.counter_refs[frequency] = ref
         self.key_refs[key] = self.counter_refs[frequency]
         self.counter_refs[frequency].keys.add(key)
