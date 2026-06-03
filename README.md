@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/erdenebayrd/leetcode/tree/master/0645-set-mismatch) |
 | [0656-coin-path](https://github.com/erdenebayrd/leetcode/tree/master/0656-coin-path) |
 | [0665-non-decreasing-array](https://github.com/erdenebayrd/leetcode/tree/master/0665-non-decreasing-array) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
@@ -1445,6 +1446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0651-4-keys-keyboard](https://github.com/erdenebayrd/leetcode/tree/master/0651-4-keys-keyboard) |
 | [0656-coin-path](https://github.com/erdenebayrd/leetcode/tree/master/0656-coin-path) |
 | [0664-strange-printer](https://github.com/erdenebayrd/leetcode/tree/master/0664-strange-printer) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/erdenebayrd/leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0727-minimum-window-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0727-minimum-window-subsequence) |
 | [0741-cherry-pickup](https://github.com/erdenebayrd/leetcode/tree/master/0741-cherry-pickup) |
@@ -2091,12 +2093,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
 ## Segment Tree
 |  |
 | ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [1622-fancy-sequence](https://github.com/erdenebayrd/leetcode/tree/master/1622-fancy-sequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
