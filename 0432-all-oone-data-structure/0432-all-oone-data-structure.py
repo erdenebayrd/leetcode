@@ -71,6 +71,8 @@ class AllOne:
         self.counter[key] -= 1
         self.__add(self.counter[key], key)
         self.__remove(self.counter[key] + 1, key)
+        if self.counter[key] == 0:
+            del self.counter[key]
 
     def getMaxKey(self) -> str:
         _prev = self.freq.tail.prev
