@@ -333,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/erdenebayrd/leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/erdenebayrd/leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/erdenebayrd/leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3194-find-words-containing-character](https://github.com/erdenebayrd/leetcode/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/erdenebayrd/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-maximum-score-from-grid-operations](https://github.com/erdenebayrd/leetcode/tree/master/3225-maximum-score-from-grid-operations) |
@@ -453,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/erdenebayrd/leetcode/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/erdenebayrd/leetcode/tree/master/3095-shortest-subarray-with-or-at-least-k-i) |
+| [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/erdenebayrd/leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/erdenebayrd/leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
@@ -973,6 +975,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2936-number-of-equal-numbers-blocks](https://github.com/erdenebayrd/leetcode/tree/master/2936-number-of-equal-numbers-blocks) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
+| [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/erdenebayrd/leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3453-separate-squares-i](https://github.com/erdenebayrd/leetcode/tree/master/3453-separate-squares-i) |
 | [3454-separate-squares-ii](https://github.com/erdenebayrd/leetcode/tree/master/3454-separate-squares-ii) |
 | [3488-closest-equal-element-queries](https://github.com/erdenebayrd/leetcode/tree/master/3488-closest-equal-element-queries) |
@@ -2114,6 +2117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2407-longest-increasing-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/2407-longest-increasing-subsequence-ii) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
+| [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/erdenebayrd/leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3454-separate-squares-ii](https://github.com/erdenebayrd/leetcode/tree/master/3454-separate-squares-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/erdenebayrd/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/erdenebayrd/leetcode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
