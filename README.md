@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3074-apple-redistribution-into-boxes](https://github.com/erdenebayrd/leetcode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/erdenebayrd/leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3093-longest-common-suffix-queries](https://github.com/erdenebayrd/leetcode/tree/master/3093-longest-common-suffix-queries) |
+| [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/erdenebayrd/leetcode/tree/master/3095-shortest-subarray-with-or-at-least-k-i) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/erdenebayrd/leetcode/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-range-product-queries-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2529-range-product-queries-of-powers) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/erdenebayrd/leetcode/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/erdenebayrd/leetcode/tree/master/3095-shortest-subarray-with-or-at-least-k-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/erdenebayrd/leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
@@ -518,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2868-continuous-subarrays) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/erdenebayrd/leetcode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
+| [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/erdenebayrd/leetcode/tree/master/3095-shortest-subarray-with-or-at-least-k-i) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/erdenebayrd/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3422-minimum-operations-to-make-subarray-elements-equal](https://github.com/erdenebayrd/leetcode/tree/master/3422-minimum-operations-to-make-subarray-elements-equal) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
