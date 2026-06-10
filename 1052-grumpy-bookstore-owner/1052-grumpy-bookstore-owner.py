@@ -4,12 +4,10 @@ class Solution:
         # space: O(1)
         # method: sliding window
         n = len(customers)
-        for i in range(n):
-            grumpy[i] ^= 1
 
         left_sum = right_sum = window_sum = 0
         for i in range(minutes, n):
-            right_sum += customers[i] * grumpy[i]
+            right_sum += customers[i] * (grumpy[i] ^ 1)
 
         for i in range(minutes):
             window_sum += customers[i]
@@ -17,7 +15,7 @@ class Solution:
         result = left_sum + window_sum + right_sum
         for i in range(minutes, n):
             window_sum += customers[i] - customers[i - minutes]
-            left_sum += customers[i - minutes] * grumpy[i - minutes]
-            right_sum -= customers[i] * grumpy[i]
+            left_sum += customers[i - minutes] * (grumpy[i - minutes] ^ 1)
+            right_sum -= customers[i] * (grumpy[i] ^ 1)
             result = max(result, left_sum + window_sum + right_sum)
         return result
