@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict, deque
 
 class Solution:
     def assignEdgeWeights(self, edges: List[List[int]]) -> int:
@@ -11,14 +11,17 @@ class Solution:
             adj[u].append(v)
             adj[v].append(u)
         
-        def dfs(node: int, parent: int) -> int:
-            result = 0
+        queue = deque()
+        queue.append((1, 0))
+        seen = set([1])
+        slot = 0
+        while queue:
+            node, deep = queue.popleft()
+            slot = max(slot, deep)
             for child in adj[node]:
-                if child == parent:
+                if child in seen:
                     continue
-                result = max(result, dfs(child, node))
-            result += 1
-            return result
+                seen.add(child)
+                queue.append((child, deep + 1))
         
-        slot = dfs(1, 0) - 1
         return pow(2, slot - 1, 1_000_000_007)
