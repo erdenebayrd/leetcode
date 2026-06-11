@@ -3,7 +3,7 @@ from collections import defaultdict, deque
 class Solution:
     def assignEdgeWeights(self, edges: List[List[int]]) -> int:
         # time: O(N)
-        # space: O(h)
+        # space: O(N)
         # method: dfs + combinatoric
 
         adj = defaultdict(list)
