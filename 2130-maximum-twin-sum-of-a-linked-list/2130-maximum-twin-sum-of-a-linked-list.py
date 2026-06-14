@@ -7,36 +7,26 @@ class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
         # time: O(N)
         # space: O(1)
-        # method: reverse linked list (only last half)
-        size = 0
-        curr = head
-        while curr:
-            curr = curr.next
-            size += 1
-        
-        count = 0
-        size >>= 1
+        # method: Tortoise and Hare algo (Floyd Cycle detection by slow and fast pointer) reverse linked list (only last half)
         prev = None
-        curr = head
-        while curr:
-            if count >= size:
-                next_node = curr.next
-                curr.next = prev
-                prev = curr
-                curr = next_node
-            else:
-                prev = curr
-                curr = curr.next
-                count += 1
-
-        tail = prev
+        slow = fast = head
+        while fast:
+            prev = slow
+            slow = slow.next
+            fast = fast.next.next
         
-        curr_head = head
-        curr_tail = tail
-        result = head.val + tail.val
-        while size:
-            size -= 1
-            result = max(curr_head.val + curr_tail.val, result)
-            curr_head = curr_head.next
-            curr_tail = curr_tail.next
+        tail_end = prev
+
+        while slow:
+            next_node = slow.next
+            slow.next = prev
+            prev = slow
+            slow = next_node
+        
+        tail = prev
+        result = tail.val + head.val
+        while tail != tail_end:
+            head = head.next
+            tail = tail.next
+            result = max(result, tail.val + head.val)
         return result
