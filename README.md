@@ -1170,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-merge-strings-alternately](https://github.com/erdenebayrd/leetcode/tree/master/1894-merge-strings-alternately) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/erdenebayrd/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/erdenebayrd/leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -1989,6 +1990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/erdenebayrd/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1673-find-the-most-competitive-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/1673-find-the-most-competitive-subsequence) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/erdenebayrd/leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2211-count-collisions-on-a-road](https://github.com/erdenebayrd/leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/erdenebayrd/leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
@@ -2059,6 +2061,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 | [1756-design-most-recently-used-queue](https://github.com/erdenebayrd/leetcode/tree/master/1756-design-most-recently-used-queue) |
 | [1797-design-authentication-manager](https://github.com/erdenebayrd/leetcode/tree/master/1797-design-authentication-manager) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Doubly-Linked List
 |  |
