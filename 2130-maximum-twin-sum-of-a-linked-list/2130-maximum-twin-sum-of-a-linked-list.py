@@ -23,10 +23,11 @@ class Solution:
             prev = slow
             slow = next_node
         
+        current_head = head
         tail = prev
-        result = tail.val + head.val
+        result = tail.val + current_head.val
         while tail != tail_end:
-            head = head.next
+            current_head = current_head.next
             tail = tail.next
-            result = max(result, tail.val + head.val)
+            result = max(result, tail.val + current_head.val)
         return result
