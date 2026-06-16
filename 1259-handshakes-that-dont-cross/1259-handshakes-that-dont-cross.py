@@ -15,6 +15,9 @@ class Solution:
         (n - 2) * 2 + f(n - 4) * f(2) + f(n - 6) * f(4) + f(6) * f(n - 8)
 
         """
+        # time: O(N ^ 2)
+        # space: O(N)
+        # method: DP
         mod = 1_000_000_007
 
         @cache
