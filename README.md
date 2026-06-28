@@ -203,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/erdenebayrd/leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1834-single-threaded-cpu](https://github.com/erdenebayrd/leetcode/tree/master/1834-single-threaded-cpu) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/erdenebayrd/leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1847-closest-room](https://github.com/erdenebayrd/leetcode/tree/master/1847-closest-room) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/erdenebayrd/leetcode/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -1640,6 +1641,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/erdenebayrd/leetcode/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
 | [1686-stone-game-vi](https://github.com/erdenebayrd/leetcode/tree/master/1686-stone-game-vi) |
 | [1834-single-threaded-cpu](https://github.com/erdenebayrd/leetcode/tree/master/1834-single-threaded-cpu) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/erdenebayrd/leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1847-closest-room](https://github.com/erdenebayrd/leetcode/tree/master/1847-closest-room) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
@@ -1880,6 +1882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1686-stone-game-vi](https://github.com/erdenebayrd/leetcode/tree/master/1686-stone-game-vi) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/erdenebayrd/leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/erdenebayrd/leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/erdenebayrd/leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
