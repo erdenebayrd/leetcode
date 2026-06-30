@@ -524,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1176-diet-plan-performance](https://github.com/erdenebayrd/leetcode/tree/master/1176-diet-plan-performance) |
 | [1234-replace-the-substring-for-balanced-string](https://github.com/erdenebayrd/leetcode/tree/master/1234-replace-the-substring-for-balanced-string) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/erdenebayrd/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1425-constrained-subsequence-sum](https://github.com/erdenebayrd/leetcode/tree/master/1425-constrained-subsequence-sum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -691,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/erdenebayrd/leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/erdenebayrd/leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1345-jump-game-iv](https://github.com/erdenebayrd/leetcode/tree/master/1345-jump-game-iv) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -851,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/erdenebayrd/leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/erdenebayrd/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/erdenebayrd/leetcode/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/erdenebayrd/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
