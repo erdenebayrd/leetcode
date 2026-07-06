@@ -1,58 +1,44 @@
+import heapq
 from collections import deque
 
 class Solution:
     def maximumSafenessFactor(self, grid: List[List[int]]) -> int:
-        # tc: O(N ^ 2) N is length of grid
-        # sc: O(N ^ 2) store, distances
-
-        n = len(grid)
-        directions = [(-1, 0), (1, 0), (0, 1), (0, -1)]
-
-        def nextCells(row, col):
-            cells = []
-            for direction in directions:
-                deltaRow, deltaCol = direction
-                nextRow = deltaRow + row
-                nextCol = deltaCol + col
-                if 0 <= nextRow < n and 0 <= nextCol < n:
-                    cells.append([nextRow, nextCol])
-            return cells
-
-        distances = [[float('inf')] * n for _ in range(n)]
+        # time: O(rows * cols * log (rows * cols))
+        # space: O(rows * cols)
+        # method: Dijkstra
+        rows = len(grid)
+        cols = len(grid[0])
+        cost = [[float('inf')] * cols for _ in range(rows)]
         queue = deque()
-        for i in range(n):
-            for j in range(n):
-                if grid[i][j] == 1:
-                    distances[i][j] = 0
-                    queue.append([i, j, 0])
-
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == 1:
+                    queue.append((row, col, 0))
+                    cost[row][col] = 0
+        
         while queue:
-            row, col, dist = queue.popleft()
-            cells = nextCells(row, col)
-            for nextRow, nextCol in cells:   
-                if distances[nextRow][nextCol] > dist + 1:
-                    distances[nextRow][nextCol] = dist + 1
-                    queue.append([nextRow, nextCol, dist + 1])
+            row, col, _ = queue.popleft()
+            for delta_row, delta_col in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
+                next_row, next_col = row + delta_row, col + delta_col
+                if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols:
+                    continue
+                if cost[next_row][next_col] > cost[row][col] + 1:
+                    cost[next_row][next_col] = cost[row][col] + 1
+                    queue.append((next_row, next_col, cost[row][col] + 1))
         
-        for i in range(n):
-            print(distances[i])
-
-        # dijkstra for max(min) path
-        maxHeap = []
-        heapq.heappush(maxHeap, [-distances[0][0], 0, 0])
-        visited = [[False] * n for _ in range(n)]
-        visited[0][0] = True
-
-        while maxHeap:
-            negativeSafe, row, col = heapq.heappop(maxHeap)
-            safe = -negativeSafe
-            if row == n - 1 and col == n - 1:
-                return safe
-            cells = nextCells(row, col)
-            for nextRow, nextCol in cells:
-                if visited[nextRow][nextCol] is False:
-                    visited[nextRow][nextCol] = True
-                    newSafe = min(safe, distances[nextRow][nextCol])
-                    heapq.heappush(maxHeap, [-newSafe, nextRow, nextCol])
+        dist = [[float('inf')] * cols for _ in range(rows)]
+        dist[0][0] = -cost[0][0]
+        min_heap = []
+        heapq.heappush(min_heap, (dist[0][0], 0, 0))
+        while min_heap:
+            _, row, col = heapq.heappop(min_heap)
+            for delta_row, delta_col in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
+                next_row, next_col = row + delta_row, col + delta_col
+                if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols:
+                    continue
+                if dist[next_row][next_col] > max(dist[row][col], -cost[next_row][next_col]):
+                    dist[next_row][next_col] = max(dist[row][col], -cost[next_row][next_col])
+                    heapq.heappush(min_heap, (dist[next_row][next_col], next_row, next_col))
         
-        return -1
+        
+        return abs(dist[rows - 1][cols - 1])
