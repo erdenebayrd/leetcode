@@ -3,9 +3,9 @@ from collections import deque
 
 class Solution:
     def maximumSafenessFactor(self, grid: List[List[int]]) -> int:
-        # time: O(rows * cols * log (rows * cols))
+        # time: O(rows * cols)
         # space: O(rows * cols)
-        # method: Dijkstra
+        # method: 0-1 BFS
         rows = len(grid)
         cols = len(grid[0])
         cost = [[float('inf')] * cols for _ in range(rows)]
@@ -13,32 +13,35 @@ class Solution:
         for row in range(rows):
             for col in range(cols):
                 if grid[row][col] == 1:
-                    queue.append((row, col, 0))
+                    queue.append((row, col))
                     cost[row][col] = 0
         
         while queue:
-            row, col, _ = queue.popleft()
+            row, col = queue.popleft()
             for delta_row, delta_col in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
                 next_row, next_col = row + delta_row, col + delta_col
                 if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols:
                     continue
                 if cost[next_row][next_col] > cost[row][col] + 1:
                     cost[next_row][next_col] = cost[row][col] + 1
-                    queue.append((next_row, next_col, cost[row][col] + 1))
+                    queue.append((next_row, next_col))
         
-        dist = [[float('inf')] * cols for _ in range(rows)]
-        dist[0][0] = -cost[0][0]
-        min_heap = []
-        heapq.heappush(min_heap, (dist[0][0], 0, 0))
-        while min_heap:
-            _, row, col = heapq.heappop(min_heap)
+        queue = deque()
+        queue.append((0, 0, 0))
+        visited = set()
+        visited.add((0, 0))
+        while queue:
+            row, col, level = queue.popleft()
+            if row == rows - 1 and col == cols - 1:
+                return cost[0][0] - level
             for delta_row, delta_col in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
                 next_row, next_col = row + delta_row, col + delta_col
-                if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols:
+                next_node = (next_row, next_col)
+                if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols or next_node in visited:
                     continue
-                if dist[next_row][next_col] > max(dist[row][col], -cost[next_row][next_col]):
-                    dist[next_row][next_col] = max(dist[row][col], -cost[next_row][next_col])
-                    heapq.heappush(min_heap, (dist[next_row][next_col], next_row, next_col))
-        
-        
-        return abs(dist[rows - 1][cols - 1])
+                visited.add(next_node)
+                if cost[next_row][next_col] >= cost[row][col]: # edge weight is 0
+                    cost[next_row][next_col] = cost[row][col]
+                    queue.appendleft((next_row, next_col, level))
+                else: # cost[next_row][next_col] < cost[row][col]: # edge weight is 1
+                    queue.append((next_row, next_col, level + 1))
