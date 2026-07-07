@@ -703,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1485-clone-binary-tree-with-random-pointer](https://github.com/erdenebayrd/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
+| [1490-clone-n-ary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1490-clone-n-ary-tree) |
 | [1500-count-largest-group](https://github.com/erdenebayrd/leetcode/tree/master/1500-count-largest-group) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1590-make-sum-divisible-by-p](https://github.com/erdenebayrd/leetcode/tree/master/1590-make-sum-divisible-by-p) |
@@ -1344,6 +1345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [1485-clone-binary-tree-with-random-pointer](https://github.com/erdenebayrd/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
+| [1490-clone-n-ary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1490-clone-n-ary-tree) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/erdenebayrd/leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -1394,6 +1396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1345-jump-game-iv](https://github.com/erdenebayrd/leetcode/tree/master/1345-jump-game-iv) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1485-clone-binary-tree-with-random-pointer](https://github.com/erdenebayrd/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
+| [1490-clone-n-ary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1490-clone-n-ary-tree) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1730-shortest-path-to-get-food](https://github.com/erdenebayrd/leetcode/tree/master/1730-shortest-path-to-get-food) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -1760,6 +1763,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [1485-clone-binary-tree-with-random-pointer](https://github.com/erdenebayrd/leetcode/tree/master/1485-clone-binary-tree-with-random-pointer) |
+| [1490-clone-n-ary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1490-clone-n-ary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/erdenebayrd/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/erdenebayrd/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/erdenebayrd/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
