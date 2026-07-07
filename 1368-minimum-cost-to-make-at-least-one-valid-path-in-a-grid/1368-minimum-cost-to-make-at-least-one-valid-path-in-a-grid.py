@@ -25,5 +25,8 @@ class Solution:
                     cost = 0
                 if dist[next_row][next_col] > dist[row][col] + cost:
                     dist[next_row][next_col] = dist[row][col] + cost
-                    queue.append((next_row, next_col))
+                    if cost == 0:
+                        queue.appendleft((next_row, next_col))
+                    else:
+                        queue.append((next_row, next_col))
         return dist[rows - 1][cols - 1]
