@@ -608,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/erdenebayrd/leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3698-split-array-with-minimum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3698-split-array-with-minimum-difference) |
 | [3719-longest-balanced-subarray-i](https://github.com/erdenebayrd/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/erdenebayrd/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/erdenebayrd/leetcode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Hash Table
@@ -918,6 +919,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3706-maximum-distance-between-unequal-words-in-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3706-maximum-distance-between-unequal-words-in-array-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/erdenebayrd/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/erdenebayrd/leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/erdenebayrd/leetcode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3797-design-spreadsheet](https://github.com/erdenebayrd/leetcode/tree/master/3797-design-spreadsheet) |
 | [3838-weighted-word-mapping](https://github.com/erdenebayrd/leetcode/tree/master/3838-weighted-word-mapping) |
@@ -1140,6 +1142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/erdenebayrd/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/erdenebayrd/leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/erdenebayrd/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3783-mirror-distance-of-an-integer](https://github.com/erdenebayrd/leetcode/tree/master/3783-mirror-distance-of-an-integer) |
 | [3830-find-closest-person](https://github.com/erdenebayrd/leetcode/tree/master/3830-find-closest-person) |
 ## Two Pointers
