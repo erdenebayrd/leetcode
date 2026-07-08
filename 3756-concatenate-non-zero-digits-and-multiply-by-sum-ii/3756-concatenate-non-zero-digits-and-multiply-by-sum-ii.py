@@ -1,6 +1,6 @@
 class Solution:
     def sumAndMultiply(self, s: str, queries: List[List[int]]) -> List[int]:
-        # time: O(Q)
+        # time: O(Q + N)
         # space: O(N)
         # method: Rabin-Karp rolling hash style
         mod = 1_000_000_007
