@@ -99,19 +99,20 @@ class Solution:
         # time: O(N + M)
         # space: O(N)
         # method: isomorphic tree -> like a merkle tree
-
-        def get_id(node: Optional[TreeNode], tree_ids: dict) -> int:
+        
+        def get_id(node: Optional[TreeNode], ref_ids: dict) -> int:
             if not node:
                 return -1
-            left_id = get_id(node.left, tree_ids)
-            right_id = get_id(node.right, tree_ids)
-            node_shape_with_value = (node.val, left_id, right_id)
-            if node_shape_with_value not in tree_ids:
-                tree_ids[node_shape_with_value] = len(tree_ids)
+            left_id = get_id(node.left, ref_ids)
+            right_id = get_id(node.right, ref_ids)
+            current = (node.val, left_id, right_id)
+            if current not in ref_ids:
+                ref_ids[current] = len(ref_ids)
+            return ref_ids[current]
 
-            return tree_ids[node_shape_with_value]
+        ref_ids = {}
+        root_id = get_id(root, ref_ids)
+        sub_root_id = get_id(sub_root, ref_ids)
+
+        return sub_root_id <= root_id
         
-        tree_ids = {} # key as subtree shape with values, value as a given id (which is just a 0, 1, 2 .. etc)
-        root_id = get_id(root, tree_ids)
-        subtree_id = get_id(sub_root, tree_ids)
-        return subtree_id <= root_id
