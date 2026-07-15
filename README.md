@@ -1146,6 +1146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/erdenebayrd/leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/erdenebayrd/leetcode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/erdenebayrd/leetcode/tree/master/3637-count-number-of-balanced-permutations) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/erdenebayrd/leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/erdenebayrd/leetcode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/erdenebayrd/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/erdenebayrd/leetcode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -1263,6 +1264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3001-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/erdenebayrd/leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/erdenebayrd/leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Union Find
 |  |
 | ------- |
