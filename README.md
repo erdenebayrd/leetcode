@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2048-build-array-from-permutation](https://github.com/erdenebayrd/leetcode/tree/master/2048-build-array-from-permutation) |
 | [2054-two-best-non-overlapping-events](https://github.com/erdenebayrd/leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/erdenebayrd/leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2080-range-frequency-queries](https://github.com/erdenebayrd/leetcode/tree/master/2080-range-frequency-queries) |
 | [2100-find-good-days-to-rob-the-bank](https://github.com/erdenebayrd/leetcode/tree/master/2100-find-good-days-to-rob-the-bank) |
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2107-number-of-unique-flavors-after-sharing-k-candies](https://github.com/erdenebayrd/leetcode/tree/master/2107-number-of-unique-flavors-after-sharing-k-candies) |
@@ -726,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2080-range-frequency-queries](https://github.com/erdenebayrd/leetcode/tree/master/2080-range-frequency-queries) |
 | [2107-number-of-unique-flavors-after-sharing-k-candies](https://github.com/erdenebayrd/leetcode/tree/master/2107-number-of-unique-flavors-after-sharing-k-candies) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2121-intervals-between-identical-elements](https://github.com/erdenebayrd/leetcode/tree/master/2121-intervals-between-identical-elements) |
@@ -1005,6 +1007,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/erdenebayrd/leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/erdenebayrd/leetcode/tree/master/2054-two-best-non-overlapping-events) |
+| [2080-range-frequency-queries](https://github.com/erdenebayrd/leetcode/tree/master/2080-range-frequency-queries) |
 | [2118-maximum-earnings-from-taxi](https://github.com/erdenebayrd/leetcode/tree/master/2118-maximum-earnings-from-taxi) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/erdenebayrd/leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/erdenebayrd/leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
@@ -2011,6 +2014,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1797-design-authentication-manager](https://github.com/erdenebayrd/leetcode/tree/master/1797-design-authentication-manager) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/erdenebayrd/leetcode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
+| [2080-range-frequency-queries](https://github.com/erdenebayrd/leetcode/tree/master/2080-range-frequency-queries) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2169-simple-bank-system](https://github.com/erdenebayrd/leetcode/tree/master/2169-simple-bank-system) |
 | [2429-design-a-food-rating-system](https://github.com/erdenebayrd/leetcode/tree/master/2429-design-a-food-rating-system) |
@@ -2231,6 +2235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [1622-fancy-sequence](https://github.com/erdenebayrd/leetcode/tree/master/1622-fancy-sequence) |
+| [2080-range-frequency-queries](https://github.com/erdenebayrd/leetcode/tree/master/2080-range-frequency-queries) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2407-longest-increasing-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/2407-longest-increasing-subsequence-ii) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
