@@ -454,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/erdenebayrd/leetcode/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0287-find-the-duplicate-number](https://github.com/erdenebayrd/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0320-generalized-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0320-generalized-abbreviation) |
 | [0342-power-of-four](https://github.com/erdenebayrd/leetcode/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/erdenebayrd/leetcode/tree/master/0389-find-the-difference) |
 | [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
@@ -824,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0288-unique-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0320-generalized-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0320-generalized-abbreviation) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0389-find-the-difference](https://github.com/erdenebayrd/leetcode/tree/master/0389-find-the-difference) |
 | [0408-valid-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0408-valid-word-abbreviation) |
@@ -2190,6 +2192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
+| [0320-generalized-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0320-generalized-abbreviation) |
 | [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
 | [0489-robot-room-cleaner](https://github.com/erdenebayrd/leetcode/tree/master/0489-robot-room-cleaner) |
 | [0494-target-sum](https://github.com/erdenebayrd/leetcode/tree/master/0494-target-sum) |
