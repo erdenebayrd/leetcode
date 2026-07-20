@@ -911,6 +911,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2833-furthest-point-from-origin](https://github.com/erdenebayrd/leetcode/tree/master/2833-furthest-point-from-origin) |
 | [2887-sort-vowels-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2887-sort-vowels-in-a-string) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/erdenebayrd/leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/erdenebayrd/leetcode/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/erdenebayrd/leetcode/tree/master/3120-count-the-number-of-special-characters-i) |
@@ -1032,6 +1033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2936-number-of-equal-numbers-blocks](https://github.com/erdenebayrd/leetcode/tree/master/2936-number-of-equal-numbers-blocks) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/erdenebayrd/leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3453-separate-squares-i](https://github.com/erdenebayrd/leetcode/tree/master/3453-separate-squares-i) |
@@ -1224,6 +1226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/erdenebayrd/leetcode/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/erdenebayrd/leetcode/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -2424,11 +2427,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Iterator
 |  |
 | ------- |
@@ -2438,6 +2443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0796-rotate-string](https://github.com/erdenebayrd/leetcode/tree/master/0796-rotate-string) |
+| [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3303-find-the-occurrence-of-first-almost-equal-substring](https://github.com/erdenebayrd/leetcode/tree/master/3303-find-the-occurrence-of-first-almost-equal-substring) |
 ## Randomized
 |  |
