@@ -1418,6 +1418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0364-nested-list-weight-sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/erdenebayrd/leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0428-serialize-and-deserialize-n-ary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0428-serialize-and-deserialize-n-ary-tree) |
+| [0429-n-ary-tree-level-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0449-serialize-and-deserialize-bst](https://github.com/erdenebayrd/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0490-the-maze](https://github.com/erdenebayrd/leetcode/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
@@ -1790,6 +1791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0333-largest-bst-subtree](https://github.com/erdenebayrd/leetcode/tree/master/0333-largest-bst-subtree) |
 | [0337-house-robber-iii](https://github.com/erdenebayrd/leetcode/tree/master/0337-house-robber-iii) |
 | [0428-serialize-and-deserialize-n-ary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0428-serialize-and-deserialize-n-ary-tree) |
+| [0429-n-ary-tree-level-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0437-path-sum-iii](https://github.com/erdenebayrd/leetcode/tree/master/0437-path-sum-iii) |
 | [0449-serialize-and-deserialize-bst](https://github.com/erdenebayrd/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0508-most-frequent-subtree-sum](https://github.com/erdenebayrd/leetcode/tree/master/0508-most-frequent-subtree-sum) |
