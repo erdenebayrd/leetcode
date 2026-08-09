@@ -2480,4 +2480,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1032-stream-of-characters](https://github.com/erdenebayrd/leetcode/tree/master/1032-stream-of-characters) |
+## Minimax
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->
