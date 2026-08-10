@@ -1,19 +1,22 @@
-from functools import lru_cache
+from functools import cache
 from math import sqrt
 
 class Solution:
-    # time: O(N * sqrt(N))
-    # space: O(N)
-    # method: DP
-
     def winnerSquareGame(self, n: int) -> bool:
-        dp = [False] * (n + 1)
-        dp[1] = True
-        for i in range(2, n + 1):
-            k = 1
-            while k * k <= i:
-                if dp[i - k * k] is False:
-                    dp[i] = True
-                    break
-                k += 1
-        return dp[n]
+        # time: O(N * sqrt(N))
+        # space: O(N)
+        # method: DP
+
+        @cache
+        def solve(stones: int, alice_turn: bool) -> bool:
+            limit = int(sqrt(stones))
+            for stone in range(1, limit + 1):
+                if alice_turn:
+                    if solve(stones - stone * stone, not alice_turn):
+                        return True
+                else:
+                    if not solve(stones - stone * stone, not alice_turn):
+                        return False
+            return not alice_turn
+
+        return solve(n, True)
