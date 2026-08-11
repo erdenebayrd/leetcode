@@ -1382,6 +1382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 | [0975-range-sum-of-bst](https://github.com/erdenebayrd/leetcode/tree/master/0975-range-sum-of-bst) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1214-two-sum-bsts](https://github.com/erdenebayrd/leetcode/tree/master/1214-two-sum-bsts) |
@@ -1439,6 +1440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1197-minimum-knight-moves](https://github.com/erdenebayrd/leetcode/tree/master/1197-minimum-knight-moves) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/erdenebayrd/leetcode/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
@@ -2412,6 +2414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
+| [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1615-maximal-network-rank](https://github.com/erdenebayrd/leetcode/tree/master/1615-maximal-network-rank) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/erdenebayrd/leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
@@ -2445,6 +2448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
+| [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 | [1254-number-of-closed-islands](https://github.com/erdenebayrd/leetcode/tree/master/1254-number-of-closed-islands) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/erdenebayrd/leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1627-graph-connectivity-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1627-graph-connectivity-with-threshold) |
@@ -2516,4 +2520,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1257-smallest-common-region](https://github.com/erdenebayrd/leetcode/tree/master/1257-smallest-common-region) |
+## Graph Coloring
+|  |
+| ------- |
+| [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
+## Bipartite Graph
+|  |
+| ------- |
+| [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 <!---LeetCode Topics End-->
