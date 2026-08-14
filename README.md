@@ -256,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/erdenebayrd/leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/erdenebayrd/leetcode/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/erdenebayrd/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/erdenebayrd/leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2214-minimum-health-to-beat-game](https://github.com/erdenebayrd/leetcode/tree/master/2214-minimum-health-to-beat-game) |
 | [2215-finding-3-digit-even-numbers](https://github.com/erdenebayrd/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2218-maximum-value-of-k-coins-from-piles](https://github.com/erdenebayrd/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
@@ -905,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2140-longest-subsequence-repeated-k-times](https://github.com/erdenebayrd/leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/erdenebayrd/leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2211-count-collisions-on-a-road](https://github.com/erdenebayrd/leetcode/tree/master/2211-count-collisions-on-a-road) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/erdenebayrd/leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/erdenebayrd/leetcode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/erdenebayrd/leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/erdenebayrd/leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -2146,6 +2148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/erdenebayrd/leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/erdenebayrd/leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/erdenebayrd/leetcode/tree/master/2429-design-a-food-rating-system) |
@@ -2283,6 +2286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [1622-fancy-sequence](https://github.com/erdenebayrd/leetcode/tree/master/1622-fancy-sequence) |
 | [2080-range-frequency-queries](https://github.com/erdenebayrd/leetcode/tree/master/2080-range-frequency-queries) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/erdenebayrd/leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2407-longest-increasing-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/2407-longest-increasing-subsequence-ii) |
 | [3161-block-placement-queries](https://github.com/erdenebayrd/leetcode/tree/master/3161-block-placement-queries) |
