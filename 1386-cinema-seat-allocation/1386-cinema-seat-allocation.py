@@ -4,28 +4,20 @@ class Solution:
         # space: O(len(reserved_seats))
         # method: implementation
 
-        def is_available(row: int, left: int, right: int) -> bool:
-            for seat in range(left, right + 1):
-                if seat in reserved[row]:
-                    return False
-            return True
-
         reserved = {}
         for row, seat in reserved_seats:
-            if row not in reserved:
-                reserved[row] = set()
-            if seat == 1 or seat == 10:
-                continue
-            reserved[row].add(seat)
+            if 2 <= seat <= 9:
+                if row not in reserved:
+                    reserved[row] = 0
+                reserved[row] |= (1 << seat)
         
         result = (n - len(reserved)) * 2
+        
         for row in reserved:
-            if len(reserved[row]) == 0:
-                result += 2
-                continue
-
-            for left in range(2, 7, 2):
-                if is_available(row, left, left + 3):
+            seat = reserved[row]
+            for shift in range(2, 7, 2):
+                available = (seat >> shift) & ((1 << 4) - 1)
+                if available == 0:
                     result += 1
                     break
         return result
