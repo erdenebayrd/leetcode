@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0307-range-sum-query-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/erdenebayrd/leetcode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -1905,6 +1906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/erdenebayrd/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
+| [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0311-sparse-matrix-multiplication](https://github.com/erdenebayrd/leetcode/tree/master/0311-sparse-matrix-multiplication) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -2044,6 +2046,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0288-unique-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0307-range-sum-query-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0346-moving-average-from-data-stream](https://github.com/erdenebayrd/leetcode/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/erdenebayrd/leetcode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/erdenebayrd/leetcode/tree/master/0359-logger-rate-limiter) |
@@ -2286,6 +2289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [2280-count-good-triplets-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2280-count-good-triplets-in-an-array) |
@@ -2295,6 +2299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
 | [1622-fancy-sequence](https://github.com/erdenebayrd/leetcode/tree/master/1622-fancy-sequence) |
@@ -2551,4 +2556,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
 <!---LeetCode Topics End-->
