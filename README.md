@@ -383,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/erdenebayrd/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3379-transformed-array](https://github.com/erdenebayrd/leetcode/tree/master/3379-transformed-array) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3422-minimum-operations-to-make-subarray-elements-equal](https://github.com/erdenebayrd/leetcode/tree/master/3422-minimum-operations-to-make-subarray-elements-equal) |
 | [3430-count-days-without-meetings](https://github.com/erdenebayrd/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
@@ -948,6 +949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3243-count-the-number-of-powerful-integers](https://github.com/erdenebayrd/leetcode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3303-find-the-occurrence-of-first-almost-equal-substring](https://github.com/erdenebayrd/leetcode/tree/master/3303-find-the-occurrence-of-first-almost-equal-substring) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/erdenebayrd/leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3396-valid-word](https://github.com/erdenebayrd/leetcode/tree/master/3396-valid-word) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/erdenebayrd/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3462-vowels-game-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/3462-vowels-game-in-a-string) |
@@ -1426,6 +1428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/erdenebayrd/leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
+| [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/erdenebayrd/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -1485,6 +1488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
+| [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/erdenebayrd/leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3820-pythagorean-distance-nodes-in-a-tree](https://github.com/erdenebayrd/leetcode/tree/master/3820-pythagorean-distance-nodes-in-a-tree) |
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
@@ -2472,6 +2476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
+| [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/erdenebayrd/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/erdenebayrd/leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
