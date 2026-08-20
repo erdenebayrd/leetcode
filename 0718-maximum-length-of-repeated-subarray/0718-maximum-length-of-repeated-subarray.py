@@ -21,10 +21,15 @@ class Solution:
         # method: Rabin Karp (Rolling Hash)
         n = len(nums1)
         m = len(nums2)
-        nums1_hash = RollingHash(nums1, 257, int(1e9 + 7))
-        nums2_hash = RollingHash(nums2, 257, int(1e9 + 7))
 
-        def check(length: int) -> bool:
+        nums = [(257, int(1e9 + 7)), (57, int(1e9 + 7)), (257, int(1e9 + 9)),  (57, int(1e9 + 9))]
+        hashes = []
+        for base, mod in nums:    
+            nums1_hash = RollingHash(nums1, base, mod)
+            nums2_hash = RollingHash(nums2, base, mod)
+            hashes.append((nums1_hash, nums2_hash))
+
+        def check(length: int, nums1_hash: "RollingHash", nums2_hash: "RollingHash") -> bool:
             seen = set()
             for i in range(length - 1, n):
                 left, right = i - length + 1, i
@@ -41,7 +46,7 @@ class Solution:
         low, high = 0, n + 1
         while low + 1 < high:
             mid = (low + high) // 2 # length
-            if check(mid):
+            if all([check(mid, nums1_hash, nums2_hash) for nums1_hash, nums2_hash in hashes]):
                 low = mid
             else:
                 high = mid
