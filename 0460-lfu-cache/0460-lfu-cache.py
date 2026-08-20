@@ -18,12 +18,6 @@ class LRUCache:
         self.keys = {}
     
     def put(self, key: int, value: int) -> "Node":
-        if key in self.keys:
-            node = self.keys[key]
-            del self.keys[key]
-            node.prev.next = node.next
-            node.next.prev = node.prev
-        
         self.keys[key] = Node(key=key, value=value, freq=self.freq)
         self.keys[key].next = self.tail
         self.keys[key].prev = self.tail.prev
@@ -64,6 +58,8 @@ class LFUCache:
         return node.value
 
     def put(self, key: int, value: int) -> None:
+        if self.capacity == 0:
+            return
         current_freq = 0
         prev_lru_node = None
         if key in self.keys:
