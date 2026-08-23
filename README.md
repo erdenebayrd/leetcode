@@ -1023,6 +1023,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/erdenebayrd/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0362-design-hit-counter](https://github.com/erdenebayrd/leetcode/tree/master/0362-design-hit-counter) |
 | [0611-valid-triangle-number](https://github.com/erdenebayrd/leetcode/tree/master/0611-valid-triangle-number) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/erdenebayrd/leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0713-subarray-product-less-than-k](https://github.com/erdenebayrd/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/erdenebayrd/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-number-of-matching-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/0792-number-of-matching-subsequences) |
@@ -1114,6 +1115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0492-construct-the-rectangle](https://github.com/erdenebayrd/leetcode/tree/master/0492-construct-the-rectangle) |
 | [0523-continuous-subarray-sum](https://github.com/erdenebayrd/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0651-4-keys-keyboard](https://github.com/erdenebayrd/leetcode/tree/master/0651-4-keys-keyboard) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/erdenebayrd/leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0788-rotated-digits](https://github.com/erdenebayrd/leetcode/tree/master/0788-rotated-digits) |
 | [0797-rabbits-in-forest](https://github.com/erdenebayrd/leetcode/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/erdenebayrd/leetcode/tree/master/0826-soup-servings) |
