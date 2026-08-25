@@ -441,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3691-maximum-total-subarray-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
 | [3698-split-array-with-minimum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3698-split-array-with-minimum-difference) |
 | [3706-maximum-distance-between-unequal-words-in-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3706-maximum-distance-between-unequal-words-in-array-ii) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/erdenebayrd/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3719-longest-balanced-subarray-i](https://github.com/erdenebayrd/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/erdenebayrd/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/erdenebayrd/leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -814,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/erdenebayrd/leetcode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/erdenebayrd/leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/erdenebayrd/leetcode/tree/master/3678-design-task-manager) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/erdenebayrd/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3719-longest-balanced-subarray-i](https://github.com/erdenebayrd/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/erdenebayrd/leetcode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/erdenebayrd/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
