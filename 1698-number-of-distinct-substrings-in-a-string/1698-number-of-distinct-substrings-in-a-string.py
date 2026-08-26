@@ -4,6 +4,26 @@ class Solution:
         # space: O(N)
         # method: Suffix Array LCP
 
+        def bucket_sort(ranks: list, key: int) -> list:
+            n = len(ranks)
+            count = [0] * (n + 1)
+            for i in range(n):
+                count[ranks[i][key] + 1] += 1
+            
+            for i in range(1, n + 1):
+                count[i] += count[i - 1]
+            
+            bucket = [0] * n
+            for i in range(n - 1, -1, -1):
+                count[ranks[i][key] + 1] -= 1
+                bucket[count[ranks[i][key] + 1]] = ranks[i]
+            return bucket
+
+        def radix_sort(ranks: list) -> list:
+            ranks = bucket_sort(ranks, 1)
+            ranks = bucket_sort(ranks, 0)
+            return ranks
+
         def build_sa(text: str) -> list:
             n = len(text)
             ranks = [(ord(text[i]), -1, i) for i in range(n)]
@@ -24,8 +44,8 @@ class Solution:
                         rank = updated_ranks[pos[j]]
                     ranks[i] = (updated_ranks[i], rank, ranks[i][2])
                 
-                ranks = sorted(ranks) # O(N log N)
-                # ranks = radix_sort(ranks) # TODO: implement radix sort O(N)
+                # ranks = sorted(ranks) # O(N log N)
+                ranks = radix_sort(ranks) # TODO: implement radix sort O(N)
             return [i for _, _, i in ranks]
 
         def build_lcp(sa: list, text: str) -> list:
