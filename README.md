@@ -914,6 +914,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1483-rank-teams-by-votes](https://github.com/erdenebayrd/leetcode/tree/master/1483-rank-teams-by-votes) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/erdenebayrd/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [1698-number-of-distinct-substrings-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/1698-number-of-distinct-substrings-in-a-string) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/erdenebayrd/leetcode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1745-palindrome-partitioning-iv](https://github.com/erdenebayrd/leetcode/tree/master/1745-palindrome-partitioning-iv) |
 | [1813-sentence-similarity-iii](https://github.com/erdenebayrd/leetcode/tree/master/1813-sentence-similarity-iii) |
@@ -2411,6 +2412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-number-of-matching-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/0792-number-of-matching-subsequences) |
 | [1032-stream-of-characters](https://github.com/erdenebayrd/leetcode/tree/master/1032-stream-of-characters) |
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
+| [1698-number-of-distinct-substrings-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/1698-number-of-distinct-substrings-in-a-string) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/erdenebayrd/leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3093-longest-common-suffix-queries](https://github.com/erdenebayrd/leetcode/tree/master/3093-longest-common-suffix-queries) |
@@ -2533,6 +2535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/erdenebayrd/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1698-number-of-distinct-substrings-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/1698-number-of-distinct-substrings-in-a-string) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Hash Function
 |  |
@@ -2540,6 +2543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0572-subtree-of-another-tree](https://github.com/erdenebayrd/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/erdenebayrd/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/erdenebayrd/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1698-number-of-distinct-substrings-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/1698-number-of-distinct-substrings-in-a-string) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 ## Iterator
 |  |
@@ -2606,4 +2610,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0308-range-sum-query-2d-mutable](https://github.com/erdenebayrd/leetcode/tree/master/0308-range-sum-query-2d-mutable) |
+## Suffix Array
+|  |
+| ------- |
+| [1698-number-of-distinct-substrings-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/1698-number-of-distinct-substrings-in-a-string) |
 <!---LeetCode Topics End-->
