@@ -1440,6 +1440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/erdenebayrd/leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2685-count-the-number-of-complete-components) |
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/erdenebayrd/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/erdenebayrd/leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
 | [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
@@ -1501,6 +1502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2793-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/erdenebayrd/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
 | [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/erdenebayrd/leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -1692,6 +1694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/erdenebayrd/leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2786-visit-array-positions-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/erdenebayrd/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -2492,6 +2495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2497-maximum-star-sum-of-a-graph](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-star-sum-of-a-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/erdenebayrd/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
 | [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
