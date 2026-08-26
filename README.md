@@ -1365,6 +1365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
@@ -1393,6 +1394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0298-binary-tree-longest-consecutive-sequence](https://github.com/erdenebayrd/leetcode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
+| [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/erdenebayrd/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -1463,6 +1465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
+| [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/erdenebayrd/leetcode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/erdenebayrd/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
@@ -2480,6 +2483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/erdenebayrd/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
