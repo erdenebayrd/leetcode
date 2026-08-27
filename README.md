@@ -1417,6 +1417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
+| [0684-redundant-connection](https://github.com/erdenebayrd/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
@@ -1480,6 +1481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0449-serialize-and-deserialize-bst](https://github.com/erdenebayrd/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0490-the-maze](https://github.com/erdenebayrd/leetcode/tree/master/0490-the-maze) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
+| [0684-redundant-connection](https://github.com/erdenebayrd/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
@@ -2493,6 +2495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
+| [0684-redundant-connection](https://github.com/erdenebayrd/leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/erdenebayrd/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
@@ -2528,6 +2531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/erdenebayrd/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/erdenebayrd/leetcode/tree/master/0130-surrounded-regions) |
+| [0684-redundant-connection](https://github.com/erdenebayrd/leetcode/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
