@@ -400,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3524-find-x-value-of-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3531-count-covered-buildings](https://github.com/erdenebayrd/leetcode/tree/master/3531-count-covered-buildings) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/erdenebayrd/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -1200,6 +1201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3433-count-mentions-per-user](https://github.com/erdenebayrd/leetcode/tree/master/3433-count-mentions-per-user) |
 | [3462-vowels-game-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/3462-vowels-game-in-a-string) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3524-find-x-value-of-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/erdenebayrd/leetcode/tree/master/3548-find-the-count-of-good-integers) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/erdenebayrd/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -1716,6 +1718,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3503-longest-palindrome-after-substring-concatenation-i](https://github.com/erdenebayrd/leetcode/tree/master/3503-longest-palindrome-after-substring-concatenation-i) |
+| [3524-find-x-value-of-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
