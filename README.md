@@ -860,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
 | [0288-unique-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0320-generalized-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0320-generalized-abbreviation) |
 | [0358-rearrange-string-k-distance-apart](https://github.com/erdenebayrd/leetcode/tree/master/0358-rearrange-string-k-distance-apart) |
 | [0389-find-the-difference](https://github.com/erdenebayrd/leetcode/tree/master/0389-find-the-difference) |
@@ -1474,6 +1475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/erdenebayrd/leetcode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/erdenebayrd/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -2313,6 +2315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/erdenebayrd/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/erdenebayrd/leetcode/tree/master/0140-word-break-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0320-generalized-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0320-generalized-abbreviation) |
 | [0401-binary-watch](https://github.com/erdenebayrd/leetcode/tree/master/0401-binary-watch) |
 | [0489-robot-room-cleaner](https://github.com/erdenebayrd/leetcode/tree/master/0489-robot-room-cleaner) |
