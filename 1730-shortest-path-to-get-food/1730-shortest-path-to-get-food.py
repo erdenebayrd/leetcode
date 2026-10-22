@@ -1,4 +1,4 @@
-from collections import deque, defaultdict
+from collections import deque
 
 class Solution:
     def getFood(self, grid: List[List[str]]) -> int:
@@ -7,26 +7,25 @@ class Solution:
         # method: BFS
         rows = len(grid)
         cols = len(grid[0])
-        visited = set()
-        row, col = -1, -1
+        
+        inf = float('inf')
+        queue = deque()
+        dist = [[inf] * cols for _ in range(rows)]
         for i in range(rows):
             for j in range(cols):
-                if grid[i][j] == "*":
-                    row, col = i, j
-
-        queue = deque()
-        queue.append((row, col, 0))
-        visited.add((row, col))
+                if grid[i][j] == '*':
+                    queue.append((i, j))
+                    dist[i][j] = 0
+        
+        delta = [(-1, 0), (1, 0), (0, -1), (0, 1)]
         while queue:
-            row, col, distance = queue.popleft()
-            if grid[row][col] == "#":
-                return distance
-            for deltaRow, deltaCol in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
-                nextRow, nextCol = row + deltaRow, col + deltaCol
-                if nextRow < 0 or nextRow >= rows or nextCol < 0 or nextCol >= cols or (nextRow, nextCol) in visited or grid[nextRow][nextCol] == 'X':
+            row, col = queue.popleft()
+            for delta_row, delta_col in delta:
+                next_row, next_col = row + delta_row, col + delta_col
+                if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols or dist[next_row][next_col] != inf or grid[next_row][next_col] == 'X':
                     continue
-                if grid[nextRow][nextCol] == "#":
-                    return distance + 1
-                visited.add((nextRow, nextCol))
-                queue.append((nextRow, nextCol, distance + 1))
+                dist[next_row][next_col] = dist[row][col] + 1
+                queue.append((next_row, next_col))
+                if grid[next_row][next_col] == '#':
+                    return dist[row][col] + 1
         return -1
