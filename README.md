@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/erdenebayrd/leetcode/tree/master/0645-set-mismatch) |
 | [0656-coin-path](https://github.com/erdenebayrd/leetcode/tree/master/0656-coin-path) |
 | [0665-non-decreasing-array](https://github.com/erdenebayrd/leetcode/tree/master/0665-non-decreasing-array) |
+| [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0683-k-empty-slots](https://github.com/erdenebayrd/leetcode/tree/master/0683-k-empty-slots) |
@@ -700,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0645-set-mismatch](https://github.com/erdenebayrd/leetcode/tree/master/0645-set-mismatch) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
+| [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0734-sentence-similarity](https://github.com/erdenebayrd/leetcode/tree/master/0734-sentence-similarity) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
@@ -1430,6 +1432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
+| [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
 | [0684-redundant-connection](https://github.com/erdenebayrd/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
@@ -1895,6 +1898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
+| [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0975-range-sum-of-bst](https://github.com/erdenebayrd/leetcode/tree/master/0975-range-sum-of-bst) |
@@ -1945,6 +1949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0606-construct-string-from-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0606-construct-string-from-binary-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
+| [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0975-range-sum-of-bst](https://github.com/erdenebayrd/leetcode/tree/master/0975-range-sum-of-bst) |
