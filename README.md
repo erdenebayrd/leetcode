@@ -468,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3863-power-grid-maintenance](https://github.com/erdenebayrd/leetcode/tree/master/3863-power-grid-maintenance) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/erdenebayrd/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3875-construct-uniform-parity-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3875-construct-uniform-parity-array-i) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3904-smallest-stable-index-ii](https://github.com/erdenebayrd/leetcode/tree/master/3904-smallest-stable-index-ii) |
 | [3905-multi-source-flood-fill](https://github.com/erdenebayrd/leetcode/tree/master/3905-multi-source-flood-fill) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/erdenebayrd/leetcode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -515,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/erdenebayrd/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Queue
 |  |
 | ------- |
@@ -1749,6 +1751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/erdenebayrd/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/erdenebayrd/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Sorting
 |  |
 | ------- |
@@ -2026,6 +2029,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3742-maximum-path-score-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3748-sort-matrix-by-diagonals](https://github.com/erdenebayrd/leetcode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3797-design-spreadsheet](https://github.com/erdenebayrd/leetcode/tree/master/3797-design-spreadsheet) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3905-multi-source-flood-fill](https://github.com/erdenebayrd/leetcode/tree/master/3905-multi-source-flood-fill) |
 ## Greedy
 |  |
