@@ -1,86 +1,45 @@
 class Solution:
     def shortestDistance(self, grid: List[List[int]]) -> int:
-        adj = defaultdict(list)
-        dx = [-1, 1, 0, 0]
-        dy = [0, 0, -1, 1]
-        n, m = len(grid), len(grid[0])
-        # print(n, m)
-        nodeMapReverse = defaultdict(tuple)
-        nodeMap = [[0] * m for _ in range(n)]
-        # print("-" * 10)
-        for i in range(n):
-            for j in range(m):
-                # print(i * m + j)
-                nodeMap[i][j] = i * m + j
-                nodeMapReverse[i * m + j] = (i, j)
-        # print("-" * 10)
-        for i in range(n):
-            for j in range(m):
-                if grid[i][j] == 0:
-                    for k in range(4):
-                        x = dx[k] + i
-                        y = dy[k] + j
-                        if x < 0 or x >= n or y < 0 or y >= m or grid[x][y] == 2:
-                            continue
-                        # adj[nodeMap[i][j]].append(nodeMap[x][y])
-                        # if grid[x][y] == 1:
-                        #     continue
-                        # adj[nodeMap[x][y]].append(nodeMap[i][j])
-                        adj[nodeMap[x][y]].append(nodeMap[i][j])
-                        if grid[x][y] == 1:
-                            continue
-                        adj[nodeMap[i][j]].append(nodeMap[x][y])
-        
-        # print(nodeMapReverse)
-        def dijkstra(nodeNum: int) -> List[int]:
-            dist = [int(1e9)] * n * m
-            dist[nodeNum] = 0
-            minHeap = []
-            heapq.heappush(minHeap, (dist[nodeNum], nodeNum))
-            while minHeap:
-                _, curNode = heapq.heappop(minHeap)
-                for ch in adj[curNode]:
-                    if dist[ch] > dist[curNode] + 1:
-                        dist[ch] = dist[curNode] + 1
-                        heapq.heappush(minHeap, (dist[ch], ch))
-            return dist
-        
-        def bfs(nodeNum: int) -> List[int]:
-            dist = [int(1e9)] * n * m
-            vis = [False] * n * m
-            dist[nodeNum] = 0
-            vis[nodeNum] = True
+        # time: O(n ^ 4)
+        # space: O(n ^ 4)
+        # method: brute force + bfs
+
+        rows = len(grid)
+        cols = len(grid[0])
+        directions = [(1, 0), (-1, 0), (0, -1), (0, 1)]
+        dist = [[0] * cols for _ in range(rows)]
+        count = [[0] * cols for _ in range(rows)]
+        count_buildings = 0
+        inf = float('inf')
+
+        def bfs(row: int, col: int) -> None:
+            cost = {}
             queue = deque()
-            queue.append(nodeNum)
+            queue.append((row, col, 0))
             while queue:
-                curNode = queue.popleft()
-                for ch in adj[curNode]:
-                    if vis[ch] is True:
+                row, col, current_cost = queue.popleft()
+                for delta_row, delta_col in directions:
+                    next_row, next_col = row + delta_row, col + delta_col
+                    if next_row < 0 or next_row >= rows or next_col < 0 or next_col >= cols or (next_row, next_col) in cost or grid[next_row][next_col] != 0:
                         continue
-                    vis[ch] = True
-                    queue.append(ch)
-                    dist[ch] = dist[curNode] + 1
-            return dist
+                    cost[(next_row, next_col)] = current_cost + 1
+                    queue.append((next_row, next_col, current_cost + 1))
+                    dist[next_row][next_col] += current_cost + 1
+                    count[next_row][next_col] += 1
+
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == 1:
+                    bfs(row, col)
+                    count_buildings += 1
         
-        res = int(1e9)
-        distance = defaultdict(int)
-        for i in range(n):
-            for j in range(m):
-                if grid[i][j] == 1:
-                    # dist = dijkstra(nodeMap[i][j])
-                    dist = bfs(nodeMap[i][j])
-                    # total = 0
-                    for node, cost in enumerate(dist):
-                        # print(node, nodeMapReverse[node])
-                        x, y = nodeMapReverse[node]
-                        if grid[x][y] == 0:
-                            # total += cost
-                            distance[node] += cost
-                    # res = min(res, total)
-        for i in range(n):
-            for j in range(m):
-                if grid[i][j] == 0:
-                    res = min(res, distance[nodeMap[i][j]])
-        if res == int(1e9):
-            res = -1
-        return res
+        result = inf
+        for row in range(rows):
+            for col in range(cols):
+                if count[row][col] == count_buildings:
+                    result = min(result, dist[row][col])
+        
+        if result == inf:
+            result = -1
+        
+        return result
