@@ -3,7 +3,7 @@ import heapq
 class Solution:
     def shortestPath(self, n: int, edges: List[List[int]], labels: str, k: int) -> int:
         # time: O((V + E) * k * log ((V + E) * k) )
-        # space: O((V + E) * k * log ((V + E) * k) )
+        # space: O((V + E) * k)
         # method: Dijkstra
         graph = {}
         for u, v, w in edges:
