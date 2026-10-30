@@ -3,7 +3,7 @@ import heapq
 class Solution:
     def minimumCost(self, n: int, highways: list[list[int]], discounts: int) -> int:
         # time: O((E + V log V) * discounts)
-        # space: O(V + E)
+        # space: O(V * discounts + E)
         # method: Dijkstra
 
         graph = [[] for _ in range(n)]
