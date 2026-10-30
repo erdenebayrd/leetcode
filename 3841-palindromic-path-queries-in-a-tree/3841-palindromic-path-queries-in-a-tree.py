@@ -2,7 +2,7 @@ class Solution:
     def palindromePath(self, n: int, edges: list[list[int]], s: str, queries: list[str]) -> list[bool]:
         # time: O((n + q) * log n)
         # space: O(n * log n)
-        # method: lca + fenwick tree + euler tour (dfs)
+        # method: lca + fenwick tree + euler tour (dfs) + bitmask
         tree = [[] for _ in range(n)]
         for u, v in edges:
             tree[u].append(v)
