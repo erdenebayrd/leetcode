@@ -1578,6 +1578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
 | [2054-two-best-non-overlapping-events](https://github.com/erdenebayrd/leetcode/tree/master/2054-two-best-non-overlapping-events) |
+| [2093-minimum-cost-to-reach-city-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/2093-minimum-cost-to-reach-city-with-discounts) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/erdenebayrd/leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/erdenebayrd/leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
@@ -1612,6 +1613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/erdenebayrd/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2093-minimum-cost-to-reach-city-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/2093-minimum-cost-to-reach-city-with-discounts) |
 | [2880-find-the-closest-marked-node](https://github.com/erdenebayrd/leetcode/tree/master/2880-find-the-closest-marked-node) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/erdenebayrd/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -2558,6 +2560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/erdenebayrd/leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2076-process-restricted-friend-requests](https://github.com/erdenebayrd/leetcode/tree/master/2076-process-restricted-friend-requests) |
 | [2092-find-all-people-with-secret](https://github.com/erdenebayrd/leetcode/tree/master/2092-find-all-people-with-secret) |
+| [2093-minimum-cost-to-reach-city-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/2093-minimum-cost-to-reach-city-with-discounts) |
 | [2101-detonate-the-maximum-bombs](https://github.com/erdenebayrd/leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2497-maximum-star-sum-of-a-graph](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-star-sum-of-a-graph) |
 | [2685-count-the-number-of-complete-components](https://github.com/erdenebayrd/leetcode/tree/master/2685-count-the-number-of-complete-components) |
@@ -2692,4 +2695,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/erdenebayrd/leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/1021-remove-outermost-parentheses) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [2093-minimum-cost-to-reach-city-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/2093-minimum-cost-to-reach-city-with-discounts) |
 <!---LeetCode Topics End-->
