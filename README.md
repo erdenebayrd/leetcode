@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0986-interval-list-intersections](https://github.com/erdenebayrd/leetcode/tree/master/0986-interval-list-intersections) |
 | [0992-subarrays-with-k-different-integers](https://github.com/erdenebayrd/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1006-vowel-spellchecker](https://github.com/erdenebayrd/leetcode/tree/master/1006-vowel-spellchecker) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/erdenebayrd/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/erdenebayrd/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/erdenebayrd/leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1032-stream-of-characters](https://github.com/erdenebayrd/leetcode/tree/master/1032-stream-of-characters) |
@@ -1057,6 +1058,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-number-of-matching-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/0792-number-of-matching-subsequences) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/erdenebayrd/leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0981-time-based-key-value-store](https://github.com/erdenebayrd/leetcode/tree/master/0981-time-based-key-value-store) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/erdenebayrd/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1051-shortest-way-to-form-string](https://github.com/erdenebayrd/leetcode/tree/master/1051-shortest-way-to-form-string) |
 | [1064-fixed-point](https://github.com/erdenebayrd/leetcode/tree/master/1064-fixed-point) |
 | [1095-find-in-mountain-array](https://github.com/erdenebayrd/leetcode/tree/master/1095-find-in-mountain-array) |
