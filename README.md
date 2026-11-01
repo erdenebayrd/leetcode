@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/erdenebayrd/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0422-valid-word-square](https://github.com/erdenebayrd/leetcode/tree/master/0422-valid-word-square) |
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/erdenebayrd/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0454-4sum-ii](https://github.com/erdenebayrd/leetcode/tree/master/0454-4sum-ii) |
 | [0457-circular-array-loop](https://github.com/erdenebayrd/leetcode/tree/master/0457-circular-array-loop) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/erdenebayrd/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
@@ -1141,6 +1142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/erdenebayrd/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0381-insert-delete-getrandom-o1-duplicates-allowed](https://github.com/erdenebayrd/leetcode/tree/master/0381-insert-delete-getrandom-o1-duplicates-allowed) |
 | [0396-rotate-function](https://github.com/erdenebayrd/leetcode/tree/master/0396-rotate-function) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/erdenebayrd/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/erdenebayrd/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0477-total-hamming-distance](https://github.com/erdenebayrd/leetcode/tree/master/0477-total-hamming-distance) |
 | [0486-predict-the-winner](https://github.com/erdenebayrd/leetcode/tree/master/0486-predict-the-winner) |
