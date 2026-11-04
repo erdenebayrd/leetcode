@@ -405,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3488-closest-equal-element-queries](https://github.com/erdenebayrd/leetcode/tree/master/3488-closest-equal-element-queries) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/erdenebayrd/leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3524-find-x-value-of-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3524-find-x-value-of-array-i) |
@@ -599,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3422-minimum-operations-to-make-subarray-elements-equal](https://github.com/erdenebayrd/leetcode/tree/master/3422-minimum-operations-to-make-subarray-elements-equal) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/erdenebayrd/leetcode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/erdenebayrd/leetcode/tree/master/3483-alternating-groups-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/erdenebayrd/leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/erdenebayrd/leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/erdenebayrd/leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/erdenebayrd/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -821,6 +823,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3422-minimum-operations-to-make-subarray-elements-equal](https://github.com/erdenebayrd/leetcode/tree/master/3422-minimum-operations-to-make-subarray-elements-equal) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/erdenebayrd/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3488-closest-equal-element-queries](https://github.com/erdenebayrd/leetcode/tree/master/3488-closest-equal-element-queries) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/erdenebayrd/leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3531-count-covered-buildings](https://github.com/erdenebayrd/leetcode/tree/master/3531-count-covered-buildings) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/erdenebayrd/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -1226,6 +1229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/erdenebayrd/leetcode/tree/master/3433-count-mentions-per-user) |
 | [3462-vowels-game-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/3462-vowels-game-in-a-string) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/erdenebayrd/leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3524-find-x-value-of-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3548-find-the-count-of-good-integers](https://github.com/erdenebayrd/leetcode/tree/master/3548-find-the-count-of-good-integers) |
@@ -1604,6 +1608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/erdenebayrd/leetcode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3422-minimum-operations-to-make-subarray-elements-equal](https://github.com/erdenebayrd/leetcode/tree/master/3422-minimum-operations-to-make-subarray-elements-equal) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/erdenebayrd/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/erdenebayrd/leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/erdenebayrd/leetcode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/erdenebayrd/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -1756,6 +1761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3503-longest-palindrome-after-substring-concatenation-i](https://github.com/erdenebayrd/leetcode/tree/master/3503-longest-palindrome-after-substring-concatenation-i) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/erdenebayrd/leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
