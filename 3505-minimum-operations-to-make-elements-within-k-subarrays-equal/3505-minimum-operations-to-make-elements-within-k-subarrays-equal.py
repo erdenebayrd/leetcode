@@ -2,7 +2,7 @@ from sortedcontainers import SortedList
 
 class Solution:
     def minOperations(self, nums: List[int], x: int, k: int) -> int:
-        # time: O(N log N)
+        # time: O(N log x + N * K)
         # space: O(N)
         # method: DP + sorted list
         n = len(nums)
@@ -12,7 +12,7 @@ class Solution:
         second_half = SortedList([])
         sums = [0, 0] # first half sum, second half sum
         
-        def shift() -> None: # O(log x) amortized
+        def balance() -> None: # O(log x) amortized
             is_odd = x & 1
             while len(first_half) != len(second_half) - is_odd:
                 if len(first_half) > len(second_half) - is_odd:
@@ -65,7 +65,7 @@ class Solution:
         for i in range(x):
             add(nums[i])
         
-        shift() # balance sorted lists
+        balance() # balance sorted lists
 
         cost = [inf] * n
         cost[x - 1] = calc_cost()
@@ -73,7 +73,7 @@ class Solution:
         for i in range(x, n):
             add(nums[i])
             remove(nums[i - x])
-            shift()
+            balance()
             cost[i] = calc_cost()
 
         # print(cost)
