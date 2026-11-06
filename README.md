@@ -334,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2747-count-zero-request-servers](https://github.com/erdenebayrd/leetcode/tree/master/2747-count-zero-request-servers) |
 | [2750-ways-to-split-array-into-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2750-ways-to-split-array-into-good-subarrays) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/erdenebayrd/leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/2760-longest-even-odd-subarray-with-threshold) |
@@ -590,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/erdenebayrd/leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/erdenebayrd/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2747-count-zero-request-servers](https://github.com/erdenebayrd/leetcode/tree/master/2747-count-zero-request-servers) |
 | [2760-longest-even-odd-subarray-with-threshold](https://github.com/erdenebayrd/leetcode/tree/master/2760-longest-even-odd-subarray-with-threshold) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/2868-continuous-subarrays) |
@@ -806,6 +808,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2747-count-zero-request-servers](https://github.com/erdenebayrd/leetcode/tree/master/2747-count-zero-request-servers) |
 | [2784-check-if-array-is-good](https://github.com/erdenebayrd/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2888-minimum-index-of-a-valid-split) |
@@ -1864,6 +1867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2747-count-zero-request-servers](https://github.com/erdenebayrd/leetcode/tree/master/2747-count-zero-request-servers) |
 | [2784-check-if-array-is-good](https://github.com/erdenebayrd/leetcode/tree/master/2784-check-if-array-is-good) |
 | [2818-apply-operations-to-maximize-score](https://github.com/erdenebayrd/leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2887-sort-vowels-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2887-sort-vowels-in-a-string) |
