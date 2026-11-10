@@ -452,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3665-twisted-mirror-path-count](https://github.com/erdenebayrd/leetcode/tree/master/3665-twisted-mirror-path-count) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/erdenebayrd/leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3693-climbing-stairs-ii](https://github.com/erdenebayrd/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3698-split-array-with-minimum-difference](https://github.com/erdenebayrd/leetcode/tree/master/3698-split-array-with-minimum-difference) |
 | [3706-maximum-distance-between-unequal-words-in-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3706-maximum-distance-between-unequal-words-in-array-ii) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/erdenebayrd/leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -1779,6 +1780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3660-jump-game-ix](https://github.com/erdenebayrd/leetcode/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/erdenebayrd/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3665-twisted-mirror-path-count](https://github.com/erdenebayrd/leetcode/tree/master/3665-twisted-mirror-path-count) |
+| [3693-climbing-stairs-ii](https://github.com/erdenebayrd/leetcode/tree/master/3693-climbing-stairs-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/erdenebayrd/leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/erdenebayrd/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
