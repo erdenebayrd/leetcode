@@ -1,6 +1,6 @@
 class Solution:
     def busiestServers(self, k: int, arrival: list[int], load: list[int]) -> list[int]:
-        # time: O(n log k * log k) n is len of arrival
+        # time: O(n log k) n is len of arrival
         # space: O(k)
         # method: segment tree
 
@@ -27,10 +27,10 @@ class Solution:
             if query_left <= left and right <= query_right:
                 return __find_sub(pointer, left, right, value)
             left_index = __find(2 * pointer, left, (left + right) // 2, query_left, query_right, value)
+            if left_index != -1:
+                return left_index
             right_index = __find(2 * pointer + 1, (left + right) // 2 + 1, right, query_left, query_right, value)
-            if left_index == -1:
-                return right_index
-            return left_index
+            return right_index
 
         def find(left: int, right: int, value: int) -> int:
             return __find(1, 0, k - 1, left, right, value)
