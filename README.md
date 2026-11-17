@@ -980,6 +980,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2833-furthest-point-from-origin](https://github.com/erdenebayrd/leetcode/tree/master/2833-furthest-point-from-origin) |
 | [2887-sort-vowels-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2887-sort-vowels-in-a-string) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/erdenebayrd/leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/erdenebayrd/leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/erdenebayrd/leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -1320,6 +1321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/erdenebayrd/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/erdenebayrd/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/erdenebayrd/leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3503-longest-palindrome-after-substring-concatenation-i](https://github.com/erdenebayrd/leetcode/tree/master/3503-longest-palindrome-after-substring-concatenation-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/erdenebayrd/leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -1762,6 +1764,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2850-minimum-moves-to-spread-stones-over-grid](https://github.com/erdenebayrd/leetcode/tree/master/2850-minimum-moves-to-spread-stones-over-grid) |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/erdenebayrd/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/erdenebayrd/leetcode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
+| [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/erdenebayrd/leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/erdenebayrd/leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/erdenebayrd/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3225-maximum-score-from-grid-operations](https://github.com/erdenebayrd/leetcode/tree/master/3225-maximum-score-from-grid-operations) |
