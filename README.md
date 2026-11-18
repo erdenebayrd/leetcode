@@ -985,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2887-sort-vowels-in-a-string](https://github.com/erdenebayrd/leetcode/tree/master/2887-sort-vowels-in-a-string) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/erdenebayrd/leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/erdenebayrd/leetcode/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
+| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/erdenebayrd/leetcode/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/erdenebayrd/leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/erdenebayrd/leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
