@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0256-paint-house](https://github.com/erdenebayrd/leetcode/tree/master/0256-paint-house) |
 | [0259-3sum-smaller](https://github.com/erdenebayrd/leetcode/tree/master/0259-3sum-smaller) |
 | [0265-paint-house-ii](https://github.com/erdenebayrd/leetcode/tree/master/0265-paint-house-ii) |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 | [0275-h-index-ii](https://github.com/erdenebayrd/leetcode/tree/master/0275-h-index-ii) |
 | [0281-zigzag-iterator](https://github.com/erdenebayrd/leetcode/tree/master/0281-zigzag-iterator) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
@@ -889,6 +890,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/erdenebayrd/leetcode/tree/master/0205-isomorphic-strings) |
 | [0247-strobogrammatic-number-ii](https://github.com/erdenebayrd/leetcode/tree/master/0247-strobogrammatic-number-ii) |
 | [0266-palindrome-permutation](https://github.com/erdenebayrd/leetcode/tree/master/0266-palindrome-permutation) |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 | [0288-unique-word-abbreviation](https://github.com/erdenebayrd/leetcode/tree/master/0288-unique-word-abbreviation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0301-remove-invalid-parentheses) |
@@ -1421,6 +1423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0444-sequence-reconstruction](https://github.com/erdenebayrd/leetcode/tree/master/0444-sequence-reconstruction) |
@@ -1445,6 +1448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/erdenebayrd/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0250-count-univalue-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0250-count-univalue-subtrees) |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/erdenebayrd/leetcode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/erdenebayrd/leetcode/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -1524,6 +1528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/erdenebayrd/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 | [0286-walls-and-gates](https://github.com/erdenebayrd/leetcode/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/erdenebayrd/leetcode/tree/master/0301-remove-invalid-parentheses) |
@@ -2593,6 +2598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/erdenebayrd/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/erdenebayrd/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/erdenebayrd/leetcode/tree/master/0210-course-schedule-ii) |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 | [0310-minimum-height-trees](https://github.com/erdenebayrd/leetcode/tree/master/0310-minimum-height-trees) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/erdenebayrd/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/erdenebayrd/leetcode/tree/master/0332-reconstruct-itinerary) |
@@ -2761,4 +2767,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/erdenebayrd/leetcode/tree/master/0332-reconstruct-itinerary) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0269-alien-dictionary](https://github.com/erdenebayrd/leetcode/tree/master/0269-alien-dictionary) |
 <!---LeetCode Topics End-->
