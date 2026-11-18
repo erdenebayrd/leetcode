@@ -4,44 +4,23 @@ class Solution:
         # space: O(V)
         # method: Kahn algo cycle detection
 
+        n = len(words)
         graph = {}
         color = {}
         for word in words:
             for ch in word:
                 color[ch] = 0
-                if ch not in graph:
-                    graph[ch] = []
+                graph[ch] = []
         
-        def build_graph(left: int, right: int, index: int) -> bool:
-            if left >= right:
-                return True
-            
-            if index >= max([len(words[i]) for i in range(left, right + 1)]):
-                return True
+        for i in range(1, n):
+            length = min(len(words[i]), len(words[i - 1]))
+            if len(words[i - 1]) > len(words[i]) and words[i - 1][:length] == words[i][:length]:
+                return ""
 
-            prev = left
-            for i in range(left + 1, right + 1):
-                if index < len(words[i - 1]) and index >= len(words[i]):
-                    return False
-                if index >= len(words[i - 1]) or index >= len(words[i]):
-                    continue
-
-                if words[i - 1][index] != words[i][index]:
-                    graph[words[i - 1][index]].append(words[i][index])
-                    if not build_graph(prev, i - 1, index + 1):
-                        return False
-                    prev = i
-            
-            if not build_graph(prev, right, index + 1):
-                return False
-            
-            return True
-
-        n = len(words)
-        if not build_graph(0, n - 1, 0):
-            return ""
-
-        
+            for j in range(length):
+                if words[i - 1][j] != words[i][j]:
+                    graph[words[i - 1][j]].append(words[i][j])
+                    break
 
         path = []
         def has_cycle(node: str) -> bool:
@@ -56,7 +35,7 @@ class Solution:
             path.append(node)
             color[node] = 2 # done
             return False
-        
+
         for node in graph:
             if color[node] == 0 and has_cycle(node):
                 return ""
