@@ -6,26 +6,28 @@
 #         self.right = right
 class Solution:
     def checkEqualTree(self, root: Optional[TreeNode]) -> bool:
-        @cache
-        def dfs(cur) -> int:
-            res = cur.val
-            if cur.left is not None:
-                res += dfs(cur.left)
-            if cur.right is not None:
-                res += dfs(cur.right)
-            return res
-        total = dfs(root)
-        if total & 1:
+        if not root:
             return False
-        half = total // 2
         
-        def check(cur, isRoot: False) -> bool:
-            if dfs(cur) == half and isRoot is False:
+        def dfs(node: Optional[TreeNode]) -> int:
+            if not node:
+                return 0
+            
+            node.val += dfs(node.left)
+            node.val += dfs(node.right)
+            return node.val
+        
+        total = dfs(root)
+        if total & 1: # odd
+            return False
+        
+        half = total // 2
+
+        def find(node: Optional[TreeNode]) -> bool:
+            if not node:
+                return False
+            if node.val == half:
                 return True
-            res = False
-            if cur.left is not None:
-                res |= check(cur.left, False)
-            if cur.right is not None:
-                res |= check(cur.right, False)
-            return res
-        return check(root, True)
+            return find(node.left) or find(node.right)
+        
+        return find(root.left) or find(root.right)
