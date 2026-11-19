@@ -1482,6 +1482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
@@ -1550,6 +1551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
@@ -1602,6 +1604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0759-employee-free-time](https://github.com/erdenebayrd/leetcode/tree/master/0759-employee-free-time) |
 | [0767-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/erdenebayrd/leetcode/tree/master/0778-reorganize-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/erdenebayrd/leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/erdenebayrd/leetcode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/erdenebayrd/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
@@ -1650,6 +1653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0505-the-maze-ii](https://github.com/erdenebayrd/leetcode/tree/master/0505-the-maze-ii) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/erdenebayrd/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2093-minimum-cost-to-reach-city-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/2093-minimum-cost-to-reach-city-with-discounts) |
@@ -1707,6 +1711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/erdenebayrd/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0727-minimum-window-subsequence](https://github.com/erdenebayrd/leetcode/tree/master/0727-minimum-window-subsequence) |
 | [0741-cherry-pickup](https://github.com/erdenebayrd/leetcode/tree/master/0741-cherry-pickup) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0788-rotated-digits](https://github.com/erdenebayrd/leetcode/tree/master/0788-rotated-digits) |
 | [0792-number-of-matching-subsequences](https://github.com/erdenebayrd/leetcode/tree/master/0792-number-of-matching-subsequences) |
 | [0799-champagne-tower](https://github.com/erdenebayrd/leetcode/tree/master/0799-champagne-tower) |
@@ -2607,6 +2612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0631-design-excel-sum-formula](https://github.com/erdenebayrd/leetcode/tree/master/0631-design-excel-sum-formula) |
 | [0684-redundant-connection](https://github.com/erdenebayrd/leetcode/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0886-possible-bipartition](https://github.com/erdenebayrd/leetcode/tree/master/0886-possible-bipartition) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/erdenebayrd/leetcode/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
