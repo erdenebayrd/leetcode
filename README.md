@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2553-separate-the-digits-in-an-array](https://github.com/erdenebayrd/leetcode/tree/master/2553-separate-the-digits-in-an-array) |
 | [2555-design-sql](https://github.com/erdenebayrd/leetcode/tree/master/2555-design-sql) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/erdenebayrd/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2585-number-of-ways-to-earn-points](https://github.com/erdenebayrd/leetcode/tree/master/2585-number-of-ways-to-earn-points) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2607-minimum-subarrays-in-a-valid-split](https://github.com/erdenebayrd/leetcode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
@@ -1895,6 +1896,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2479-meeting-rooms-iii](https://github.com/erdenebayrd/leetcode/tree/master/2479-meeting-rooms-iii) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2497-maximum-star-sum-of-a-graph](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-star-sum-of-a-graph) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/erdenebayrd/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/erdenebayrd/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
@@ -2158,6 +2160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2487-optimal-partition-of-string](https://github.com/erdenebayrd/leetcode/tree/master/2487-optimal-partition-of-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2497-maximum-star-sum-of-a-graph](https://github.com/erdenebayrd/leetcode/tree/master/2497-maximum-star-sum-of-a-graph) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/erdenebayrd/leetcode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/erdenebayrd/leetcode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2681-put-marbles-in-bags](https://github.com/erdenebayrd/leetcode/tree/master/2681-put-marbles-in-bags) |
 | [2689-rearranging-fruits](https://github.com/erdenebayrd/leetcode/tree/master/2689-rearranging-fruits) |
