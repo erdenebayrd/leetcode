@@ -1,5 +1,8 @@
 class Solution:
     def canCompleteCircuit(self, gas: list[int], cost: list[int]) -> int:
+        # time: O(n)
+        # space: O(n)
+        # method: SWAG prefix sum
         n = len(gas)
         diff = [gas[i] - cost[i] for i in range(n)]
         prefix = diff + diff
