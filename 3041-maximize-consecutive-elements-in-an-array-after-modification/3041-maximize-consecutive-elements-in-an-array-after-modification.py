@@ -18,8 +18,8 @@ class Solution:
         left = left + [0, -1]
         right = right + [0, -1]
 
-        print(left)
-        print(right)
+        # print(left)
+        # print(right)
 
         @cache
         def solve(index: int, is_left: bool) -> int:
