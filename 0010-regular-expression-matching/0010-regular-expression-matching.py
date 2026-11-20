@@ -54,44 +54,75 @@ class Solution:
         # space: O(N * M)
         # method: DP top-down
 
-        text = [ch for ch in s]
-        pattern = []
-        for ch in p:
-            if ch == "*":
-                pattern[-1] = pattern[-1] + ch
-            else:
-                pattern.append(ch)
+        # text = [ch for ch in s]
+        # pattern = []
+        # for ch in p:
+        #     if ch == "*":
+        #         pattern[-1] = pattern[-1] + ch
+        #     else:
+        #         pattern.append(ch)
         
-        n = len(text)
-        m = len(pattern)
+        # n = len(text)
+        # m = len(pattern)
+
+        # @cache
+        # def isMatched(first: int, second: int) -> bool:
+        #     if first == n:
+        #         if second == m:
+        #             return True
+        #         countAsterisks = 0
+        #         for index in range(second, m):
+        #             if "*" in pattern[index]:
+        #                 countAsterisks += 1
+        #         if countAsterisks == m - second:
+        #             return True
+        #         return False
+        #     if second == m:
+        #         return False
+            
+        #     result = False
+        #     if "*" in pattern[second]:
+        #         result |= isMatched(first, second + 1) # using zero match of *
+        #         ch = pattern[second][0]
+        #         if ch == "." or ch == text[first]:
+        #             result |= isMatched(first + 1, second)
+        #             result |= isMatched(first + 1, second + 1)
+        #     elif "." in pattern[second]:
+        #         result |= isMatched(first + 1, second + 1)
+        #     else:
+        #         if text[first] == pattern[second]:
+        #             result |= isMatched(first + 1, second + 1)
+        #     return result
+        
+        # return isMatched(0, 0)
+
+        # time: O(n * m) n is len of s, m is len of p
+        # space: O(n * m)
+        # method: DP top down
+        n, m = len(s), len(p)
 
         @cache
-        def isMatched(first: int, second: int) -> bool:
-            if first == n:
-                if second == m:
-                    return True
-                countAsterisks = 0
-                for index in range(second, m):
-                    if "*" in pattern[index]:
-                        countAsterisks += 1
-                if countAsterisks == m - second:
-                    return True
-                return False
-            if second == m:
+        def is_match(i: int, j: int) -> bool:
+            if i == n and j == m:
+                return True
+            
+            if j >= m:
                 return False
             
+            if i >= n:
+                if j + 1 < m and p[j + 1] == '*':
+                    return is_match(i, j + 2)
+                return False
+
             result = False
-            if "*" in pattern[second]:
-                result |= isMatched(first, second + 1) # using zero match of *
-                ch = pattern[second][0]
-                if ch == "." or ch == text[first]:
-                    result |= isMatched(first + 1, second)
-                    result |= isMatched(first + 1, second + 1)
-            elif "." in pattern[second]:
-                result |= isMatched(first + 1, second + 1)
+            if j + 1 < m and p[j + 1] == '*':
+                result |= is_match(i, j + 2)
+                if s[i] == p[j] or p[j] == '.':
+                    result |= is_match(i + 1, j)
             else:
-                if text[first] == pattern[second]:
-                    result |= isMatched(first + 1, second + 1)
+                if s[i] == p[j] or p[j] == '.':
+                    result |= is_match(i + 1, j + 1)
             return result
         
-        return isMatched(0, 0)
+        return is_match(0, 0)
+                
