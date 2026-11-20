@@ -1,5 +1,3 @@
-import heapq
-
 class Solution:
     def canCompleteCircuit(self, gas: list[int], cost: list[int]) -> int:
         n = len(gas)
@@ -8,22 +6,28 @@ class Solution:
         for i in range(1, 2 * n):
             prefix[i] += prefix[i - 1]
         
-        remove = {}
-        min_heap = prefix[:n]
-        heapq.heapify(min_heap)
+        inf = float('inf')
         current = 0
+        left = []
+        right = prefix[:n]
+        right_min = inf
+
         for i in range(n):
-            while min_heap and min_heap[0] in remove:
-                value = heapq.heappop(min_heap)
-                remove[value] -= 1
-                if remove[value] == 0:
-                    del remove[value]
-            if current <= min_heap[0]:
+            if not left:
+                while right:
+                    value = right.pop()
+                    if not left:
+                        left.append(value)
+                    else:
+                        left.append(min(left[-1], value))
+                right_min = inf
+            
+            if current <= min(right_min, left[-1]):
                 return i
             
-            if prefix[i] not in remove:
-                remove[prefix[i]] = 0
-            remove[prefix[i]] += 1
             current = prefix[i]
-            heapq.heappush(min_heap, prefix[i + n])
+            left.pop()
+            right.append(prefix[i + n])
+            right_min = min(right_min, right[-1])
+        
         return -1
