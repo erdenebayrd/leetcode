@@ -3,45 +3,27 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        # time: O(N ^ 2)
+        # time: O(n ^ 2)
         # space: O(1)
-        # method: math + memory trick (bit manipulation)
+        # method: simulation
 
-        delta = 1000
-        bit = 11
         n = len(matrix)
-
-        def newPosition(row: int, col: int) -> Tuple[int, int]: # new row, new col
-            # row = 0 -> col = n - 1
-            # newCol = n - 1 - row
-            # newRow = col
-            return (col, n - 1 - row)
+        def next_coordinate(row: int, col: int) -> list:
+            next_col = n - 1 - row
+            next_row = col
+            return [next_row, next_col]
         
-        # tmp = [[0] * n for _ in range(n)]
-        # for i in range(n):
-        #     for j in range(n):
-        #         row, col = newPosition(i, j)
-        #         tmp[row][col] = matrix[i][j]
-        # for i in range(n):
-        #     print(tmp[i])
+        for i in range(n // 2):
+            for j in range(i, n - 1 - i):
+                points = []
+                row, col = i, j
+                for _ in range(4):
+                    points.append(row)
+                    points.append(col)
+                    row, col = next_coordinate(row, col)
+                
+                # rotate
+                p1r, p1c, p2r, p2c, p3r, p3c, p4r, p4c = points
+                matrix[p1r][p1c], matrix[p2r][p2c], matrix[p3r][p3c], matrix[p4r][p4c] = matrix[p4r][p4c], matrix[p1r][p1c], matrix[p2r][p2c], matrix[p3r][p3c]
         
-        def add(row: int, col: int, value: int) -> None:
-            lastBits = (1 << bit) - 1
-            value &= lastBits
-            value <<= bit
-            matrix[row][col] &= lastBits
-            matrix[row][col] |= value
-
-        for i in range(n):
-            for j in range(n):
-                matrix[i][j] += delta
         
-        for i in range(n):
-            for j in range(n):
-                row, col = newPosition(i, j)
-                add(row, col, matrix[i][j])
-        
-        for i in range(n):
-            for j in range(n):
-                matrix[i][j] >>= bit
-                matrix[i][j] -= delta
