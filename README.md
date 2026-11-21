@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1847-closest-room](https://github.com/erdenebayrd/leetcode/tree/master/1847-closest-room) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/erdenebayrd/leetcode/tree/master/1848-minimum-distance-to-the-target-element) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/erdenebayrd/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/erdenebayrd/leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/erdenebayrd/leetcode/tree/master/1861-rotating-the-box) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/erdenebayrd/leetcode/tree/master/1870-minimum-speed-to-arrive-on-time) |
@@ -1103,6 +1104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/erdenebayrd/leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1847-closest-room](https://github.com/erdenebayrd/leetcode/tree/master/1847-closest-room) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/erdenebayrd/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/erdenebayrd/leetcode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/erdenebayrd/leetcode/tree/master/1870-minimum-speed-to-arrive-on-time) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/erdenebayrd/leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -1620,6 +1622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/erdenebayrd/leetcode/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1686-stone-game-vi](https://github.com/erdenebayrd/leetcode/tree/master/1686-stone-game-vi) |
 | [1834-single-threaded-cpu](https://github.com/erdenebayrd/leetcode/tree/master/1834-single-threaded-cpu) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/erdenebayrd/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1882-process-tasks-using-servers](https://github.com/erdenebayrd/leetcode/tree/master/1882-process-tasks-using-servers) |
 | [1917-maximum-average-pass-ratio](https://github.com/erdenebayrd/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2023-design-movie-rental-system](https://github.com/erdenebayrd/leetcode/tree/master/2023-design-movie-rental-system) |
@@ -1879,6 +1882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/erdenebayrd/leetcode/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1847-closest-room](https://github.com/erdenebayrd/leetcode/tree/master/1847-closest-room) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/erdenebayrd/leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/erdenebayrd/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/erdenebayrd/leetcode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/erdenebayrd/leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/erdenebayrd/leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
@@ -2658,6 +2662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0759-employee-free-time](https://github.com/erdenebayrd/leetcode/tree/master/0759-employee-free-time) |
 | [0986-interval-list-intersections](https://github.com/erdenebayrd/leetcode/tree/master/0986-interval-list-intersections) |
+| [1851-minimum-interval-to-include-each-query](https://github.com/erdenebayrd/leetcode/tree/master/1851-minimum-interval-to-include-each-query) |
 ## Union-Find
 |  |
 | ------- |
