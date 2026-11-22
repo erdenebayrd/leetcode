@@ -5,7 +5,6 @@ class Solution:
         # method: sorting + greedy
 
         nums.sort()
-        print(nums)
 
         # case 1 - first 2 nums
         result = nums[-1] - nums[2]
