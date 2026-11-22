@@ -399,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/erdenebayrd/leetcode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/erdenebayrd/leetcode/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3321-type-of-triangle](https://github.com/erdenebayrd/leetcode/tree/master/3321-type-of-triangle) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/erdenebayrd/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/erdenebayrd/leetcode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/erdenebayrd/leetcode/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3379-transformed-array](https://github.com/erdenebayrd/leetcode/tree/master/3379-transformed-array) |
@@ -835,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3120-count-the-number-of-special-characters-i](https://github.com/erdenebayrd/leetcode/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/erdenebayrd/leetcode/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/erdenebayrd/leetcode/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/erdenebayrd/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/erdenebayrd/leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/erdenebayrd/leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3422-minimum-operations-to-make-subarray-elements-equal](https://github.com/erdenebayrd/leetcode/tree/master/3422-minimum-operations-to-make-subarray-elements-equal) |
@@ -1007,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3194-find-words-containing-character](https://github.com/erdenebayrd/leetcode/tree/master/3194-find-words-containing-character) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/erdenebayrd/leetcode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3303-find-the-occurrence-of-first-almost-equal-substring](https://github.com/erdenebayrd/leetcode/tree/master/3303-find-the-occurrence-of-first-almost-equal-substring) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/erdenebayrd/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/erdenebayrd/leetcode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3396-valid-word](https://github.com/erdenebayrd/leetcode/tree/master/3396-valid-word) |
@@ -1520,6 +1523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/erdenebayrd/leetcode/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/erdenebayrd/leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3310-remove-methods-from-project](https://github.com/erdenebayrd/leetcode/tree/master/3310-remove-methods-from-project) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/erdenebayrd/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3387-maximize-amount-after-two-days-of-conversions](https://github.com/erdenebayrd/leetcode/tree/master/3387-maximize-amount-after-two-days-of-conversions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/erdenebayrd/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
@@ -2004,6 +2008,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/erdenebayrd/leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/erdenebayrd/leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/erdenebayrd/leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/erdenebayrd/leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/erdenebayrd/leetcode/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/erdenebayrd/leetcode/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/erdenebayrd/leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
