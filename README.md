@@ -1492,6 +1492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
+| [0742-closest-leaf-in-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -1564,6 +1565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/erdenebayrd/leetcode/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/erdenebayrd/leetcode/tree/master/0721-accounts-merge) |
 | [0737-sentence-similarity-ii](https://github.com/erdenebayrd/leetcode/tree/master/0737-sentence-similarity-ii) |
+| [0742-closest-leaf-in-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0743-network-delay-time](https://github.com/erdenebayrd/leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/erdenebayrd/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0839-similar-string-groups](https://github.com/erdenebayrd/leetcode/tree/master/0839-similar-string-groups) |
@@ -1989,6 +1991,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
 | [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
+| [0742-closest-leaf-in-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0975-range-sum-of-bst](https://github.com/erdenebayrd/leetcode/tree/master/0975-range-sum-of-bst) |
@@ -2044,6 +2047,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/erdenebayrd/leetcode/tree/master/0652-find-duplicate-subtrees) |
 | [0663-equal-tree-partition](https://github.com/erdenebayrd/leetcode/tree/master/0663-equal-tree-partition) |
 | [0666-path-sum-iv](https://github.com/erdenebayrd/leetcode/tree/master/0666-path-sum-iv) |
+| [0742-closest-leaf-in-a-binary-tree](https://github.com/erdenebayrd/leetcode/tree/master/0742-closest-leaf-in-a-binary-tree) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/erdenebayrd/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/erdenebayrd/leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0975-range-sum-of-bst](https://github.com/erdenebayrd/leetcode/tree/master/0975-range-sum-of-bst) |
