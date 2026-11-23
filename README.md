@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/erdenebayrd/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1345-jump-game-iv](https://github.com/erdenebayrd/leetcode/tree/master/1345-jump-game-iv) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/erdenebayrd/leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1352-product-of-the-last-k-numbers](https://github.com/erdenebayrd/leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/erdenebayrd/leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1386-cinema-seat-allocation](https://github.com/erdenebayrd/leetcode/tree/master/1386-cinema-seat-allocation) |
@@ -641,6 +642,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/erdenebayrd/leetcode/tree/master/1140-stone-game-ii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/erdenebayrd/leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| [1352-product-of-the-last-k-numbers](https://github.com/erdenebayrd/leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/erdenebayrd/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/erdenebayrd/leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1590-make-sum-divisible-by-p](https://github.com/erdenebayrd/leetcode/tree/master/1590-make-sum-divisible-by-p) |
@@ -1199,6 +1201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/erdenebayrd/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1259-handshakes-that-dont-cross](https://github.com/erdenebayrd/leetcode/tree/master/1259-handshakes-that-dont-cross) |
 | [1266-minimum-time-visiting-all-points](https://github.com/erdenebayrd/leetcode/tree/master/1266-minimum-time-visiting-all-points) |
+| [1352-product-of-the-last-k-numbers](https://github.com/erdenebayrd/leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1390-four-divisors](https://github.com/erdenebayrd/leetcode/tree/master/1390-four-divisors) |
 | [1406-stone-game-iii](https://github.com/erdenebayrd/leetcode/tree/master/1406-stone-game-iii) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/erdenebayrd/leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -2245,6 +2248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1125-design-file-system](https://github.com/erdenebayrd/leetcode/tree/master/1125-design-file-system) |
 | [1146-snapshot-array](https://github.com/erdenebayrd/leetcode/tree/master/1146-snapshot-array) |
 | [1244-design-a-leaderboard](https://github.com/erdenebayrd/leetcode/tree/master/1244-design-a-leaderboard) |
+| [1352-product-of-the-last-k-numbers](https://github.com/erdenebayrd/leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [1622-fancy-sequence](https://github.com/erdenebayrd/leetcode/tree/master/1622-fancy-sequence) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/erdenebayrd/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -2270,6 +2274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0362-design-hit-counter](https://github.com/erdenebayrd/leetcode/tree/master/0362-design-hit-counter) |
 | [0901-online-stock-span](https://github.com/erdenebayrd/leetcode/tree/master/0901-online-stock-span) |
 | [1032-stream-of-characters](https://github.com/erdenebayrd/leetcode/tree/master/1032-stream-of-characters) |
+| [1352-product-of-the-last-k-numbers](https://github.com/erdenebayrd/leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1366-first-unique-number](https://github.com/erdenebayrd/leetcode/tree/master/1366-first-unique-number) |
 | [2161-stock-price-fluctuation](https://github.com/erdenebayrd/leetcode/tree/master/2161-stock-price-fluctuation) |
 | [3829-design-ride-sharing-system](https://github.com/erdenebayrd/leetcode/tree/master/3829-design-ride-sharing-system) |
